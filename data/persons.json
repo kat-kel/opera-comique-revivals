@@ -1,0 +1,5546 @@
+{
+    "0": {
+        "id": 0,
+        "surname": "Adam",
+        "given_names": "Adolphe Charles",
+        "name_string": "Adam, Adolphe Charles",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "1": {
+        "id": 1,
+        "surname": "Ader",
+        "given_names": "Jean-Joseph",
+        "name_string": "Ader, Jean-Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "2": {
+        "id": 2,
+        "surname": "Advenier de Fontenille",
+        "given_names": "Hippolyte Antoine",
+        "name_string": "Advenier de Fontenille, Hippolyte Antoine",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "3": {
+        "id": 3,
+        "surname": "Aignan",
+        "given_names": "Étienne",
+        "name_string": "Aignan, Étienne",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "4": {
+        "id": 4,
+        "surname": "Alboise du Pujol",
+        "given_names": "Jules Édouard",
+        "name_string": "Alboise du Pujol, Jules Édouard",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "5": {
+        "id": 5,
+        "surname": "Alexandre",
+        "given_names": "Charles Guillaume",
+        "name_string": "Alexandre, Charles Guillaume",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "6": {
+        "id": 6,
+        "surname": "Alissan de Chazet",
+        "given_names": "René André Polydore",
+        "name_string": "Alissan de Chazet, René André Polydore",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "7": {
+        "id": 7,
+        "surname": "Allarde",
+        "given_names": "Marie François Denis Thérésa Le Roi, baron d'",
+        "name_string": "Allarde, Marie François Denis Thérésa Le Roi, baron d'",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "8": {
+        "id": 8,
+        "surname": "Ancelot",
+        "given_names": "Jacques Arsène Polycarpe François",
+        "name_string": "Ancelot, Jacques Arsène Polycarpe François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "9": {
+        "id": 9,
+        "surname": "Andrieux",
+        "given_names": "François Guillaume Jean Stanislas",
+        "name_string": "Andrieux, François Guillaume Jean Stanislas",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "10": {
+        "id": 10,
+        "surname": "Anfossi",
+        "given_names": "Pasquale",
+        "name_string": "Anfossi, Pasquale",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "11": {
+        "id": 11,
+        "surname": "Anicet-Bourgeois",
+        "given_names": "Auguste",
+        "name_string": "Anicet-Bourgeois, Auguste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "12": {
+        "id": 12,
+        "surname": "Année",
+        "given_names": "Antoine",
+        "name_string": "Année, Antoine",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "13": {
+        "id": 13,
+        "surname": "Anon.",
+        "given_names": null,
+        "name_string": "Anon.",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "14": {
+        "id": 14,
+        "surname": "Anseaume",
+        "given_names": "Louis",
+        "name_string": "Anseaume, Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "15": {
+        "id": 15,
+        "surname": "Arnault",
+        "given_names": "Antoine Vincent",
+        "name_string": "Arnault, Antoine Vincent",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "16": {
+        "id": 16,
+        "surname": "Arnould",
+        "given_names": "Auguste",
+        "name_string": "Arnould, Auguste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "17": {
+        "id": 17,
+        "surname": "Arnoult",
+        "given_names": "Alexis Étienne Pierre Henri",
+        "name_string": "Arnoult, Alexis Étienne Pierre Henri",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "18": {
+        "id": 18,
+        "surname": "Auber",
+        "given_names": "Daniel François Esprit",
+        "name_string": "Auber, Daniel François Esprit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "19": {
+        "id": 19,
+        "surname": "Audibert",
+        "given_names": "Auguste",
+        "name_string": "Audibert, Auguste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "20": {
+        "id": 20,
+        "surname": "Audinot",
+        "given_names": "Nicolas Médard",
+        "name_string": "Audinot, Nicolas Médard",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "21": {
+        "id": 21,
+        "surname": "Audouin",
+        "given_names": "François Xavier",
+        "name_string": "Audouin, François Xavier",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "22": {
+        "id": 22,
+        "surname": "Azémar",
+        "given_names": "Louis Guérin d'",
+        "name_string": "Azémar, Louis Guérin d'",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "23": {
+        "id": 23,
+        "surname": "Baccelli",
+        "given_names": "Domenico",
+        "name_string": "Baccelli, Domenico",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "24": {
+        "id": 24,
+        "surname": "Balfe",
+        "given_names": "Michael William",
+        "name_string": "Balfe, Michael William",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "25": {
+        "id": 25,
+        "surname": "Bambini",
+        "given_names": "Felice",
+        "name_string": "Bambini, Felice",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "26": {
+        "id": 26,
+        "surname": "Baour-Lormian",
+        "given_names": "Louis Pierre Marie François",
+        "name_string": "Baour-Lormian, Louis Pierre Marie François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "27": {
+        "id": 27,
+        "surname": "Barni",
+        "given_names": "Camille",
+        "name_string": "Barni, Camille",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "28": {
+        "id": 28,
+        "surname": "Barré",
+        "given_names": "Pierre Yvon",
+        "name_string": "Barré, Pierre Yvon",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "29": {
+        "id": 29,
+        "surname": "Barthélémon",
+        "given_names": "François Hippolyte",
+        "name_string": "Barthélémon, François Hippolyte",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "30": {
+        "id": 30,
+        "surname": "Basset",
+        "given_names": "Charles",
+        "name_string": "Basset, Charles",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "31": {
+        "id": 31,
+        "surname": "Bastide",
+        "given_names": "Jean-François",
+        "name_string": "Bastide, Jean-François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "32": {
+        "id": 32,
+        "surname": "Batton",
+        "given_names": "Désiré Alexandre",
+        "name_string": "Batton, Désiré Alexandre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "33": {
+        "id": 33,
+        "surname": "Baudron",
+        "given_names": "Antoine Laurent",
+        "name_string": "Baudron, Antoine Laurent",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "34": {
+        "id": 34,
+        "surname": "Baurans",
+        "given_names": "Pierre",
+        "name_string": "Baurans, Pierre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "35": {
+        "id": 35,
+        "surname": "Bayard",
+        "given_names": "Jean François Alfred",
+        "name_string": "Bayard, Jean François Alfred",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "36": {
+        "id": 36,
+        "surname": "Bayon",
+        "given_names": "Marie Emmanuelle",
+        "name_string": "Bayon, Marie Emmanuelle",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "37": {
+        "id": 37,
+        "surname": "Bazin",
+        "given_names": "François Emmanuel Joseph",
+        "name_string": "Bazin, François Emmanuel Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "38": {
+        "id": 38,
+        "surname": "Beaumarchais",
+        "given_names": "Pierre Augustin Caron de",
+        "name_string": "Beaumarchais, Pierre Augustin Caron de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "39": {
+        "id": 39,
+        "surname": "Beaunier",
+        "given_names": "A. Louis",
+        "name_string": "Beaunier, A. Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "40": {
+        "id": 40,
+        "surname": "Beaunoir",
+        "given_names": "Alexandre Louis Bertrand Robineau, dit Alexandre",
+        "name_string": "Beaunoir, Alexandre Louis Bertrand Robineau, dit Alexandre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "41": {
+        "id": 41,
+        "surname": "Beauplan",
+        "given_names": "Amédée Joseph Louis Rousseau de",
+        "name_string": "Beauplan, Amédée Joseph Louis Rousseau de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "42": {
+        "id": 42,
+        "surname": "Beauplan",
+        "given_names": "Victor Arthur Rousseau de",
+        "name_string": "Beauplan, Victor Arthur Rousseau de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "43": {
+        "id": 43,
+        "surname": "Beffroy de Reigny",
+        "given_names": "Louis Abel",
+        "name_string": "Beffroy de Reigny, Louis Abel",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "44": {
+        "id": 44,
+        "surname": "Belle",
+        "given_names": "Gabriel Alexandre",
+        "name_string": "Belle, Gabriel Alexandre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "45": {
+        "id": 45,
+        "surname": "Benda",
+        "given_names": "Georg",
+        "name_string": "Benda, Georg",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "46": {
+        "id": 46,
+        "surname": "Benicori",
+        "given_names": "Angelo Maria",
+        "name_string": "Benicori, Angelo Maria",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "47": {
+        "id": 47,
+        "surname": "Benoist",
+        "given_names": "François",
+        "name_string": "Benoist, François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "48": {
+        "id": 48,
+        "surname": "Berlioz",
+        "given_names": "Louis Hector",
+        "name_string": "Berlioz, Louis Hector",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "49": {
+        "id": 49,
+        "surname": "Bernard-Valville",
+        "given_names": "François Bernard, dit",
+        "name_string": "Bernard-Valville, François Bernard, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "50": {
+        "id": 50,
+        "surname": "Bertaud",
+        "given_names": null,
+        "name_string": "Bertaud",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "51": {
+        "id": 51,
+        "surname": "Bertin d'Antilly",
+        "given_names": "Auguste Louis",
+        "name_string": "Bertin d'Antilly, Auguste Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "52": {
+        "id": 52,
+        "surname": "Bertin",
+        "given_names": "Louise Angélique",
+        "name_string": "Bertin, Louise Angélique",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "53": {
+        "id": 53,
+        "surname": "Berton",
+        "given_names": "Henri François",
+        "name_string": "Berton, Henri François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "54": {
+        "id": 54,
+        "surname": "Berton",
+        "given_names": "Henri Montan",
+        "name_string": "Berton, Henri Montan",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "55": {
+        "id": 55,
+        "surname": "Bianchi",
+        "given_names": "Francesco",
+        "name_string": "Bianchi, Francesco",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "56": {
+        "id": 56,
+        "surname": "Biancolelli",
+        "given_names": "Marie-Thérèse",
+        "name_string": "Biancolelli, Marie-Thérèse",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "57": {
+        "id": 57,
+        "surname": "Bibiena",
+        "given_names": "Jean Galli de",
+        "name_string": "Bibiena, Jean Galli de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "58": {
+        "id": 58,
+        "surname": "Billardon de Sauvigny",
+        "given_names": "Louis Edme",
+        "name_string": "Billardon de Sauvigny, Louis Edme",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "59": {
+        "id": 59,
+        "surname": "Billioni",
+        "given_names": "Michel Rieu Billion, dit",
+        "name_string": "Billioni, Michel Rieu Billion, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "60": {
+        "id": 60,
+        "surname": "Bins de Saint-Victor",
+        "given_names": "Jacques Maximilien Benjamin",
+        "name_string": "Bins de Saint-Victor, Jacques Maximilien Benjamin",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "61": {
+        "id": 61,
+        "surname": "Blaise",
+        "given_names": "Adolphe Benoît",
+        "name_string": "Blaise, Adolphe Benoît",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "62": {
+        "id": 62,
+        "surname": "Blangini",
+        "given_names": "Giuseppe Marco Mario Felice",
+        "name_string": "Blangini, Giuseppe Marco Mario Felice",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "63": {
+        "id": 63,
+        "surname": "Blasius",
+        "given_names": "Matthieu Frédéric",
+        "name_string": "Blasius, Matthieu Frédéric",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "64": {
+        "id": 64,
+        "surname": "Bochsa",
+        "given_names": "Robert Nicolas Charles",
+        "name_string": "Bochsa, Robert Nicolas Charles",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "65": {
+        "id": 65,
+        "surname": "Bodekin",
+        "given_names": null,
+        "name_string": "Bodekin",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "66": {
+        "id": 66,
+        "surname": "Boieldieu",
+        "given_names": "Adrien Louis Victor",
+        "name_string": "Boieldieu, Adrien Louis Victor",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "67": {
+        "id": 67,
+        "surname": "Boieldieu",
+        "given_names": "François Adrien",
+        "name_string": "Boieldieu, François Adrien",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "68": {
+        "id": 68,
+        "surname": "Boilly",
+        "given_names": "Édouard",
+        "name_string": "Boilly, Édouard",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "69": {
+        "id": 69,
+        "surname": "Boisselot",
+        "given_names": "Dominique François Xavier",
+        "name_string": "Boisselot, Dominique François Xavier",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "70": {
+        "id": 70,
+        "surname": "Boissy",
+        "given_names": "Louis de",
+        "name_string": "Boissy, Louis de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "71": {
+        "id": 71,
+        "surname": "Bonesi",
+        "given_names": "Barnaba",
+        "name_string": "Bonesi, Barnaba",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "72": {
+        "id": 72,
+        "surname": "Bonnefoy de Bonyon",
+        "given_names": "François Lambert (abbé)",
+        "name_string": "Bonnefoy de Bonyon, François Lambert (abbé)",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "73": {
+        "id": 73,
+        "surname": "Bordèse",
+        "given_names": "Luigi",
+        "name_string": "Bordèse, Luigi",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "74": {
+        "id": 74,
+        "surname": "Bouchard",
+        "given_names": "Armand de",
+        "name_string": "Bouchard, Armand de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "75": {
+        "id": 75,
+        "surname": "Bouilly",
+        "given_names": "Jean Nicolas",
+        "name_string": "Bouilly, Jean Nicolas",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "76": {
+        "id": 76,
+        "surname": "Boulanger",
+        "given_names": "Ernest Henri Alexandre",
+        "name_string": "Boulanger, Ernest Henri Alexandre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "77": {
+        "id": 77,
+        "surname": "Bourges",
+        "given_names": "Jean Maurice",
+        "name_string": "Bourges, Jean Maurice",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "78": {
+        "id": 78,
+        "surname": "Bousquet",
+        "given_names": "André Georges Jacques",
+        "name_string": "Bousquet, André Georges Jacques",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "79": {
+        "id": 79,
+        "surname": "Bouteiller",
+        "given_names": "Pierre Guillaume de",
+        "name_string": "Bouteiller, Pierre Guillaume de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "80": {
+        "id": 80,
+        "surname": "Boutet de Monvel",
+        "given_names": "Jacques Marie",
+        "name_string": "Boutet de Monvel, Jacques Marie",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "81": {
+        "id": 81,
+        "surname": "Boutillier",
+        "given_names": "Maximilien Jean",
+        "name_string": "Boutillier, Maximilien Jean",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "82": {
+        "id": 82,
+        "surname": "Brousse-Desfaucherets",
+        "given_names": "Jean-Louis",
+        "name_string": "Brousse-Desfaucherets, Jean-Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "83": {
+        "id": 83,
+        "surname": "Brunet",
+        "given_names": "Claude",
+        "name_string": "Brunet, Claude",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "84": {
+        "id": 84,
+        "surname": "Bruni",
+        "given_names": "Antonio Bartolomeo",
+        "name_string": "Bruni, Antonio Bartolomeo",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "85": {
+        "id": 85,
+        "surname": "Brunswick",
+        "given_names": "Léon Lévy, dit Léon",
+        "name_string": "Brunswick, Léon Lévy, dit Léon",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "86": {
+        "id": 86,
+        "surname": "Bréant de Fontenay",
+        "given_names": "Adolphe",
+        "name_string": "Bréant de Fontenay, Adolphe",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "87": {
+        "id": 87,
+        "surname": "Bréval",
+        "given_names": "Jean-Baptiste Sébastien",
+        "name_string": "Bréval, Jean-Baptiste Sébastien",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "88": {
+        "id": 88,
+        "surname": "Bujac",
+        "given_names": null,
+        "name_string": "Bujac",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "89": {
+        "id": 89,
+        "surname": "Bury",
+        "given_names": "Fulgence Joseph Désiré de",
+        "name_string": "Bury, Fulgence Joseph Désiré de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "90": {
+        "id": 90,
+        "surname": "Cadaux",
+        "given_names": "Justin",
+        "name_string": "Cadaux, Justin",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "91": {
+        "id": 91,
+        "surname": "Cailhava de l'Estendoux",
+        "given_names": "Jean-François",
+        "name_string": "Cailhava de l'Estendoux, Jean-François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "92": {
+        "id": 92,
+        "surname": "Cailly",
+        "given_names": "Adrien-Guillaume",
+        "name_string": "Cailly, Adrien-Guillaume",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "93": {
+        "id": 93,
+        "surname": "Calvimont",
+        "given_names": "Albert de",
+        "name_string": "Calvimont, Albert de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "94": {
+        "id": 94,
+        "surname": "Cambini",
+        "given_names": "Giuseppe Maria",
+        "name_string": "Cambini, Giuseppe Maria",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "95": {
+        "id": 95,
+        "surname": "Candeille",
+        "given_names": "Amélie-Julie",
+        "name_string": "Candeille, Amélie-Julie",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "96": {
+        "id": 96,
+        "surname": "Capelle",
+        "given_names": "Pierre Adolphe",
+        "name_string": "Capelle, Pierre Adolphe",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "97": {
+        "id": 97,
+        "surname": "Carafa",
+        "given_names": "Michele Enrico Francesco Vicenzo",
+        "name_string": "Carafa, Michele Enrico Francesco Vicenzo",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "98": {
+        "id": 98,
+        "surname": "Carmouche",
+        "given_names": "Pierre Frédéric Adolphe",
+        "name_string": "Carmouche, Pierre Frédéric Adolphe",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "99": {
+        "id": 99,
+        "surname": "Carrière-Dosin",
+        "given_names": "A.",
+        "name_string": "Carrière-Dosin, A.",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "100": {
+        "id": 100,
+        "surname": "Castel",
+        "given_names": "René Richard Louis",
+        "name_string": "Castel, René Richard Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "101": {
+        "id": 101,
+        "surname": "Castet",
+        "given_names": "N.",
+        "name_string": "Castet, N.",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "102": {
+        "id": 102,
+        "surname": "Castil-Blaze",
+        "given_names": "François Henri Joseph Blaze, dit",
+        "name_string": "Castil-Blaze, François Henri Joseph Blaze, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "103": {
+        "id": 103,
+        "surname": "Catel",
+        "given_names": "Charles Simon",
+        "name_string": "Catel, Charles Simon",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "104": {
+        "id": 104,
+        "surname": "Catrufo",
+        "given_names": "Giuseppe",
+        "name_string": "Catrufo, Giuseppe",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "105": {
+        "id": 105,
+        "surname": "Cavé",
+        "given_names": "Hygin Auguste",
+        "name_string": "Cavé, Hygin Auguste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "106": {
+        "id": 106,
+        "surname": "Chamfort",
+        "given_names": "Sébastien Roch Nicolas",
+        "name_string": "Chamfort, Sébastien Roch Nicolas",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "107": {
+        "id": 107,
+        "surname": "Champeaux",
+        "given_names": "Étienne Junien de",
+        "name_string": "Champeaux, Étienne Junien de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "108": {
+        "id": 108,
+        "surname": "Champein",
+        "given_names": "Marie François Stanislas",
+        "name_string": "Champein, Marie François Stanislas",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "109": {
+        "id": 109,
+        "surname": "Chancourtois",
+        "given_names": "Louis",
+        "name_string": "Chancourtois, Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "110": {
+        "id": 110,
+        "surname": "Chapelle",
+        "given_names": "Pierre David Augustin",
+        "name_string": "Chapelle, Pierre David Augustin",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "111": {
+        "id": 111,
+        "surname": "Charbonnières",
+        "given_names": "Alexis de",
+        "name_string": "Charbonnières, Alexis de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "112": {
+        "id": 112,
+        "surname": "Chardiny",
+        "given_names": "Louis Armand Chardin, dit",
+        "name_string": "Chardiny, Louis Armand Chardin, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "113": {
+        "id": 113,
+        "surname": "Charlemagne",
+        "given_names": "Jean Armand",
+        "name_string": "Charlemagne, Jean Armand",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "114": {
+        "id": 114,
+        "surname": "Chartrain",
+        "given_names": "Nicolas Joseph",
+        "name_string": "Chartrain, Nicolas Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "115": {
+        "id": 115,
+        "surname": "Chastenet de Puységur",
+        "given_names": "Armand Marc Jacques de",
+        "name_string": "Chastenet de Puységur, Armand Marc Jacques de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "116": {
+        "id": 116,
+        "surname": "Chelard",
+        "given_names": "Hippolyte André Jean-Baptiste",
+        "name_string": "Chelard, Hippolyte André Jean-Baptiste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "117": {
+        "id": 117,
+        "surname": "Cherubini",
+        "given_names": "Mario Luigi Carlo Zanobi Salvadore",
+        "name_string": "Cherubini, Mario Luigi Carlo Zanobi Salvadore",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "118": {
+        "id": 118,
+        "surname": "Choderlos de Laclos",
+        "given_names": "Pierre Ambroise François",
+        "name_string": "Choderlos de Laclos, Pierre Ambroise François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "119": {
+        "id": 119,
+        "surname": "Choquart",
+        "given_names": "Adolphe",
+        "name_string": "Choquart, Adolphe",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "120": {
+        "id": 120,
+        "surname": "Ciampi",
+        "given_names": "Vincenzo",
+        "name_string": "Ciampi, Vincenzo",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "121": {
+        "id": 121,
+        "surname": "Cifolelli",
+        "given_names": "Giovanni",
+        "name_string": "Cifolelli, Giovanni",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "122": {
+        "id": 122,
+        "surname": "Cimarosa",
+        "given_names": "Domenico",
+        "name_string": "Cimarosa, Domenico",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "123": {
+        "id": 123,
+        "surname": "Claparède",
+        "given_names": null,
+        "name_string": "Claparède",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "124": {
+        "id": 124,
+        "surname": "Clapisson",
+        "given_names": "Antoine Louis",
+        "name_string": "Clapisson, Antoine Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "125": {
+        "id": 125,
+        "surname": "Clément",
+        "given_names": "Charles François",
+        "name_string": "Clément, Charles François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "126": {
+        "id": 126,
+        "surname": "Coffin-Rony",
+        "given_names": "André Jacques",
+        "name_string": "Coffin-Rony, André Jacques",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "127": {
+        "id": 127,
+        "surname": "Cogniard",
+        "given_names": "Charles Théodore",
+        "name_string": "Cogniard, Charles Théodore",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "128": {
+        "id": 128,
+        "surname": "Cogniard",
+        "given_names": "Jean Hippolyte",
+        "name_string": "Cogniard, Jean Hippolyte",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "129": {
+        "id": 129,
+        "surname": "Colalto",
+        "given_names": "Antoine Mattiuci",
+        "name_string": "Colalto, Antoine Mattiuci",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "130": {
+        "id": 130,
+        "surname": "Colet",
+        "given_names": "Hippolyte Raymond",
+        "name_string": "Colet, Hippolyte Raymond",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "131": {
+        "id": 131,
+        "surname": "Collet de Messine",
+        "given_names": "Jean-Baptiste",
+        "name_string": "Collet de Messine, Jean-Baptiste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "132": {
+        "id": 132,
+        "surname": "Collé",
+        "given_names": "Charles",
+        "name_string": "Collé, Charles",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "133": {
+        "id": 133,
+        "surname": "Coppola",
+        "given_names": "Pier Antonio",
+        "name_string": "Coppola, Pier Antonio",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "134": {
+        "id": 134,
+        "surname": "Cormon",
+        "given_names": "Pierre Étienne Piestre, dit",
+        "name_string": "Cormon, Pierre Étienne Piestre, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "135": {
+        "id": 135,
+        "surname": "Corsange de La Plante",
+        "given_names": "Jean François Jacques",
+        "name_string": "Corsange de La Plante, Jean François Jacques",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "136": {
+        "id": 136,
+        "surname": "Coupigny",
+        "given_names": "André-François de",
+        "name_string": "Coupigny, André-François de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "137": {
+        "id": 137,
+        "surname": "Courcy",
+        "given_names": "Frédéric de",
+        "name_string": "Courcy, Frédéric de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "138": {
+        "id": 138,
+        "surname": "Court de Fontmichel",
+        "given_names": "Hippolyte Honoré Joseph",
+        "name_string": "Court de Fontmichel, Hippolyte Honoré Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "139": {
+        "id": 139,
+        "surname": "Creuzé de Lesser",
+        "given_names": "Auguste François",
+        "name_string": "Creuzé de Lesser, Auguste François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "140": {
+        "id": 140,
+        "surname": "Crémont",
+        "given_names": "Pierre",
+        "name_string": "Crémont, Pierre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "141": {
+        "id": 141,
+        "surname": "Cuinet-Dorbeil",
+        "given_names": null,
+        "name_string": "Cuinet-Dorbeil",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "142": {
+        "id": 142,
+        "surname": "Dalayrac",
+        "given_names": "Nicolas Marie",
+        "name_string": "Dalayrac, Nicolas Marie",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "143": {
+        "id": 143,
+        "surname": "Dalvimare",
+        "given_names": "Martin Pierre",
+        "name_string": "Dalvimare, Martin Pierre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "144": {
+        "id": 144,
+        "surname": "Dancourt",
+        "given_names": "Louis Hurtout",
+        "name_string": "Dancourt, Louis Hurtout",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "145": {
+        "id": 145,
+        "surname": "Danzel de Malzéville",
+        "given_names": null,
+        "name_string": "Danzel de Malzéville",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "146": {
+        "id": 146,
+        "surname": "Darcis",
+        "given_names": "François-Joseph",
+        "name_string": "Darcis, François-Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "147": {
+        "id": 147,
+        "surname": "Darondeau",
+        "given_names": "Benoni",
+        "name_string": "Darondeau, Benoni",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "148": {
+        "id": 148,
+        "surname": "Dartois",
+        "given_names": "Charles Achille d'Artois de Bournonville, dit Achille",
+        "name_string": "Dartois, Charles Achille d'Artois de Bournonville, dit Achille",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "149": {
+        "id": 149,
+        "surname": "Dartois",
+        "given_names": "François Victor d'Artois de Bournonville, dit Armand",
+        "name_string": "Dartois, François Victor d'Artois de Bournonville, dit Armand",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "150": {
+        "id": 150,
+        "surname": "Daussoigne-Méhul",
+        "given_names": "Louis Joseph",
+        "name_string": "Daussoigne-Méhul, Louis Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "151": {
+        "id": 151,
+        "surname": "Dauvergne",
+        "given_names": "Antoine",
+        "name_string": "Dauvergne, Antoine",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "152": {
+        "id": 152,
+        "surname": "Davaux",
+        "given_names": "Jean-Baptiste",
+        "name_string": "Davaux, Jean-Baptiste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "153": {
+        "id": 153,
+        "surname": "Davesne",
+        "given_names": "Bertin",
+        "name_string": "Davesne, Bertin",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "154": {
+        "id": 154,
+        "surname": "De Bussy",
+        "given_names": null,
+        "name_string": "De Bussy",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "155": {
+        "id": 155,
+        "surname": "Deblois",
+        "given_names": "Charles Gui Xavier van Gronnerade, dit Charles",
+        "name_string": "Deblois, Charles Gui Xavier van Gronnerade, dit Charles",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "156": {
+        "id": 156,
+        "surname": "Decomberousse",
+        "given_names": "Alexis Barbe Benoît",
+        "name_string": "Decomberousse, Alexis Barbe Benoît",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "157": {
+        "id": 157,
+        "surname": "Dehesse",
+        "given_names": "Jean-Baptiste François Deshayes, dit",
+        "name_string": "Dehesse, Jean-Baptiste François Deshayes, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "158": {
+        "id": 158,
+        "surname": "Dejaure",
+        "given_names": "Jean-Claude Bedenc",
+        "name_string": "Dejaure, Jean-Claude Bedenc",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "159": {
+        "id": 159,
+        "surname": "Dejaure",
+        "given_names": "Jean-Élie Bedenc",
+        "name_string": "Dejaure, Jean-Élie Bedenc",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "160": {
+        "id": 160,
+        "surname": "Delavigne",
+        "given_names": "Germain",
+        "name_string": "Delavigne, Germain",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "161": {
+        "id": 161,
+        "surname": "Delestre-Poirson",
+        "given_names": "Charles Gaspard Poirson, dit",
+        "name_string": "Delestre-Poirson, Charles Gaspard Poirson, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "162": {
+        "id": 162,
+        "surname": "Della Maria",
+        "given_names": "Pierre Antoine Domenico",
+        "name_string": "Della Maria, Pierre Antoine Domenico",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "163": {
+        "id": 163,
+        "surname": "Delrieu",
+        "given_names": "Étienne Joseph Bernard",
+        "name_string": "Delrieu, Étienne Joseph Bernard",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "164": {
+        "id": 164,
+        "surname": "Demautort",
+        "given_names": "Jacques Benoît",
+        "name_string": "Demautort, Jacques Benoît",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "165": {
+        "id": 165,
+        "surname": "Demoustier",
+        "given_names": "Charles Albert",
+        "name_string": "Demoustier, Charles Albert",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "166": {
+        "id": 166,
+        "surname": "Dennery",
+        "given_names": "Adolphe Philippe",
+        "name_string": "Dennery, Adolphe Philippe",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "167": {
+        "id": 167,
+        "surname": "Dercy",
+        "given_names": "Pierre",
+        "name_string": "Dercy, Pierre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "168": {
+        "id": 168,
+        "surname": "Des Rochers",
+        "given_names": null,
+        "name_string": "Des Rochers",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "169": {
+        "id": 169,
+        "surname": "Desboulmiers",
+        "given_names": "Jean Auguste Jullien, dit",
+        "name_string": "Desboulmiers, Jean Auguste Jullien, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "170": {
+        "id": 170,
+        "surname": "Desbrosses",
+        "given_names": "Robert",
+        "name_string": "Desbrosses, Robert",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "171": {
+        "id": 171,
+        "surname": "Deschamps",
+        "given_names": "Jacques Marie",
+        "name_string": "Deschamps, Jacques Marie",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "172": {
+        "id": 172,
+        "surname": "Deschamps",
+        "given_names": "Émile",
+        "name_string": "Deschamps, Émile",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "173": {
+        "id": 173,
+        "surname": "Descombles",
+        "given_names": null,
+        "name_string": "Descombles",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "174": {
+        "id": 174,
+        "surname": "Desessarts d'Ambreville",
+        "given_names": "Joseph",
+        "name_string": "Desessarts d'Ambreville, Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "175": {
+        "id": 175,
+        "surname": "Desfontaines",
+        "given_names": "François Georges Fouques, dit",
+        "name_string": "Desfontaines, François Georges Fouques, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "176": {
+        "id": 176,
+        "surname": "Desforges",
+        "given_names": "Mlle",
+        "name_string": "Desforges, Mlle",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "177": {
+        "id": 177,
+        "surname": "Desforges",
+        "given_names": "Pierre Jean-Baptiste Choudard, dit",
+        "name_string": "Desforges, Pierre Jean-Baptiste Choudard, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "178": {
+        "id": 178,
+        "surname": "Deshayes",
+        "given_names": "Prosper Didier",
+        "name_string": "Deshayes, Prosper Didier",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "179": {
+        "id": 179,
+        "surname": "Deslandes",
+        "given_names": "Nicolas Théodore Paulin",
+        "name_string": "Deslandes, Nicolas Théodore Paulin",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "180": {
+        "id": 180,
+        "surname": "Desnoyer",
+        "given_names": "Charles Louis François",
+        "name_string": "Desnoyer, Charles Louis François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "181": {
+        "id": 181,
+        "surname": "Despréaux",
+        "given_names": "Guglielmo Ross, dit",
+        "name_string": "Despréaux, Guglielmo Ross, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "182": {
+        "id": 182,
+        "surname": "Després",
+        "given_names": "Jean-Baptiste Denis",
+        "name_string": "Després, Jean-Baptiste Denis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "183": {
+        "id": 183,
+        "surname": "Devaux",
+        "given_names": "François Antoine",
+        "name_string": "Devaux, François Antoine",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "184": {
+        "id": 184,
+        "surname": "Devienne",
+        "given_names": "François",
+        "name_string": "Devienne, François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "185": {
+        "id": 185,
+        "surname": "Devismes de Saint-Alphonse",
+        "given_names": "Alphonse Marie Denis",
+        "name_string": "Devismes de Saint-Alphonse, Alphonse Marie Denis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "186": {
+        "id": 186,
+        "surname": "Dezède",
+        "given_names": "Florine",
+        "name_string": "Dezède, Florine",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "187": {
+        "id": 187,
+        "surname": "Dezède",
+        "given_names": "Nicolas",
+        "name_string": "Dezède, Nicolas",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "188": {
+        "id": 188,
+        "surname": "Dieulafoy",
+        "given_names": "Joseph Marie Armand Michel",
+        "name_string": "Dieulafoy, Joseph Marie Armand Michel",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "189": {
+        "id": 189,
+        "surname": "Doche",
+        "given_names": "Alexandre Pierre Joseph",
+        "name_string": "Doche, Alexandre Pierre Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "190": {
+        "id": 190,
+        "surname": "Doismont (avocat au Parlement)",
+        "given_names": null,
+        "name_string": "Doismont (avocat au Parlement)",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "191": {
+        "id": 191,
+        "surname": "Donizetti",
+        "given_names": "Domenico Gaetano Maria",
+        "name_string": "Donizetti, Domenico Gaetano Maria",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "192": {
+        "id": 192,
+        "surname": "Dorvigny",
+        "given_names": "Louis François Archambault, dit",
+        "name_string": "Dorvigny, Louis François Archambault, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "193": {
+        "id": 193,
+        "surname": "Dourlen",
+        "given_names": "Victor Charles Paul",
+        "name_string": "Dourlen, Victor Charles Paul",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "194": {
+        "id": 194,
+        "surname": "Dozaux (fils)",
+        "given_names": null,
+        "name_string": "Dozaux (fils)",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "195": {
+        "id": 195,
+        "surname": "Dubaut",
+        "given_names": null,
+        "name_string": "Dubaut",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "196": {
+        "id": 196,
+        "surname": "Dubois de Jancigny",
+        "given_names": "Jean-Baptiste",
+        "name_string": "Dubois de Jancigny, Jean-Baptiste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "197": {
+        "id": 197,
+        "surname": "Dubois",
+        "given_names": "C.",
+        "name_string": "Dubois, C.",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "198": {
+        "id": 198,
+        "surname": "Dubois",
+        "given_names": "Charles",
+        "name_string": "Dubois, Charles",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "199": {
+        "id": 199,
+        "surname": "Dubuisson",
+        "given_names": "Paul Ulrich",
+        "name_string": "Dubuisson, Paul Ulrich",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "200": {
+        "id": 200,
+        "surname": "Ducis",
+        "given_names": "Paul Auguste",
+        "name_string": "Ducis, Paul Auguste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "201": {
+        "id": 201,
+        "surname": "Ducongé-Dubreuil",
+        "given_names": "Alphonse, dit Dubreuil",
+        "name_string": "Ducongé-Dubreuil, Alphonse, dit Dubreuil",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "202": {
+        "id": 202,
+        "surname": "Dugazon",
+        "given_names": "Alexandre Louis Gustave",
+        "name_string": "Dugazon, Alexandre Louis Gustave",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "203": {
+        "id": 203,
+        "surname": "Dulac",
+        "given_names": null,
+        "name_string": "Dulac",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "204": {
+        "id": 204,
+        "surname": "Dumanoir",
+        "given_names": "Philippe François Pinel, dit Philippe",
+        "name_string": "Dumanoir, Philippe François Pinel, dit Philippe",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "205": {
+        "id": 205,
+        "surname": "Dumas",
+        "given_names": "Alexandre (père)",
+        "name_string": "Dumas, Alexandre (père)",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "206": {
+        "id": 206,
+        "surname": "Dumersan",
+        "given_names": "Théophile Marion",
+        "name_string": "Dumersan, Théophile Marion",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "207": {
+        "id": 207,
+        "surname": "Dumolard",
+        "given_names": "Henri François",
+        "name_string": "Dumolard, Henri François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "208": {
+        "id": 208,
+        "surname": "Duni",
+        "given_names": "Egidio Romualdo",
+        "name_string": "Duni, Egidio Romualdo",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "209": {
+        "id": 209,
+        "surname": "Dupaty",
+        "given_names": "Louis Emmanuel Mercier, dit Mercier-Dupaty",
+        "name_string": "Dupaty, Louis Emmanuel Mercier, dit Mercier-Dupaty",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "210": {
+        "id": 210,
+        "surname": "Dupeuty",
+        "given_names": "Charles Désiré",
+        "name_string": "Dupeuty, Charles Désiré",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "211": {
+        "id": 211,
+        "surname": "Dupin",
+        "given_names": "Jean Henri",
+        "name_string": "Dupin, Jean Henri",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "212": {
+        "id": 212,
+        "surname": "Duport",
+        "given_names": "Auguste",
+        "name_string": "Duport, Auguste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "213": {
+        "id": 213,
+        "surname": "Duport",
+        "given_names": "Paul",
+        "name_string": "Duport, Paul",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "214": {
+        "id": 214,
+        "surname": "Duret",
+        "given_names": "Marcel Antoine",
+        "name_string": "Duret, Marcel Antoine",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "215": {
+        "id": 215,
+        "surname": "Durosoy",
+        "given_names": "Barnabé Farmian",
+        "name_string": "Durosoy, Barnabé Farmian",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "216": {
+        "id": 216,
+        "surname": "Dutremblay",
+        "given_names": "A.P.",
+        "name_string": "Dutremblay, A.P.",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "217": {
+        "id": 217,
+        "surname": "Duval",
+        "given_names": "Georges",
+        "name_string": "Duval, Georges",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "218": {
+        "id": 218,
+        "surname": "Duval",
+        "given_names": "Mlle C.",
+        "name_string": "Duval, Mlle C.",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "219": {
+        "id": 219,
+        "surname": "Duveyrier",
+        "given_names": "Charles (fils)",
+        "name_string": "Duveyrier, Charles (fils)",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "220": {
+        "id": 220,
+        "surname": "Duveyrier",
+        "given_names": "Honoré Marie Nicolas (père)",
+        "name_string": "Duveyrier, Honoré Marie Nicolas (père)",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "221": {
+        "id": 221,
+        "surname": "Désaugiers",
+        "given_names": null,
+        "name_string": "Désaugiers",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "222": {
+        "id": 222,
+        "surname": "Désaugiers",
+        "given_names": "Marc Antoine (père)",
+        "name_string": "Désaugiers, Marc Antoine (père)",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "223": {
+        "id": 223,
+        "surname": "Désaugiers",
+        "given_names": "Marc-Antoine Madeleine (fils)",
+        "name_string": "Désaugiers, Marc-Antoine Madeleine (fils)",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "224": {
+        "id": 224,
+        "surname": "Désormery",
+        "given_names": "Léopold Bastien",
+        "name_string": "Désormery, Léopold Bastien",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "225": {
+        "id": 225,
+        "surname": "Eler",
+        "given_names": "André Frédéric",
+        "name_string": "Eler, André Frédéric",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "226": {
+        "id": 226,
+        "surname": "Elleviou",
+        "given_names": "Pierre Jean-Baptiste",
+        "name_string": "Elleviou, Pierre Jean-Baptiste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "227": {
+        "id": 227,
+        "surname": "Estourmel",
+        "given_names": "A. d'",
+        "name_string": "Estourmel, A. d'",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "228": {
+        "id": 228,
+        "surname": "Estourmel",
+        "given_names": "Louis Marie d'",
+        "name_string": "Estourmel, Louis Marie d'",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "229": {
+        "id": 229,
+        "surname": "Fabre d'Églantine",
+        "given_names": "Philippe Nazaire François Fabre, dit",
+        "name_string": "Fabre d'Églantine, Philippe Nazaire François Fabre, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "230": {
+        "id": 230,
+        "surname": "Fagan",
+        "given_names": "Barthélémy Christophe",
+        "name_string": "Fagan, Barthélémy Christophe",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "231": {
+        "id": 231,
+        "surname": "Fallet",
+        "given_names": "Nicolas",
+        "name_string": "Fallet, Nicolas",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "232": {
+        "id": 232,
+        "surname": "Faur",
+        "given_names": "Louis François",
+        "name_string": "Faur, Louis François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "233": {
+        "id": 233,
+        "surname": "Favart",
+        "given_names": "Charles Nicolas Justin",
+        "name_string": "Favart, Charles Nicolas Justin",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "234": {
+        "id": 234,
+        "surname": "Favart",
+        "given_names": "Charles Simon",
+        "name_string": "Favart, Charles Simon",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "235": {
+        "id": 235,
+        "surname": "Favart",
+        "given_names": "Marie Justine Benoîte Cabaret Duronceray, Mme",
+        "name_string": "Favart, Marie Justine Benoîte Cabaret Duronceray, Mme",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "236": {
+        "id": 236,
+        "surname": "Favières",
+        "given_names": "Edmond Guillaume François de",
+        "name_string": "Favières, Edmond Guillaume François de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "237": {
+        "id": 237,
+        "surname": "Fay",
+        "given_names": "Étienne",
+        "name_string": "Fay, Étienne",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "238": {
+        "id": 238,
+        "surname": "Federico",
+        "given_names": "Gennaro Antonio",
+        "name_string": "Federico, Gennaro Antonio",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "239": {
+        "id": 239,
+        "surname": "Felicini (Laurent)",
+        "given_names": null,
+        "name_string": "Felicini (Laurent)",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "240": {
+        "id": 240,
+        "surname": "Feltre",
+        "given_names": "Alphonse de",
+        "name_string": "Feltre, Alphonse de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "241": {
+        "id": 241,
+        "surname": "Fenouillot de Falbaire de Quingey",
+        "given_names": "Charles Georges",
+        "name_string": "Fenouillot de Falbaire de Quingey, Charles Georges",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "242": {
+        "id": 242,
+        "surname": "Ferrières",
+        "given_names": "Alexandre de",
+        "name_string": "Ferrières, Alexandre de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "243": {
+        "id": 243,
+        "surname": "Fiocchi",
+        "given_names": "Vincenzo",
+        "name_string": "Fiocchi, Vincenzo",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "244": {
+        "id": 244,
+        "surname": "Fiévée",
+        "given_names": "Joseph",
+        "name_string": "Fiévée, Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "245": {
+        "id": 245,
+        "surname": "Floquet",
+        "given_names": "Étienne Joseph",
+        "name_string": "Floquet, Étienne Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "246": {
+        "id": 246,
+        "surname": "Florian",
+        "given_names": "Jean-Pierre Claris de",
+        "name_string": "Florian, Jean-Pierre Claris de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "247": {
+        "id": 247,
+        "surname": "Flotow",
+        "given_names": "Friedrich von",
+        "name_string": "Flotow, Friedrich von",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "248": {
+        "id": 248,
+        "surname": "Foignet",
+        "given_names": "Charles Gabriel",
+        "name_string": "Foignet, Charles Gabriel",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "249": {
+        "id": 249,
+        "surname": "Follet",
+        "given_names": "Auguste",
+        "name_string": "Follet, Auguste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "250": {
+        "id": 250,
+        "surname": "Fontanès de Saint-Marcellin",
+        "given_names": "Jean Victor",
+        "name_string": "Fontanès de Saint-Marcellin, Jean Victor",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "251": {
+        "id": 251,
+        "surname": "Forbin",
+        "given_names": "Louis Nicolas Philippe Auguste de",
+        "name_string": "Forbin, Louis Nicolas Philippe Auguste de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "252": {
+        "id": 252,
+        "surname": "Forgeot",
+        "given_names": "Nicolas Julien",
+        "name_string": "Forgeot, Nicolas Julien",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "253": {
+        "id": 253,
+        "surname": "Foucher",
+        "given_names": "Paul Henri",
+        "name_string": "Foucher, Paul Henri",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "254": {
+        "id": 254,
+        "surname": "Fournier",
+        "given_names": "A.G.",
+        "name_string": "Fournier, A.G.",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "255": {
+        "id": 255,
+        "surname": "Framery",
+        "given_names": "Nicolas Étienne",
+        "name_string": "Framery, Nicolas Étienne",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "256": {
+        "id": 256,
+        "surname": "Fridzeri",
+        "given_names": "Alessandro Mario Antonio",
+        "name_string": "Fridzeri, Alessandro Mario Antonio",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "257": {
+        "id": 257,
+        "surname": "Fromaget",
+        "given_names": "Nicolas",
+        "name_string": "Fromaget, Nicolas",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "258": {
+        "id": 258,
+        "surname": "Fusée de Voisenon",
+        "given_names": "Claude Henri",
+        "name_string": "Fusée de Voisenon, Claude Henri",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "259": {
+        "id": 259,
+        "surname": "Fuzelier",
+        "given_names": "Louis",
+        "name_string": "Fuzelier, Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "260": {
+        "id": 260,
+        "surname": "Fétis",
+        "given_names": "François Joseph",
+        "name_string": "Fétis, François Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "261": {
+        "id": 261,
+        "surname": "Gail",
+        "given_names": "Edmée Sophie (née Garre)",
+        "name_string": "Gail, Edmée Sophie (née Garre)",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "262": {
+        "id": 262,
+        "surname": "Gandonnière",
+        "given_names": "Almire",
+        "name_string": "Gandonnière, Almire",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "263": {
+        "id": 263,
+        "surname": "García",
+        "given_names": "Vicente Rodríguez, dit Manuel",
+        "name_string": "García, Vicente Rodríguez, dit Manuel",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "264": {
+        "id": 264,
+        "surname": "Garnier",
+        "given_names": "Charles Georges Thomas",
+        "name_string": "Garnier, Charles Georges Thomas",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "265": {
+        "id": 265,
+        "surname": "Gasse",
+        "given_names": "Ferdinand",
+        "name_string": "Gasse, Ferdinand",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "266": {
+        "id": 266,
+        "surname": "Gaugiran-Nanteuil",
+        "given_names": "P. Charles",
+        "name_string": "Gaugiran-Nanteuil, P. Charles",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "267": {
+        "id": 267,
+        "surname": "Gautier",
+        "given_names": null,
+        "name_string": "Gautier",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "268": {
+        "id": 268,
+        "surname": "Gaveaux",
+        "given_names": "Pierre",
+        "name_string": "Gaveaux, Pierre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "269": {
+        "id": 269,
+        "surname": "Gaviniès",
+        "given_names": "Pierre",
+        "name_string": "Gaviniès, Pierre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "270": {
+        "id": 270,
+        "surname": "Gay",
+        "given_names": "Sophie",
+        "name_string": "Gay, Sophie",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "271": {
+        "id": 271,
+        "surname": "Genin",
+        "given_names": "F.",
+        "name_string": "Genin, F.",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "272": {
+        "id": 272,
+        "surname": "Gensoul",
+        "given_names": "Marie Alexis Justin",
+        "name_string": "Gensoul, Marie Alexis Justin",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "273": {
+        "id": 273,
+        "surname": "Gentil de Chavagnac",
+        "given_names": "Michel Joseph",
+        "name_string": "Gentil de Chavagnac, Michel Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "274": {
+        "id": 274,
+        "surname": "Gersin",
+        "given_names": "N.",
+        "name_string": "Gersin, N.",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "275": {
+        "id": 275,
+        "surname": "Gibert",
+        "given_names": "Paul César",
+        "name_string": "Gibert, Paul César",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "276": {
+        "id": 276,
+        "surname": "Gide",
+        "given_names": "Casimir",
+        "name_string": "Gide, Casimir",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "277": {
+        "id": 277,
+        "surname": "Ginestet",
+        "given_names": "Prosper de",
+        "name_string": "Ginestet, Prosper de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "278": {
+        "id": 278,
+        "surname": "Ginestet",
+        "given_names": "Émilien de",
+        "name_string": "Ginestet, Émilien de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "279": {
+        "id": 279,
+        "surname": "Girard",
+        "given_names": "Narcisse",
+        "name_string": "Girard, Narcisse",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "280": {
+        "id": 280,
+        "surname": "Gluck",
+        "given_names": "Christoph Willibald",
+        "name_string": "Gluck, Christoph Willibald",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "281": {
+        "id": 281,
+        "surname": "Godard d'Aucour de Saint-Just",
+        "given_names": "Claude",
+        "name_string": "Godard d'Aucour de Saint-Just, Claude",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "282": {
+        "id": 282,
+        "surname": "Godefroid",
+        "given_names": "Jules Joseph",
+        "name_string": "Godefroid, Jules Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "283": {
+        "id": 283,
+        "surname": "Goldoni",
+        "given_names": "Carlo",
+        "name_string": "Goldoni, Carlo",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "284": {
+        "id": 284,
+        "surname": "Gomis",
+        "given_names": "José Melchior",
+        "name_string": "Gomis, José Melchior",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "285": {
+        "id": 285,
+        "surname": "Gondot",
+        "given_names": "Pierre Thomas",
+        "name_string": "Gondot, Pierre Thomas",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "286": {
+        "id": 286,
+        "surname": "Gori",
+        "given_names": "Antonio",
+        "name_string": "Gori, Antonio",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "287": {
+        "id": 287,
+        "surname": "Gosse",
+        "given_names": "Étienne",
+        "name_string": "Gosse, Étienne",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "288": {
+        "id": 288,
+        "surname": "Gossec",
+        "given_names": "François Joseph",
+        "name_string": "Gossec, François Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "289": {
+        "id": 289,
+        "surname": "Goubaux",
+        "given_names": "Prosper Parfait",
+        "name_string": "Goubaux, Prosper Parfait",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "290": {
+        "id": 290,
+        "surname": "Gouffé",
+        "given_names": "Armand",
+        "name_string": "Gouffé, Armand",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "291": {
+        "id": 291,
+        "surname": "Goulard",
+        "given_names": "Jean-François Thomas",
+        "name_string": "Goulard, Jean-François Thomas",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "292": {
+        "id": 292,
+        "surname": "Gourbillon",
+        "given_names": "Joseph Antoine",
+        "name_string": "Gourbillon, Joseph Antoine",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "293": {
+        "id": 293,
+        "surname": "Grenier",
+        "given_names": null,
+        "name_string": "Grenier",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "294": {
+        "id": 294,
+        "surname": "Gresnick",
+        "given_names": "Antoine Frédéric",
+        "name_string": "Gresnick, Antoine Frédéric",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "295": {
+        "id": 295,
+        "surname": "Grisar",
+        "given_names": "Albert",
+        "name_string": "Grisar, Albert",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "296": {
+        "id": 296,
+        "surname": "Grétry",
+        "given_names": "André Ernest Modeste",
+        "name_string": "Grétry, André Ernest Modeste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "297": {
+        "id": 297,
+        "surname": "Grétry",
+        "given_names": "André Joseph",
+        "name_string": "Grétry, André Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "298": {
+        "id": 298,
+        "surname": "Grétry",
+        "given_names": "Angélique Dorothée Louise Lucile",
+        "name_string": "Grétry, Angélique Dorothée Louise Lucile",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "299": {
+        "id": 299,
+        "surname": "Guichard",
+        "given_names": "Jean-François",
+        "name_string": "Guichard, Jean-François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "300": {
+        "id": 300,
+        "surname": "Guilbert de Pixérécourt",
+        "given_names": "René Charles",
+        "name_string": "Guilbert de Pixérécourt, René Charles",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "301": {
+        "id": 301,
+        "surname": "Guillard",
+        "given_names": "Nicolas François",
+        "name_string": "Guillard, Nicolas François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "302": {
+        "id": 302,
+        "surname": "Guillet",
+        "given_names": "P.",
+        "name_string": "Guillet, P.",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "303": {
+        "id": 303,
+        "surname": "Guinguené",
+        "given_names": "Pierre Louis",
+        "name_string": "Guinguené, Pierre Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "304": {
+        "id": 304,
+        "surname": "Guy",
+        "given_names": "Jean Henri",
+        "name_string": "Guy, Jean Henri",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "305": {
+        "id": 305,
+        "surname": "Guénée",
+        "given_names": "Pierre Luc",
+        "name_string": "Guénée, Pierre Luc",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "306": {
+        "id": 306,
+        "surname": "Guérin de Frémicourt",
+        "given_names": "Jean Nicolas",
+        "name_string": "Guérin de Frémicourt, Jean Nicolas",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "307": {
+        "id": 307,
+        "surname": "Halévy",
+        "given_names": "Jacques Fromental Elie",
+        "name_string": "Halévy, Jacques Fromental Elie",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "308": {
+        "id": 308,
+        "surname": "Halévy",
+        "given_names": "Léon",
+        "name_string": "Halévy, Léon",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "309": {
+        "id": 309,
+        "surname": "Harny de Guerville",
+        "given_names": null,
+        "name_string": "Harny de Guerville",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "310": {
+        "id": 310,
+        "surname": "Herbain",
+        "given_names": "Chevalier d'",
+        "name_string": "Herbain, Chevalier d'",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "311": {
+        "id": 311,
+        "surname": "Herold",
+        "given_names": "Louis Joseph Ferdinand",
+        "name_string": "Herold, Louis Joseph Ferdinand",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "312": {
+        "id": 312,
+        "surname": "Hinner",
+        "given_names": "Philipp Joseph",
+        "name_string": "Hinner, Philipp Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "313": {
+        "id": 313,
+        "surname": "Hoffman",
+        "given_names": "François Benoît Henri",
+        "name_string": "Hoffman, François Benoît Henri",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "314": {
+        "id": 314,
+        "surname": "Houbron",
+        "given_names": null,
+        "name_string": "Houbron",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "315": {
+        "id": 315,
+        "surname": "Humbert",
+        "given_names": "Auguste",
+        "name_string": "Humbert, Auguste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "316": {
+        "id": 316,
+        "surname": "Hurtado",
+        "given_names": "Antonio",
+        "name_string": "Hurtado, Antonio",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "317": {
+        "id": 317,
+        "surname": "Hus",
+        "given_names": "P.E. Staupleton, dit Eugène",
+        "name_string": "Hus, P.E. Staupleton, dit Eugène",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "318": {
+        "id": 318,
+        "surname": "Hèle",
+        "given_names": "Thomas d'",
+        "name_string": "Hèle, Thomas d'",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "319": {
+        "id": 319,
+        "surname": "Hélitas de Meun",
+        "given_names": "Joseph",
+        "name_string": "Hélitas de Meun, Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "320": {
+        "id": 320,
+        "surname": "Héquet",
+        "given_names": "Charles Joseph Gustave",
+        "name_string": "Héquet, Charles Joseph Gustave",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "321": {
+        "id": 321,
+        "surname": "Imbert",
+        "given_names": "Barthélémy",
+        "name_string": "Imbert, Barthélémy",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "322": {
+        "id": 322,
+        "surname": "Isouard",
+        "given_names": "Nicolas, dit Nicolò",
+        "name_string": "Isouard, Nicolas, dit Nicolò",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "323": {
+        "id": 323,
+        "surname": "Jadin",
+        "given_names": "Adolphe",
+        "name_string": "Jadin, Adolphe",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "324": {
+        "id": 324,
+        "surname": "Jadin",
+        "given_names": "Louis Emmanuel",
+        "name_string": "Jadin, Louis Emmanuel",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "325": {
+        "id": 325,
+        "surname": "Jalabert",
+        "given_names": "C.",
+        "name_string": "Jalabert, C.",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "326": {
+        "id": 326,
+        "surname": "Jars",
+        "given_names": "Antoine Gabriel",
+        "name_string": "Jars, Antoine Gabriel",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "327": {
+        "id": 327,
+        "surname": "Joigny",
+        "given_names": null,
+        "name_string": "Joigny",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "328": {
+        "id": 328,
+        "surname": "Josse",
+        "given_names": "Giovanni",
+        "name_string": "Josse, Giovanni",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "329": {
+        "id": 329,
+        "surname": "Jouy",
+        "given_names": "Victor Joseph Étienne, dit Étienne de",
+        "name_string": "Jouy, Victor Joseph Étienne, dit Étienne de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "330": {
+        "id": 330,
+        "surname": "Junquières",
+        "given_names": "Jean-Baptiste René de",
+        "name_string": "Junquières, Jean-Baptiste René de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "331": {
+        "id": 331,
+        "surname": "Kastner",
+        "given_names": "Jean Georges",
+        "name_string": "Kastner, Jean Georges",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "332": {
+        "id": 332,
+        "surname": "Kind",
+        "given_names": "Johann Friedrich",
+        "name_string": "Kind, Johann Friedrich",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "333": {
+        "id": 333,
+        "surname": "Kock",
+        "given_names": "Charles Paul de",
+        "name_string": "Kock, Charles Paul de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "334": {
+        "id": 334,
+        "surname": "Kohaut",
+        "given_names": "Josef Wenzel Thomas",
+        "name_string": "Kohaut, Josef Wenzel Thomas",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "335": {
+        "id": 335,
+        "surname": "Kreubé",
+        "given_names": "Charles Frédéric",
+        "name_string": "Kreubé, Charles Frédéric",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "336": {
+        "id": 336,
+        "surname": "Kreutzer",
+        "given_names": "Rodolphe",
+        "name_string": "Kreutzer, Rodolphe",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "337": {
+        "id": 337,
+        "surname": "La Martelière",
+        "given_names": "Jean Henri Ferdinand",
+        "name_string": "La Martelière, Jean Henri Ferdinand",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "338": {
+        "id": 338,
+        "surname": "La Moskova",
+        "given_names": "Joseph Napoléon Ney, prince de",
+        "name_string": "La Moskova, Joseph Napoléon Ney, prince de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "339": {
+        "id": 339,
+        "surname": "La Ribardière",
+        "given_names": null,
+        "name_string": "La Ribardière",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "340": {
+        "id": 340,
+        "surname": "La Roche",
+        "given_names": "Guillemain Charles J.",
+        "name_string": "La Roche, Guillemain Charles J.",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "341": {
+        "id": 341,
+        "surname": "La Salle d'Offémont",
+        "given_names": "Adrien Nicolas Piédefer de",
+        "name_string": "La Salle d'Offémont, Adrien Nicolas Piédefer de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "342": {
+        "id": 342,
+        "surname": "Labarre",
+        "given_names": "Théodore François Joseph Berry, dit Théodore",
+        "name_string": "Labarre, Théodore François Joseph Berry, dit Théodore",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "343": {
+        "id": 343,
+        "surname": "Laborde",
+        "given_names": "Jean Benjamin de",
+        "name_string": "Laborde, Jean Benjamin de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "344": {
+        "id": 344,
+        "surname": "Laboullaye",
+        "given_names": "Ferdinand Simon de",
+        "name_string": "Laboullaye, Ferdinand Simon de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "345": {
+        "id": 345,
+        "surname": "Lachnith",
+        "given_names": "Ludwig Wenzel",
+        "name_string": "Lachnith, Ludwig Wenzel",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "346": {
+        "id": 346,
+        "surname": "Lacour",
+        "given_names": "Louis",
+        "name_string": "Lacour, Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "347": {
+        "id": 347,
+        "surname": "Lafitte",
+        "given_names": "Jean",
+        "name_string": "Lafitte, Jean",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "348": {
+        "id": 348,
+        "surname": "Lafortelle",
+        "given_names": "A.M.",
+        "name_string": "Lafortelle, A.M.",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "349": {
+        "id": 349,
+        "surname": "Lambert",
+        "given_names": "L.T.",
+        "name_string": "Lambert, L.T.",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "350": {
+        "id": 350,
+        "surname": "Landrin",
+        "given_names": "C.",
+        "name_string": "Landrin, C.",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "351": {
+        "id": 351,
+        "surname": "Lantier",
+        "given_names": "Étienne François de",
+        "name_string": "Lantier, Étienne François de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "352": {
+        "id": 352,
+        "surname": "Laruette",
+        "given_names": "Jean-Louis",
+        "name_string": "Laruette, Jean-Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "353": {
+        "id": 353,
+        "surname": "Laugier",
+        "given_names": "Balthazar Marie",
+        "name_string": "Laugier, Balthazar Marie",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "354": {
+        "id": 354,
+        "surname": "Laujon",
+        "given_names": "Pierre",
+        "name_string": "Laujon, Pierre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "355": {
+        "id": 355,
+        "surname": "Laval",
+        "given_names": "Paul Antoine Nolivos Saint-Cyr, dit",
+        "name_string": "Laval, Paul Antoine Nolivos Saint-Cyr, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "356": {
+        "id": 356,
+        "surname": "Le Couppey de La Rozière",
+        "given_names": "Jean René",
+        "name_string": "Le Couppey de La Rozière, Jean René",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "357": {
+        "id": 357,
+        "surname": "Le Grand",
+        "given_names": "Jean-Pierre",
+        "name_string": "Le Grand, Jean-Pierre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "358": {
+        "id": 358,
+        "surname": "Le Sueur",
+        "given_names": "Jean-François",
+        "name_string": "Le Sueur, Jean-François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "359": {
+        "id": 359,
+        "surname": "Le Sénéchal de Kerkado",
+        "given_names": "Mlle",
+        "name_string": "Le Sénéchal de Kerkado, Mlle",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "360": {
+        "id": 360,
+        "surname": "Leber",
+        "given_names": "Jean Michel Constant",
+        "name_string": "Leber, Jean Michel Constant",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "361": {
+        "id": 361,
+        "surname": "Leborne",
+        "given_names": "Aimé Ambroise Simon",
+        "name_string": "Leborne, Aimé Ambroise Simon",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "362": {
+        "id": 362,
+        "surname": "Lebrun",
+        "given_names": "Louis Sébastien",
+        "name_string": "Lebrun, Louis Sébastien",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "363": {
+        "id": 363,
+        "surname": "Lebrun-Tossa",
+        "given_names": "Jean Antoine Brun, dit",
+        "name_string": "Lebrun-Tossa, Jean Antoine Brun, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "364": {
+        "id": 364,
+        "surname": "Lefebvre",
+        "given_names": "Joseph",
+        "name_string": "Lefebvre, Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "365": {
+        "id": 365,
+        "surname": "Lefroid de Méreaux",
+        "given_names": "Jean Nicolas",
+        "name_string": "Lefroid de Méreaux, Jean Nicolas",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "366": {
+        "id": 366,
+        "surname": "Lefèbvre",
+        "given_names": "Noël",
+        "name_string": "Lefèbvre, Noël",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "367": {
+        "id": 367,
+        "surname": "Legouvé",
+        "given_names": "Gabriel Marie Jean-Baptiste",
+        "name_string": "Legouvé, Gabriel Marie Jean-Baptiste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "368": {
+        "id": 368,
+        "surname": "Lemaignan",
+        "given_names": "Mme",
+        "name_string": "Lemaignan, Mme",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "369": {
+        "id": 369,
+        "surname": "Lemière de Corvey",
+        "given_names": "Jean Frédéric",
+        "name_string": "Lemière de Corvey, Jean Frédéric",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "370": {
+        "id": 370,
+        "surname": "Lemoine",
+        "given_names": "Gustave",
+        "name_string": "Lemoine, Gustave",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "371": {
+        "id": 371,
+        "surname": "Lemonnier",
+        "given_names": "Pierre René",
+        "name_string": "Lemonnier, Pierre René",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "372": {
+        "id": 372,
+        "surname": "Lemontey",
+        "given_names": "Pierre Édouard",
+        "name_string": "Lemontey, Pierre Édouard",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "373": {
+        "id": 373,
+        "surname": "Lemoyne",
+        "given_names": "Jean-Baptiste",
+        "name_string": "Lemoyne, Jean-Baptiste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "374": {
+        "id": 374,
+        "surname": "Lepoitevin de Légreville Saint-Alme",
+        "given_names": "Auguste",
+        "name_string": "Lepoitevin de Légreville Saint-Alme, Auguste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "375": {
+        "id": 375,
+        "surname": "Leprévost",
+        "given_names": "Étienne Alexandre",
+        "name_string": "Leprévost, Étienne Alexandre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "376": {
+        "id": 376,
+        "surname": "Leprêtre",
+        "given_names": null,
+        "name_string": "Leprêtre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "377": {
+        "id": 377,
+        "surname": "Lesage",
+        "given_names": "Alain-René",
+        "name_string": "Lesage, Alain-René",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "378": {
+        "id": 378,
+        "surname": "Lescot",
+        "given_names": "C. François",
+        "name_string": "Lescot, C. François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "379": {
+        "id": 379,
+        "surname": "Lesguillon",
+        "given_names": "Jean Pierre François",
+        "name_string": "Lesguillon, Jean Pierre François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "380": {
+        "id": 380,
+        "surname": "Lesure",
+        "given_names": "Charles Louis",
+        "name_string": "Lesure, Charles Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "381": {
+        "id": 381,
+        "surname": "Leuven",
+        "given_names": "Adolphe de Ribbing, dit Adolphe de",
+        "name_string": "Leuven, Adolphe de Ribbing, dit Adolphe de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "382": {
+        "id": 382,
+        "surname": "Levasseur",
+        "given_names": "Françis",
+        "name_string": "Levasseur, Françis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "383": {
+        "id": 383,
+        "surname": "Limnander",
+        "given_names": "Armand Marie Ghislain, baron de Nieuwenhove",
+        "name_string": "Limnander, Armand Marie Ghislain, baron de Nieuwenhove",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "384": {
+        "id": 384,
+        "surname": "Lockroy",
+        "given_names": "Joseph Philippe Simon, dit Joseph",
+        "name_string": "Lockroy, Joseph Philippe Simon, dit Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "385": {
+        "id": 385,
+        "surname": "Longchamps",
+        "given_names": "Charles de",
+        "name_string": "Longchamps, Charles de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "386": {
+        "id": 386,
+        "surname": "Loraux (aîné)",
+        "given_names": "Michel Fillette, dit",
+        "name_string": "Loraux (aîné), Michel Fillette, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "387": {
+        "id": 387,
+        "surname": "Loraux (jeune)",
+        "given_names": "Claude François Fillette, dit",
+        "name_string": "Loraux (jeune), Claude François Fillette, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "388": {
+        "id": 388,
+        "surname": "Lorenzi",
+        "given_names": "Giambattista",
+        "name_string": "Lorenzi, Giambattista",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "389": {
+        "id": 389,
+        "surname": "Louet",
+        "given_names": "Alexandre",
+        "name_string": "Louet, Alexandre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "390": {
+        "id": 390,
+        "surname": "Louis-Auguste Second",
+        "given_names": "dit A. Féréol",
+        "name_string": "Louis-Auguste Second, dit A. Féréol",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "391": {
+        "id": 391,
+        "surname": "Lourdet de Santerre",
+        "given_names": "Jean-Baptiste",
+        "name_string": "Lourdet de Santerre, Jean-Baptiste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "392": {
+        "id": 392,
+        "surname": "Lubbert",
+        "given_names": "Émile Timothée",
+        "name_string": "Lubbert, Émile Timothée",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "393": {
+        "id": 393,
+        "surname": "Lurieu",
+        "given_names": "Jules Joseph Gabriel de",
+        "name_string": "Lurieu, Jules Joseph Gabriel de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "394": {
+        "id": 394,
+        "surname": "Léger",
+        "given_names": "François Pierre Auguste",
+        "name_string": "Léger, François Pierre Auguste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "395": {
+        "id": 395,
+        "surname": "Légier",
+        "given_names": "Pierre",
+        "name_string": "Légier, Pierre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "396": {
+        "id": 396,
+        "surname": "Lévrier de Champ-Rion",
+        "given_names": "Guillaume Denis Thomas",
+        "name_string": "Lévrier de Champ-Rion, Guillaume Denis Thomas",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "397": {
+        "id": 397,
+        "surname": "Lœillard d'Avrigny",
+        "given_names": "Charles Joseph",
+        "name_string": "Lœillard d'Avrigny, Charles Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "398": {
+        "id": 398,
+        "surname": "Mabille",
+        "given_names": null,
+        "name_string": "Mabille",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "399": {
+        "id": 399,
+        "surname": "Magnitot",
+        "given_names": null,
+        "name_string": "Magnitot",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "400": {
+        "id": 400,
+        "surname": "Maillart",
+        "given_names": "Louis Aimé",
+        "name_string": "Maillart, Louis Aimé",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "401": {
+        "id": 401,
+        "surname": "Mallian",
+        "given_names": "Julien de",
+        "name_string": "Mallian, Julien de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "402": {
+        "id": 402,
+        "surname": "Marc",
+        "given_names": "François",
+        "name_string": "Marc, François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "403": {
+        "id": 403,
+        "surname": "Marcouville",
+        "given_names": "Pierre Augustin Lefèvre de",
+        "name_string": "Marcouville, Pierre Augustin Lefèvre de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "404": {
+        "id": 404,
+        "surname": "Maresse",
+        "given_names": "Louis",
+        "name_string": "Maresse, Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "405": {
+        "id": 405,
+        "surname": "Marliani",
+        "given_names": "Marco Aurelio",
+        "name_string": "Marliani, Marco Aurelio",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "406": {
+        "id": 406,
+        "surname": "Marmontel",
+        "given_names": "Jean François",
+        "name_string": "Marmontel, Jean François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "407": {
+        "id": 407,
+        "surname": "Marsollier des Vivetières",
+        "given_names": "Benoît-Joseph",
+        "name_string": "Marsollier des Vivetières, Benoît-Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "408": {
+        "id": 408,
+        "surname": "Martini",
+        "given_names": "Jean Paul Égide",
+        "name_string": "Martini, Jean Paul Égide",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "409": {
+        "id": 409,
+        "surname": "Maréchal",
+        "given_names": "Sylvain",
+        "name_string": "Maréchal, Sylvain",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "410": {
+        "id": 410,
+        "surname": "Masson de Morvilliers",
+        "given_names": null,
+        "name_string": "Masson de Morvilliers",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "411": {
+        "id": 411,
+        "surname": "Masson de Pezay",
+        "given_names": "Alexandre Frédéric Jacques",
+        "name_string": "Masson de Pezay, Alexandre Frédéric Jacques",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "412": {
+        "id": 412,
+        "surname": "Masson",
+        "given_names": "Auguste Michel Benoît Gaudichot, dit Michel",
+        "name_string": "Masson, Auguste Michel Benoît Gaudichot, dit Michel",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "413": {
+        "id": 413,
+        "surname": "Massé",
+        "given_names": "Félix Marie, dit Victor",
+        "name_string": "Massé, Félix Marie, dit Victor",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "414": {
+        "id": 414,
+        "surname": "Mazas",
+        "given_names": "Jacques Féréol",
+        "name_string": "Mazas, Jacques Féréol",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "415": {
+        "id": 415,
+        "surname": "Mazères",
+        "given_names": "Édouard Joseph Ennemond",
+        "name_string": "Mazères, Édouard Joseph Ennemond",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "416": {
+        "id": 416,
+        "surname": "Mendibourg",
+        "given_names": null,
+        "name_string": "Mendibourg",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "417": {
+        "id": 417,
+        "surname": "Mengal",
+        "given_names": "Martin Joseph",
+        "name_string": "Mengal, Martin Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "418": {
+        "id": 418,
+        "surname": "Mengozzi",
+        "given_names": "Bernardo",
+        "name_string": "Mengozzi, Bernardo",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "419": {
+        "id": 419,
+        "surname": "Mennechet",
+        "given_names": "Édouard",
+        "name_string": "Mennechet, Édouard",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "420": {
+        "id": 420,
+        "surname": "Mension (secrétaire de Beaumarchais)",
+        "given_names": null,
+        "name_string": "Mension (secrétaire de Beaumarchais)",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "421": {
+        "id": 421,
+        "surname": "Merle",
+        "given_names": "Jean-Toussaint",
+        "name_string": "Merle, Jean-Toussaint",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "422": {
+        "id": 422,
+        "surname": "Merville",
+        "given_names": "Pierre François Camus, dit",
+        "name_string": "Merville, Pierre François Camus, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "423": {
+        "id": 423,
+        "surname": "Metastasio",
+        "given_names": "Pietro Trapassi, dit",
+        "name_string": "Metastasio, Pietro Trapassi, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "424": {
+        "id": 424,
+        "surname": "Mitelet",
+        "given_names": null,
+        "name_string": "Mitelet",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "425": {
+        "id": 425,
+        "surname": "Moissy",
+        "given_names": "Alexandre Guillaume Mouslier de",
+        "name_string": "Moissy, Alexandre Guillaume Mouslier de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "426": {
+        "id": 426,
+        "surname": "Moline de Saint-Yon",
+        "given_names": "Alexandre Pierre",
+        "name_string": "Moline de Saint-Yon, Alexandre Pierre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "427": {
+        "id": 427,
+        "surname": "Moline",
+        "given_names": "Pierre Louis",
+        "name_string": "Moline, Pierre Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "428": {
+        "id": 428,
+        "surname": "Monnais",
+        "given_names": "Guillaume Édouard Désiré",
+        "name_string": "Monnais, Guillaume Édouard Désiré",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "429": {
+        "id": 429,
+        "surname": "Monpou",
+        "given_names": "François Louis Hippolyte",
+        "name_string": "Monpou, François Louis Hippolyte",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "430": {
+        "id": 430,
+        "surname": "Monsigny",
+        "given_names": "Pierre Alexandre",
+        "name_string": "Monsigny, Pierre Alexandre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "431": {
+        "id": 431,
+        "surname": "Montcloux d'Épinay",
+        "given_names": "G.",
+        "name_string": "Montcloux d'Épinay, G.",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "432": {
+        "id": 432,
+        "surname": "Montfort",
+        "given_names": "Alexandre",
+        "name_string": "Montfort, Alexandre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "433": {
+        "id": 433,
+        "surname": "Montignac",
+        "given_names": "P. de",
+        "name_string": "Montignac, P. de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "434": {
+        "id": 434,
+        "surname": "Monville",
+        "given_names": "Thomas Boissel de",
+        "name_string": "Monville, Thomas Boissel de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "435": {
+        "id": 435,
+        "surname": "Moras",
+        "given_names": "P.",
+        "name_string": "Moras, P.",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "436": {
+        "id": 436,
+        "surname": "Moreau de Commagny",
+        "given_names": "Charles François Jean-Baptiste",
+        "name_string": "Moreau de Commagny, Charles François Jean-Baptiste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "437": {
+        "id": 437,
+        "surname": "Morel de Vindé",
+        "given_names": "Charles Gilbert Terray de",
+        "name_string": "Morel de Vindé, Charles Gilbert Terray de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "438": {
+        "id": 438,
+        "surname": "Mossard",
+        "given_names": "Guy",
+        "name_string": "Mossard, Guy",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "439": {
+        "id": 439,
+        "surname": "Moulinghen",
+        "given_names": "Jean-Baptiste",
+        "name_string": "Moulinghen, Jean-Baptiste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "440": {
+        "id": 440,
+        "surname": "Muret",
+        "given_names": "Théodore",
+        "name_string": "Muret, Théodore",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "441": {
+        "id": 441,
+        "surname": "Méhul",
+        "given_names": "Étienne Nicolas",
+        "name_string": "Méhul, Étienne Nicolas",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "442": {
+        "id": 442,
+        "surname": "Mélesville",
+        "given_names": "Anne Honoré Joseph Duveyrier, dit",
+        "name_string": "Mélesville, Anne Honoré Joseph Duveyrier, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "443": {
+        "id": 443,
+        "surname": "Mély-Janin",
+        "given_names": "Jean Marie Janin, dit",
+        "name_string": "Mély-Janin, Jean Marie Janin, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "444": {
+        "id": 444,
+        "surname": "Ménard",
+        "given_names": null,
+        "name_string": "Ménard",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "445": {
+        "id": 445,
+        "surname": "Ménilglaise (chevalier des officiers aux gardes françaises)",
+        "given_names": null,
+        "name_string": "Ménilglaise (chevalier des officiers aux gardes françaises)",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "446": {
+        "id": 446,
+        "surname": "Ménissier",
+        "given_names": "Jules Constant",
+        "name_string": "Ménissier, Jules Constant",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "447": {
+        "id": 447,
+        "surname": "Mézières-Miot",
+        "given_names": "Louis",
+        "name_string": "Mézières-Miot, Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "448": {
+        "id": 448,
+        "surname": "Naigeon",
+        "given_names": "Jacques André",
+        "name_string": "Naigeon, Jacques André",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "449": {
+        "id": 449,
+        "surname": "Nerval",
+        "given_names": "Gérard Labrunie, dit Gérard de",
+        "name_string": "Nerval, Gérard Labrunie, dit Gérard de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "450": {
+        "id": 450,
+        "surname": "Non",
+        "given_names": null,
+        "name_string": "Non",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "451": {
+        "id": 451,
+        "surname": "Noël",
+        "given_names": null,
+        "name_string": "Noël",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "452": {
+        "id": 452,
+        "surname": "Nus",
+        "given_names": "Eugène Jean-Baptiste",
+        "name_string": "Nus, Eugène Jean-Baptiste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "453": {
+        "id": 453,
+        "surname": "Onslow",
+        "given_names": "André Georges Louis",
+        "name_string": "Onslow, André Georges Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "454": {
+        "id": 454,
+        "surname": "Pacini",
+        "given_names": "Antonio Francesco Gaetano Saverio",
+        "name_string": "Pacini, Antonio Francesco Gaetano Saverio",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "455": {
+        "id": 455,
+        "surname": "Paganini",
+        "given_names": "Mlle",
+        "name_string": "Paganini, Mlle",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "456": {
+        "id": 456,
+        "surname": "Pain",
+        "given_names": "Joseph Marie",
+        "name_string": "Pain, Joseph Marie",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "457": {
+        "id": 457,
+        "surname": "Paisiello",
+        "given_names": "Giovanni",
+        "name_string": "Paisiello, Giovanni",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "458": {
+        "id": 458,
+        "surname": "Panard",
+        "given_names": "Charles François",
+        "name_string": "Panard, Charles François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "459": {
+        "id": 459,
+        "surname": "Panseron",
+        "given_names": "Auguste Mathieu",
+        "name_string": "Panseron, Auguste Mathieu",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "460": {
+        "id": 460,
+        "surname": "Parenti",
+        "given_names": "Paolo Francesco",
+        "name_string": "Parenti, Paolo Francesco",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "461": {
+        "id": 461,
+        "surname": "Paris",
+        "given_names": "Alexandre",
+        "name_string": "Paris, Alexandre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "462": {
+        "id": 462,
+        "surname": "Parisau",
+        "given_names": "Pierre Germain",
+        "name_string": "Parisau, Pierre Germain",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "463": {
+        "id": 463,
+        "surname": "Parmentier",
+        "given_names": "André",
+        "name_string": "Parmentier, André",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "464": {
+        "id": 464,
+        "surname": "Patrat",
+        "given_names": "Joseph",
+        "name_string": "Patrat, Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "465": {
+        "id": 465,
+        "surname": "Payen",
+        "given_names": "Albert Liénard, dit Louis",
+        "name_string": "Payen, Albert Liénard, dit Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "466": {
+        "id": 466,
+        "surname": "Paër",
+        "given_names": "Ferdinando",
+        "name_string": "Paër, Ferdinando",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "467": {
+        "id": 467,
+        "surname": "Peicam",
+        "given_names": null,
+        "name_string": "Peicam",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "468": {
+        "id": 468,
+        "surname": "Pelletier",
+        "given_names": "Henri François",
+        "name_string": "Pelletier, Henri François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "469": {
+        "id": 469,
+        "surname": "Pergolesi",
+        "given_names": "Giovanni Battista",
+        "name_string": "Pergolesi, Giovanni Battista",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "470": {
+        "id": 470,
+        "surname": "Persius",
+        "given_names": "Louis Luc Loiseau de",
+        "name_string": "Persius, Louis Luc Loiseau de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "471": {
+        "id": 471,
+        "surname": "Pessey",
+        "given_names": "Yacinthe Antoine",
+        "name_string": "Pessey, Yacinthe Antoine",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "472": {
+        "id": 472,
+        "surname": "Petrosellini",
+        "given_names": "Giuseppe",
+        "name_string": "Petrosellini, Giuseppe",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "473": {
+        "id": 473,
+        "surname": "Philidor",
+        "given_names": "François André Danican",
+        "name_string": "Philidor, François André Danican",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "474": {
+        "id": 474,
+        "surname": "Picard",
+        "given_names": "Louis Benoît",
+        "name_string": "Picard, Louis Benoît",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "475": {
+        "id": 475,
+        "surname": "Piccinni",
+        "given_names": "Joseph Marie",
+        "name_string": "Piccinni, Joseph Marie",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "476": {
+        "id": 476,
+        "surname": "Piccinni",
+        "given_names": "Louis Alexandre",
+        "name_string": "Piccinni, Louis Alexandre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "477": {
+        "id": 477,
+        "surname": "Piccinni",
+        "given_names": "Luigi",
+        "name_string": "Piccinni, Luigi",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "478": {
+        "id": 478,
+        "surname": "Piccinni",
+        "given_names": "Niccolò",
+        "name_string": "Piccinni, Niccolò",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "479": {
+        "id": 479,
+        "surname": "Pigault-Lebrun",
+        "given_names": "Charles Antoine Guillaume Pigault de l'Épinoy, dit",
+        "name_string": "Pigault-Lebrun, Charles Antoine Guillaume Pigault de l'Épinoy, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "480": {
+        "id": 480,
+        "surname": "Piis",
+        "given_names": "Pierre Antoine Augustin de",
+        "name_string": "Piis, Pierre Antoine Augustin de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "481": {
+        "id": 481,
+        "surname": "Pillet",
+        "given_names": "Léon",
+        "name_string": "Pillet, Léon",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "482": {
+        "id": 482,
+        "surname": "Pillon-Duchemin",
+        "given_names": "Anne Adrien Firmin",
+        "name_string": "Pillon-Duchemin, Anne Adrien Firmin",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "483": {
+        "id": 483,
+        "surname": "Pineu-Duval",
+        "given_names": "Alexandre Vincent",
+        "name_string": "Pineu-Duval, Alexandre Vincent",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "484": {
+        "id": 484,
+        "surname": "Pineu-Duval",
+        "given_names": "Henri",
+        "name_string": "Pineu-Duval, Henri",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "485": {
+        "id": 485,
+        "surname": "Pisot",
+        "given_names": "Charles",
+        "name_string": "Pisot, Charles",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "486": {
+        "id": 486,
+        "surname": "Pitrot",
+        "given_names": "Antoine Bonaventure",
+        "name_string": "Pitrot, Antoine Bonaventure",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "487": {
+        "id": 487,
+        "surname": "Pittaud de Forges",
+        "given_names": "Philippe Auguste Alfred",
+        "name_string": "Pittaud de Forges, Philippe Auguste Alfred",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "488": {
+        "id": 488,
+        "surname": "Planard",
+        "given_names": "François Antoine Eugène de",
+        "name_string": "Planard, François Antoine Eugène de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "489": {
+        "id": 489,
+        "surname": "Plancher-Valcour",
+        "given_names": "Philippe Aristide Louis Pierre",
+        "name_string": "Plancher-Valcour, Philippe Aristide Louis Pierre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "490": {
+        "id": 490,
+        "surname": "Plantade",
+        "given_names": "Charles Henri",
+        "name_string": "Plantade, Charles Henri",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "491": {
+        "id": 491,
+        "surname": "Planterre",
+        "given_names": "Barthélémy Ambroise",
+        "name_string": "Planterre, Barthélémy Ambroise",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "492": {
+        "id": 492,
+        "surname": "Pleinchesne",
+        "given_names": "Roger Timothée Regnard de",
+        "name_string": "Pleinchesne, Roger Timothée Regnard de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "493": {
+        "id": 493,
+        "surname": "Poinsinet",
+        "given_names": "Antoine Alexandre Henri",
+        "name_string": "Poinsinet, Antoine Alexandre Henri",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "494": {
+        "id": 494,
+        "surname": "Poisson de La Chabeaussière",
+        "given_names": "Auguste Étienne Xavier",
+        "name_string": "Poisson de La Chabeaussière, Auguste Étienne Xavier",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "495": {
+        "id": 495,
+        "surname": "Polak",
+        "given_names": "Théodore",
+        "name_string": "Polak, Théodore",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "496": {
+        "id": 496,
+        "surname": "Porta",
+        "given_names": "Bernardo",
+        "name_string": "Porta, Bernardo",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "497": {
+        "id": 497,
+        "surname": "Potier",
+        "given_names": "Henri Hippolyte",
+        "name_string": "Potier, Henri Hippolyte",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "498": {
+        "id": 498,
+        "surname": "Potron",
+        "given_names": "Charles",
+        "name_string": "Potron, Charles",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "499": {
+        "id": 499,
+        "surname": "Pradher",
+        "given_names": "Louis Barthélémy",
+        "name_string": "Pradher, Louis Barthélémy",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "500": {
+        "id": 500,
+        "surname": "Prati",
+        "given_names": "Alessio",
+        "name_string": "Prati, Alessio",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "501": {
+        "id": 501,
+        "surname": "Propiac",
+        "given_names": "Catherine Joseph Ferdinand Girard de",
+        "name_string": "Propiac, Catherine Joseph Ferdinand Girard de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "502": {
+        "id": 502,
+        "surname": "Prot",
+        "given_names": "Félix Jean",
+        "name_string": "Prot, Félix Jean",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "503": {
+        "id": 503,
+        "surname": "Prudent",
+        "given_names": null,
+        "name_string": "Prudent",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "504": {
+        "id": 504,
+        "surname": "Prévost",
+        "given_names": "Eugène Prosper",
+        "name_string": "Prévost, Eugène Prosper",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "505": {
+        "id": 505,
+        "surname": "Puget",
+        "given_names": "Loïsa",
+        "name_string": "Puget, Loïsa",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "506": {
+        "id": 506,
+        "surname": "Pujoulx",
+        "given_names": "Jean-Baptiste",
+        "name_string": "Pujoulx, Jean-Baptiste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "507": {
+        "id": 507,
+        "surname": "Pélissier-Laqueyrie",
+        "given_names": "Jean-Baptiste",
+        "name_string": "Pélissier-Laqueyrie, Jean-Baptiste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "508": {
+        "id": 508,
+        "surname": "Quétant",
+        "given_names": "François Antoine",
+        "name_string": "Quétant, François Antoine",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "509": {
+        "id": 509,
+        "surname": "Racine",
+        "given_names": "Jean",
+        "name_string": "Racine, Jean",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "510": {
+        "id": 510,
+        "surname": "Radet",
+        "given_names": "Jean-Baptiste",
+        "name_string": "Radet, Jean-Baptiste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "511": {
+        "id": 511,
+        "surname": "Ragué",
+        "given_names": "Louis Charles",
+        "name_string": "Ragué, Louis Charles",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "512": {
+        "id": 512,
+        "surname": "Rancé",
+        "given_names": "E. de",
+        "name_string": "Rancé, E. de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "513": {
+        "id": 513,
+        "surname": "Reber",
+        "given_names": "Napoléon Henri",
+        "name_string": "Reber, Napoléon Henri",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "514": {
+        "id": 514,
+        "surname": "Reicha",
+        "given_names": "Anton",
+        "name_string": "Reicha, Anton",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "515": {
+        "id": 515,
+        "surname": "Renaud",
+        "given_names": null,
+        "name_string": "Renaud",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "516": {
+        "id": 516,
+        "surname": "Renout",
+        "given_names": "Jean Julien Constantin",
+        "name_string": "Renout, Jean Julien Constantin",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "517": {
+        "id": 517,
+        "surname": "Resnier",
+        "given_names": "Louis Pierre Pantaléon",
+        "name_string": "Resnier, Louis Pierre Pantaléon",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "518": {
+        "id": 518,
+        "surname": "Riboutté",
+        "given_names": "François Louis",
+        "name_string": "Riboutté, François Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "519": {
+        "id": 519,
+        "surname": "Riccoboni",
+        "given_names": "Antoine François",
+        "name_string": "Riccoboni, Antoine François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "520": {
+        "id": 520,
+        "surname": "Riccoboni",
+        "given_names": "Marie Jeanne",
+        "name_string": "Riccoboni, Marie Jeanne",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "521": {
+        "id": 521,
+        "surname": "Rifaut",
+        "given_names": "Louis Victor Étienne",
+        "name_string": "Rifaut, Louis Victor Étienne",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "522": {
+        "id": 522,
+        "surname": "Rigade",
+        "given_names": "André Jean",
+        "name_string": "Rigade, André Jean",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "523": {
+        "id": 523,
+        "surname": "Rigel",
+        "given_names": "Henri Jean",
+        "name_string": "Rigel, Henri Jean",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "524": {
+        "id": 524,
+        "surname": "Rigel",
+        "given_names": "Henri Joseph",
+        "name_string": "Rigel, Henri Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "525": {
+        "id": 525,
+        "surname": "Riggieri",
+        "given_names": "Antonio",
+        "name_string": "Riggieri, Antonio",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "526": {
+        "id": 526,
+        "surname": "Rochefort",
+        "given_names": "Claude Louis Marie de Rochefort-Luçay, dit Edmond",
+        "name_string": "Rochefort, Claude Louis Marie de Rochefort-Luçay, dit Edmond",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "527": {
+        "id": 527,
+        "surname": "Rodolphe",
+        "given_names": "Jean Joseph",
+        "name_string": "Rodolphe, Jean Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "528": {
+        "id": 528,
+        "surname": "Roger",
+        "given_names": "Jean-François",
+        "name_string": "Roger, Jean-François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "529": {
+        "id": 529,
+        "surname": "Romagnesi",
+        "given_names": "Antoine Joseph Michel, dit",
+        "name_string": "Romagnesi, Antoine Joseph Michel, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "530": {
+        "id": 530,
+        "surname": "Romberg",
+        "given_names": "Andreas",
+        "name_string": "Romberg, Andreas",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "531": {
+        "id": 531,
+        "surname": "Romberg",
+        "given_names": "Bernhard Heinrich",
+        "name_string": "Romberg, Bernhard Heinrich",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "532": {
+        "id": 532,
+        "surname": "Rosier",
+        "given_names": "Joseph Bernard",
+        "name_string": "Rosier, Joseph Bernard",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "533": {
+        "id": 533,
+        "surname": "Rouget de Lisle",
+        "given_names": "Claude Joseph",
+        "name_string": "Rouget de Lisle, Claude Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "534": {
+        "id": 534,
+        "surname": "Rousseau",
+        "given_names": null,
+        "name_string": "Rousseau",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "535": {
+        "id": 535,
+        "surname": "Rousseau",
+        "given_names": "Auguste",
+        "name_string": "Rousseau, Auguste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "536": {
+        "id": 536,
+        "surname": "Rousselot",
+        "given_names": "Scipion",
+        "name_string": "Rousselot, Scipion",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "537": {
+        "id": 537,
+        "surname": "Ruolz",
+        "given_names": "Henri de",
+        "name_string": "Ruolz, Henri de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "538": {
+        "id": 538,
+        "surname": "Russo",
+        "given_names": "Raphaël",
+        "name_string": "Russo, Raphaël",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "539": {
+        "id": 539,
+        "surname": "Rutledge",
+        "given_names": "James",
+        "name_string": "Rutledge, James",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "540": {
+        "id": 540,
+        "surname": "Révéroni Saint-Cyr",
+        "given_names": "Jacques Antoine de",
+        "name_string": "Révéroni Saint-Cyr, Jacques Antoine de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "541": {
+        "id": 541,
+        "surname": "Sacchini",
+        "given_names": "Antonio",
+        "name_string": "Sacchini, Antonio",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "542": {
+        "id": 542,
+        "surname": "Saint-Amans",
+        "given_names": "Louis Joseph Claude",
+        "name_string": "Saint-Amans, Louis Joseph Claude",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "543": {
+        "id": 543,
+        "surname": "Saint-Chamant",
+        "given_names": null,
+        "name_string": "Saint-Chamant",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "544": {
+        "id": 544,
+        "surname": "Saint-Félix",
+        "given_names": null,
+        "name_string": "Saint-Félix",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "545": {
+        "id": 545,
+        "surname": "Saint-Georges",
+        "given_names": "Joseph Bologne, chevalier de",
+        "name_string": "Saint-Georges, Joseph Bologne, chevalier de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "546": {
+        "id": 546,
+        "surname": "Saintine",
+        "given_names": "Joseph Xavier Boniface",
+        "name_string": "Saintine, Joseph Xavier Boniface",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "547": {
+        "id": 547,
+        "surname": "Salvert",
+        "given_names": null,
+        "name_string": "Salvert",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "548": {
+        "id": 548,
+        "surname": "Sapey",
+        "given_names": "Louis Charles",
+        "name_string": "Sapey, Louis Charles",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "549": {
+        "id": 549,
+        "surname": "Sauvage",
+        "given_names": "Thomas",
+        "name_string": "Sauvage, Thomas",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "550": {
+        "id": 550,
+        "surname": "Sbignelli",
+        "given_names": null,
+        "name_string": "Sbignelli",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "551": {
+        "id": 551,
+        "surname": "Schobert",
+        "given_names": "Johann",
+        "name_string": "Schobert, Johann",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "552": {
+        "id": 552,
+        "surname": "Scribe",
+        "given_names": "Eugène Augustin",
+        "name_string": "Scribe, Eugène Augustin",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "553": {
+        "id": 553,
+        "surname": "Sedaine",
+        "given_names": "Michel Jean",
+        "name_string": "Sedaine, Michel Jean",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "554": {
+        "id": 554,
+        "surname": "Sellitto",
+        "given_names": "Giuseppe",
+        "name_string": "Sellitto, Giuseppe",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "555": {
+        "id": 555,
+        "surname": "Serrière",
+        "given_names": null,
+        "name_string": "Serrière",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "556": {
+        "id": 556,
+        "surname": "Sewrin",
+        "given_names": "Charles Augustin de Bassompierre, dit",
+        "name_string": "Sewrin, Charles Augustin de Bassompierre, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "557": {
+        "id": 557,
+        "surname": "Simonnin",
+        "given_names": "Antoine Jean-Baptiste",
+        "name_string": "Simonnin, Antoine Jean-Baptiste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "558": {
+        "id": 558,
+        "surname": "Siraudin",
+        "given_names": "Paul",
+        "name_string": "Siraudin, Paul",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "559": {
+        "id": 559,
+        "surname": "Sodi",
+        "given_names": "Charles",
+        "name_string": "Sodi, Charles",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "560": {
+        "id": 560,
+        "surname": "Sodi",
+        "given_names": "Pierre",
+        "name_string": "Sodi, Pierre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "561": {
+        "id": 561,
+        "surname": "Solié",
+        "given_names": "Jean-Pierre",
+        "name_string": "Solié, Jean-Pierre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "562": {
+        "id": 562,
+        "surname": "Soulié",
+        "given_names": "Frédéric",
+        "name_string": "Soulié, Frédéric",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "563": {
+        "id": 563,
+        "surname": "Souriguière de Saint-Marc",
+        "given_names": "Jean-Marie",
+        "name_string": "Souriguière de Saint-Marc, Jean-Marie",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "564": {
+        "id": 564,
+        "surname": "Spontini",
+        "given_names": "Gaspare Luigi Pacifico",
+        "name_string": "Spontini, Gaspare Luigi Pacifico",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "565": {
+        "id": 565,
+        "surname": "Steibelt",
+        "given_names": "Daniel Gottlieb",
+        "name_string": "Steibelt, Daniel Gottlieb",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "566": {
+        "id": 566,
+        "surname": "Strunz",
+        "given_names": "Georg Jacob",
+        "name_string": "Strunz, Georg Jacob",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "567": {
+        "id": 567,
+        "surname": "Ségur",
+        "given_names": "Joseph Alexandre Pierre de",
+        "name_string": "Ségur, Joseph Alexandre Pierre de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "568": {
+        "id": 568,
+        "surname": "Tacusset",
+        "given_names": null,
+        "name_string": "Tacusset",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "569": {
+        "id": 569,
+        "surname": "Tarade",
+        "given_names": "Théodore Jean",
+        "name_string": "Tarade, Théodore Jean",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "570": {
+        "id": 570,
+        "surname": "Tarchi",
+        "given_names": "Angelo",
+        "name_string": "Tarchi, Angelo",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "571": {
+        "id": 571,
+        "surname": "Thomas",
+        "given_names": "Charles Louis Ambroise",
+        "name_string": "Thomas, Charles Louis Ambroise",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "572": {
+        "id": 572,
+        "surname": "Thys",
+        "given_names": "Alphonse",
+        "name_string": "Thys, Alphonse",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "573": {
+        "id": 573,
+        "surname": "Thys",
+        "given_names": "Pauline",
+        "name_string": "Thys, Pauline",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "574": {
+        "id": 574,
+        "surname": "Théaulon de Lambert",
+        "given_names": "Marie Emmanuel Guillaume",
+        "name_string": "Théaulon de Lambert, Marie Emmanuel Guillaume",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "575": {
+        "id": 575,
+        "surname": "Tissot",
+        "given_names": "Charles Louis",
+        "name_string": "Tissot, Charles Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "576": {
+        "id": 576,
+        "surname": "Traetta",
+        "given_names": "Tommaso",
+        "name_string": "Traetta, Tommaso",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "577": {
+        "id": 577,
+        "surname": "Trial",
+        "given_names": "Armand Emmanuel (fils)",
+        "name_string": "Trial, Armand Emmanuel (fils)",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "578": {
+        "id": 578,
+        "surname": "Trial",
+        "given_names": "Jean-Claude",
+        "name_string": "Trial, Jean-Claude",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "579": {
+        "id": 579,
+        "surname": "Tully",
+        "given_names": "Henri de",
+        "name_string": "Tully, Henri de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "580": {
+        "id": 580,
+        "surname": "Ussieux",
+        "given_names": "Louis d'",
+        "name_string": "Ussieux, Louis d'",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "581": {
+        "id": 581,
+        "surname": "Vachon",
+        "given_names": "Pierre",
+        "name_string": "Vachon, Pierre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "582": {
+        "id": 582,
+        "surname": "Vadé",
+        "given_names": "Jean Joseph",
+        "name_string": "Vadé, Jean Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "583": {
+        "id": 583,
+        "surname": "Valmalette",
+        "given_names": "J. de",
+        "name_string": "Valmalette, J. de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "584": {
+        "id": 584,
+        "surname": "Van Maldere",
+        "given_names": "Pierre",
+        "name_string": "Van Maldere, Pierre",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "585": {
+        "id": 585,
+        "surname": "Van der Burch",
+        "given_names": "Émile Louis",
+        "name_string": "Van der Burch, Émile Louis",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "586": {
+        "id": 586,
+        "surname": "Vandière",
+        "given_names": "Raoul Chapais, dit",
+        "name_string": "Vandière, Raoul Chapais, dit",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "587": {
+        "id": 587,
+        "surname": "Varlet",
+        "given_names": "Luce",
+        "name_string": "Varlet, Luce",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "588": {
+        "id": 588,
+        "surname": "Varner",
+        "given_names": "Antoine François",
+        "name_string": "Varner, Antoine François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "589": {
+        "id": 589,
+        "surname": "Vaëz",
+        "given_names": "Jean Nicolas Gustave van Nieuwenhuysen, dit Gustave",
+        "name_string": "Vaëz, Jean Nicolas Gustave van Nieuwenhuysen, dit Gustave",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "590": {
+        "id": 590,
+        "surname": "Vernoy de Saint-Georges",
+        "given_names": "Jules Henri",
+        "name_string": "Vernoy de Saint-Georges, Jules Henri",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "591": {
+        "id": 591,
+        "surname": "Vial",
+        "given_names": "Jean-Baptiste Charles",
+        "name_string": "Vial, Jean-Baptiste Charles",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "592": {
+        "id": 592,
+        "surname": "Vieillard",
+        "given_names": "Pierre Ange",
+        "name_string": "Vieillard, Pierre Ange",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "593": {
+        "id": 593,
+        "surname": "Villain de Saint-Hillaire",
+        "given_names": "Amable",
+        "name_string": "Villain de Saint-Hillaire, Amable",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "594": {
+        "id": 594,
+        "surname": "Villeblanche",
+        "given_names": "Armand de",
+        "name_string": "Villeblanche, Armand de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "595": {
+        "id": 595,
+        "surname": "Villeneuve",
+        "given_names": "Théodore Ferdinand Vallou de",
+        "name_string": "Villeneuve, Théodore Ferdinand Vallou de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "596": {
+        "id": 596,
+        "surname": "Villiers",
+        "given_names": "Mme",
+        "name_string": "Villiers, Mme",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "597": {
+        "id": 597,
+        "surname": "Villiers",
+        "given_names": "Pierre Antoine Jean-Baptiste",
+        "name_string": "Villiers, Pierre Antoine Jean-Baptiste",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "598": {
+        "id": 598,
+        "surname": "Violet d'Épagny",
+        "given_names": "Jean-Baptiste Rose Bonaventure",
+        "name_string": "Violet d'Épagny, Jean-Baptiste Rose Bonaventure",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "599": {
+        "id": 599,
+        "surname": "Vogel",
+        "given_names": "Charles Louis Adolphe",
+        "name_string": "Vogel, Charles Louis Adolphe",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "600": {
+        "id": 600,
+        "surname": "Vogler",
+        "given_names": "Georg Joseph",
+        "name_string": "Vogler, Georg Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "601": {
+        "id": 601,
+        "surname": "Voirin",
+        "given_names": "Charles",
+        "name_string": "Voirin, Charles",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "602": {
+        "id": 602,
+        "surname": "Véronèse",
+        "given_names": "Charles Antoine",
+        "name_string": "Véronèse, Charles Antoine",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "603": {
+        "id": 603,
+        "surname": "Wailly",
+        "given_names": "Jules de",
+        "name_string": "Wailly, Jules de",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "604": {
+        "id": 604,
+        "surname": "Walter",
+        "given_names": "Georg Antoine",
+        "name_string": "Walter, Georg Antoine",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "605": {
+        "id": 605,
+        "surname": "Watelet",
+        "given_names": "Claude Henri",
+        "name_string": "Watelet, Claude Henri",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "606": {
+        "id": 606,
+        "surname": "Weber",
+        "given_names": "Carl Maria von",
+        "name_string": "Weber, Carl Maria von",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "607": {
+        "id": 607,
+        "surname": "Weigl",
+        "given_names": "Joseph",
+        "name_string": "Weigl, Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "608": {
+        "id": 608,
+        "surname": "Wölffl",
+        "given_names": "Joseph",
+        "name_string": "Wölffl, Joseph",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "609": {
+        "id": 609,
+        "surname": "Ymbert",
+        "given_names": "Jacques Gilbert",
+        "name_string": "Ymbert, Jacques Gilbert",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "610": {
+        "id": 610,
+        "surname": "Zanuzzi",
+        "given_names": "François Antoine",
+        "name_string": "Zanuzzi, François Antoine",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "611": {
+        "id": 611,
+        "surname": "Zimmermann",
+        "given_names": "Pierre Joseph Guillaume",
+        "name_string": "Zimmermann, Pierre Joseph Guillaume",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "612": {
+        "id": 612,
+        "surname": "divers compositeurs",
+        "given_names": null,
+        "name_string": "divers compositeurs",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "613": {
+        "id": 613,
+        "surname": "vaudevilles",
+        "given_names": null,
+        "name_string": "vaudevilles",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "614": {
+        "id": 614,
+        "surname": "Ève",
+        "given_names": "Antoine François",
+        "name_string": "Ève, Antoine François",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    },
+    "615": {
+        "id": 615,
+        "surname": "Étienne",
+        "given_names": "Charles Guillaume",
+        "name_string": "Étienne, Charles Guillaume",
+        "wikidata_id": null,
+        "biblissima_id": null,
+        "bnf_id": null
+    }
+}
