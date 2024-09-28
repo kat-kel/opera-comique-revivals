@@ -1,0 +1,391 @@
+id,charlton_id,is_revision,is_borrowed,n_acts,creation_date,title
+1,1000,false,false,3,1816-11-16,La Journée aux aventures
+2,1004,false,true,3,1778-03-28,Le Jugement de Midas
+3,1018,false,false,1,1842-11-02,Le Kiosque
+4,1027,false,false,3,1843-09-14,Lambert Simnel
+5,1028,false,false,1,1830-12-11,La Langue musicale
+6,1030,false,false,1,1825-05-21,Le Lapin blanc ou Toby
+7,1044,false,false,3,1823-01-25,Leicester ou le Château de Kenilworth
+8,1045,false,false,3,1824-11-04,Léocadie
+9,1050,false,false,1,1821-11-27,Léonore et Félix ou C'est la même !
+10,1052,false,false,1,1838-03-21,Lequel ?
+11,1053,false,false,4,1834-05-24,Lestocq ou l'Intrigue et l'amour
+12,1055,false,false,1,1815-12-11,La Lettre de change
+13,1056,false,false,1,1827-04-24,La Lettre posthume
+14,1064,false,false,2,1831-08-11,Le Livre de l'ermite
+15,1067,false,false,3,1791-07-18,Lodoïska
+16,1073,false,false,1,1827-03-10,Le Loup-garou
+17,1080,false,false,2,1833-05-16,Ludovic
+18,1081,false,false,1,1812-02-27,Lulli et Quinault ou le Déjeuner impossible
+19,1084,false,false,1,1836-06-30,Le Luthier de Vienne
+20,1086,false,false,3,1803-01-13,Ma Tante Aurore ou le Roman impromptu
+21,1089,false,false,3,1825-05-03,Le Maçon
+22,1099,false,false,1,1841-12-14,Mademoiselle de Mérange
+23,1103,false,false,2,1811-11-04,Le Magicien sans magie
+24,1105,false,false,3,1773-03-04,Le Magnifique
+25,1107,false,false,3,1841-10-26,La Main de fer ou Un mariage secret
+26,1108,false,false,1,1800-10-23,Maison à vendre
+27,1110,false,false,2,1797-05-11,La Maison isolée ou le Vieillard des Vosges
+28,1115,false,false,2,1821-03-29,Le Maître de chapelle ou le Souper imprévu
+29,1122,false,false,1,1847-05-18,Le Malheur d'être jolie
+30,1128,false,false,1,1832-03-01,Le Mannequin de Bergame
+31,1131,false,false,1,1838-12-31,La Mantille
+32,1135,false,false,3,1834-10-31,Le Marchand forain
+33,1138,false,false,1,1823-08-02,Le Maréchal Fabert ou Une petite aventure d'un grand homme
+34,1140,false,false,3,1838-06-18,Marguerite
+35,1142,false,false,1,1845-10-25,Le Mari au bal
+36,1144,false,false,1,1813-03-18,Le Mari de circonstance
+37,1145,false,false,1,1828-03-04,Le Mariage à l'anglaise
+38,1151,false,false,1,1823-02-19,Le Mariage difficile ou les Deux Cousins
+39,1160,false,false,1,1796-07-07,Marianne ou l'Amour maternel
+40,1161,false,false,3,1826-08-12,Marie
+41,1164,false,false,3,1823-08-30,Marie Stuart en Écosse ou le Château de Douglas
+42,1170,false,false,1,1806-07-15,Les Maris garçons
+43,1174,false,false,1,1835-02-28,La Marquise
+44,1175,false,true,3,1831-10-31,La Marquise de Brinvilliers
+45,1177,false,false,4,1827-12-27,Masaniello ou le Pêcheur napolitain
+46,1179,false,false,2,1841-06-17,La Maschera
+47,1189,false,false,1,1835-10-01,Le Mauvais Œil
+48,119,false,false,1,1827-01-30,L'Artisan
+49,1194,false,false,1,1803-11-19,Le Médecin turc
+50,1195,false,false,1,1832-10-17,La Médecine sans médecin
+51,1200,false,false,1,1781-01-23,La Mélomanie
+52,1203,false,false,3,1845-08-09,Le Ménétrier ou les Deux Duchesses
+53,1208,false,false,3,1786-11-07,Les Méprises par ressemblance
+54,1213,false,false,1,1802-12-11,Michel-Ange
+55,1214,false,false,1,1835-06-29,Micheline ou l'Heure de l'Esprit
+56,1219,false,false,3,1843-10-10,Mina ou le Ménage à trois
+57,1233,false,false,3,1806-02-17,Monsieur Deschalumeaux ou la Soirée de carnaval
+58,1234,false,false,3,1799-04-15,Montano et Stéphanie
+59,1235,false,false,3,1849-03-31,Les Monténégrins
+60,1236,false,false,1,1831-03-07,Le Morceau d'ensemble
+61,1237,false,false,1,1833-01-16,Le Mort fiancé
+62,1239,false,false,1,1849-11-09,Le Moulin des tilleuls
+63,1240,false,false,1,1844-10-14,Le Mousequetaire
+64,1241,false,false,3,1846-02-03,Les Mousquetaires de la reine
+65,1244,false,false,1,1823-05-12,Le Muletier
+66,125,false,false,2,1834-06-11,L'Aspirant de marine
+67,1250,false,false,3,1822-07-27,Nadir et Selim ou les Deux Artistes
+68,1254,false,false,3,1847-01-16,Ne touchez pas à la reine !
+69,1257,false,false,3,1821-10-15,Le Négociant de Hambourg
+70,1260,false,false,4,1823-10-08,La Neige ou le Nouvel Eginhard
+71,1264,false,false,1,1786-05-15,Nina ou la Folle par amour
+72,1266,false,false,1,1808-09-26,Ninon chez Madame de Sévigné
+73,1280,false,false,1,1813-06-29,Le Nouveau Seigneur de village
+74,1287,false,false,3,1848-02-09,La Nuit de Noël ou l'Anniversaire
+75,1294,false,false,1,1819-05-04,L'Officier enlevé ou l'Enlèvement singulier
+76,1295,false,false,1,1824-07-31,L'Officier et le paysan
+77,1304,false,false,1,1843-04-28,On ne s'avise jamais de tout
+78,1307,false,true,1,1840-07-16,L'Opéra à la cour
+79,1310,false,false,1,1798-07-09,L'Opéra-Comique
+80,1312,false,false,1,1844-02-28,Oreste et Pylade
+81,1318,false,false,2,1827-10-13,L'Orphelin et le brigadier
+82,132,false,false,1,1830-05-27,Attendre et courir
+83,1328,false,false,1,1839-05-06,Le Panier fleuri
+84,1329,false,true,1,1821-04-30,Le Panorama de Paris ou C'est fête partout !
+85,1334,false,false,3,1822-03-23,Le Paradis de Mahomet ou la Pluralité des femmes
+86,1338,false,false,1,1824-05-13,Le Pari de la duchesse d'Alençon
+87,1341,false,false,3,1843-01-16,La Part du diable
+88,1349,false,false,1,1832-11-05,Le Passage du régiment
+89,1352,false,false,3,1791-01-15,Paul et Virginie
+90,1357,false,false,1,1822-05-13,Le Pavillon des fleurs ou les Pêcheurs de Grenade
+91,1370,false,false,1,1841-03-25,Le Pendu
+92,1373,false,false,2,1825-03-05,Le Pensionnat de jeunes demoiselles
+93,1380,false,false,1,1840-04-28,La Perruche
+94,1382,false,false,3,1838-03-30,Le Perruquier de la Régence
+95,1383,false,false,3,1818-06-30,Le Petit Chaperon rouge
+96,1386,false,false,1,1796-01-07,Le Petit Matelot ou le Mariage impromptu
+97,1388,false,false,1,1822-02-21,Le Petit Souper
+98,139,false,false,1,1830-05-11,L'Auberge d'Auray
+99,1393,false,false,1,1827-07-09,Les Petits Appartements
+100,1397,false,false,1,1791-12-28,Philippe et Georgette
+101,1399,false,false,3,1821-08-16,Le Philosophe en voyage
+102,14,false,false,1,1822-12-19,Les Adieux au public
+103,140,false,false,3,1807-04-23,L'Auberge de Bagnères
+104,1403,false,false,1,1803-05-03,Picaros et Diego
+105,1407,false,false,1,1829-02-09,Pierre et Catherine
+106,141,false,false,3,1824-04-26,L'Auberge supposée
+107,1411,false,false,3,1837-10-31,Piquillo
+108,1416,false,false,2,1839-03-01,Le Planteur
+109,142,false,false,3,1812-06-17,Les Aubergistes de qualité
+110,1422,false,false,1,1831-12-16,Le Podestat
+111,1428,false,false,1,1839-06-14,Polichinelle
+112,1432,false,false,1,1836-11-08,Les Pontons de Cadix
+113,1434,false,false,3,1835-06-16,Le Porte-faix
+114,1439,false,false,3,1836-10-13,Le Postillon de Lonjumeau
+115,1444,false,false,3,1832-12-15,Le Pré-aux-clercs
+116,1450,false,false,1,1832-11-24,Le Premier pas
+117,1452,false,false,3,1818-09-28,Le Premier venu ou Six Lieues de chemin
+118,1469,false,false,3,1833-07-20,La Prison d'Edimbourg
+119,147,false,false,1,1820-12-18,L'Auteur mort et vivant
+120,1470,false,false,1,1798-01-29,Le Prisonnier ou la Ressemblance
+121,1472,false,false,1,1828-02-06,Le Prisonnier d'état
+122,1476,false,false,1,1825-11-04,Le Projet de pièce ou les Deux Mousquetaires
+123,1479,false,false,3,1833-09-18,Le Proscrit ou le Tribunal invisible
+124,1486,false,true,1,1782-04-09,Le Public vengé
+125,1487,false,false,3,1843-04-20,Le Puits d'amour
+126,149,false,false,1,1840-09-02,L'Automate de Vaucanson
+127,1493,false,false,3,1844-07-15,Les Quatre Fils Aymon
+128,1503,false,false,3,1789-10-31,"Raoul, Sire de Créqui"
+129,1513,false,false,2,1839-01-17,Régine ou Deux nuits
+130,1515,false,false,3,1839-09-19,La Reine d'un jour
+131,1517,false,false,3,1840-10-12,La Reine Jeanne
+132,1518,false,false,3,1837-08-11,Le Remplaçant
+133,1520,false,false,2,1787-07-19,Renaud d'Ast
+134,1523,false,false,3,1828-06-11,Les Rencontres ou le Même Roman
+135,1527,false,false,1,1807-05-09,Les Rendez-vous bourgeois
+136,153,false,false,2,1806-11-22,Avis au public ou le Physionomiste en défaut
+137,1544,false,false,2,1833-12-31,Le Revenant
+138,1546,false,false,1,1848-03-21,Le Rêveur éveillé
+139,1550,false,false,3,1784-10-21,Richard Cœur-de-Lion
+140,1559,false,false,1,1819-12-24,Les Rivaux de village ou la Cruche cassée
+141,1560,false,false,3,1821-06-18,Robin des bois
+142,1563,false,false,1,1836-05-13,Rock le Barbu
+143,157,false,false,3,1786-10-17,Azémia ou les Sauvages
+144,1571,false,false,3,1842-10-13,Le Roi d'Yvetot
+145,1572,false,false,1,1831-10-17,Le Roi de Sicile
+146,1574,false,false,1,1827-11-03,Le Roi et le batelier
+147,1577,false,false,2,1824-08-24,Le Roi René ou la Provence au Xve siècle
+148,1583,false,false,3,1801-10-19,Roméo et Juliette
+149,1589,false,false,3,1840-12-17,La Rose de Péronne
+150,1596,false,false,3,1817-01-27,Les Rosières
+151,16,false,false,1,1799-02-10,Adolphe et Clara ou les Deux Prisonniers
+152,1605,false,false,3,1849-07-07,La Saint-Sylvestre
+153,1606,false,false,3,1844-09-19,La Sainte-Cécile
+154,1612,false,false,1,1827-05-19,Sangarido
+155,1619,false,false,2,1836-04-26,Sarah ou l'Orpheline de Glencoë
+156,1621,false,false,4,1788-05-14,Sargines ou l'Élève de l'amour
+157,1631,false,false,1,1796-04-20,Le Secret
+158,1634,false,false,1,1813-02-27,Le Séjour militaire
+159,1635,false,false,1,1834-12-01,La Sentinelle perdue
+160,1639,false,false,1,1818-04-02,La Sérénade
+161,1644,false,false,3,1839-09-02,Le Shérif
+162,1648,false,false,3,1848-08-24,Il Signor Pascarello
+163,1649,false,false,1,1770-02-19,Silvain
+164,1652,false,false,3,1844-03-26,La Sirène
+165,1655,false,false,1,1823-07-05,Les Sœurs jumelles
+166,1658,false,false,1,1790-05-29,La Soirée orageuse
+167,1664,false,false,3,1822-08-17,Le Solitaire
+168,1676,false,false,1,1833-01-25,Le Souper du mari
+169,1679,false,false,1,1848-09-13,La Sournoise
+170,1680,false,false,1,1833-03-04,Les Souvenirs de Lafleur
+171,1687,false,false,1,1792-05-03,Stratonice
+172,169,false,false,1,1844-05-08,Le Bal du Sous-préfet
+173,1697,false,false,1,1847-02-08,Le Sultan Saladin
+174,1698,false,false,1,1846-09-16,Sultana
+175,1708,false,false,1,1839-10-12,La Symphonie ou Maître Albert
+176,1711,false,false,1,1829-12-24,Le Table et le logement
+177,1713,false,false,1,1769-09-20,Le Tableau parlant
+178,1722,false,false,5,1832-02-06,Térésa
+179,1724,false,false,1,1819-09-18,Le Testament et les billets doux
+180,1729,false,false,2,1838-09-26,Thérèse
+181,1733,false,false,1,1826-05-30,Le Timide ou le Nouveau séducteur
+182,1741,false,true,1,1801-05-19,Le Tonnelier
+183,1742,false,false,2,1849-05-18,Le Toréador ou l'Accord parfait
+184,1746,false,false,1,1797-06-23,Le Traité nul
+185,1747,false,false,1,1839-11-16,Les Travestissements
+186,1749,false,false,3,1839-04-15,Les Treize
+187,1752,false,false,1,1802-07-29,Le Trésor supposé ou le Danger d'écouter aux portes
+188,1765,false,false,1,1830-08-21,Trois Jours en une heure
+189,1772,false,false,1,1846-05-15,Le Trompette de Monsieur le prince
+190,1777,false,false,1,1819-02-18,Les Troqueurs
+191,1783,false,false,1,1834-07-23,Un caprice de femme
+192,1784,false,false,1,1838-02-20,Un conte d'autrefois
+193,1785,false,false,3,1808-05-24,Un jour à Paris ou la Leçon singulière
+194,1787,false,false,1,1828-11-06,Un jour de réception
+195,1793,false,false,1,1834-01-23,Une Bonne fortune
+196,1795,false,false,2,1802-04-05,Une folie
+197,1796,false,false,1,1826-12-26,Une heure d'absence
+198,1797,false,false,1,1804-03-20,Une heure de mariage
+199,1798,false,false,3,1833-11-07,Une journée de la Fronde ou la Maison du rempart
+200,1803,false,false,1,1818-08-05,Une nuit au château
+201,1808,false,false,2,1827-09-29,Une nuit de Gustave Wasa ou le Batelier suédois
+202,1809,false,false,3,1816-05-11,L'Une pour l'autre ou l'Enlèvement
+203,1810,false,false,1,1845-05-28,Une voix
+204,1817,false,false,3,1848-09-11,Le Val d'Andorre
+205,1820,false,false,3,1822-11-28,Valentine de Milan
+206,1821,false,false,1,1823-09-16,Le Valet de chambre
+207,1830,false,false,1,1831-02-14,La Vieille
+208,1837,false,false,1,1846-05-27,Le Veuf de Malabar
+209,1844,false,false,1,1826-03-14,La Vieille
+210,1848,false,false,3,1828-10-07,La Violette
+211,1851,false,false,2,1792-07-07,Les Visitandines
+212,1856,false,false,2,1808-04-26,Les Voitures versées
+213,186,false,false,3,1845-04-22,La Barcarolle ou l'Amour et la musique
+214,1862,false,false,1,1825-08-20,Le Voyage de cour ou les Absents ont tort
+215,1864,false,false,1,1819-07-01,Le Voyage incognito
+216,1866,false,false,3,1817-03-24,Wallace ou le Ménestrel écossais
+217,1873,false,false,3,1831-05-03,Zampa ou la Fiancée de marbre
+218,1874,false,false,3,1840-05-18,Zanetta ou Jouer avec le feu
+219,1878,false,false,4,1771-11-09,Zémire et Azor
+220,1882,false,false,3,1798-05-10,Zoraïme et Zulnar
+221,1885,false,false,1,1838-12-10,Zurich
+222,20,false,false,1,1841-08-17,L'Äieule
+223,214,false,false,3,1800-06-08,Beniowski ou les Exilés du Kamtschatka
+224,219,false,false,3,1820-01-27,La Bergère châtelaine
+225,222,false,false,1,1845-02-10,Les Bergers trumeaux
+226,225,false,false,1,1811-09-14,Le Billet de loterie
+227,228,false,false,2,1783-04-04,Blaise et Babet ou la Suite des Trois Fermiers
+228,24,false,false,3,1824-08-10,L'Alcade de la Véga
+229,241,false,false,1,1837-09-22,Le Bon Garçon
+230,251,false,false,1,1804-06-21,Le Bouffe et le tailleur
+231,254,false,false,3,1847-04-27,Le Bouquet de l'infante
+232,259,false,false,1,1825-06-07,Le Bourgeois de Reims
+233,26,false,false,1,1835-07-08,Alda
+234,263,false,false,1,1847-10-29,Le Braconnier
+235,265,false,false,3,1838-10-31,Le Brasseur de Preston
+236,277,false,false,3,1847-08-10,La Cachette
+237,281,false,false,3,1844-02-10,Cagliostro
+238,283,false,false,2,1849-01-03,Le Caïd
+239,284,false,false,1,1800-09-16,Le Calife de Bagdad
+240,288,false,false,3,1791-03-19,Camille ou le Souterrain
+241,29,false,false,3,1803-09-03,"Aline, reine de Golconde"
+242,290,false,false,3,1828-02-23,Le Camp du drap d'or
+243,298,false,false,1,1825-03-24,Le Capitaine Belronde
+244,30,false,false,1,1847-03-13,Alix
+245,305,false,false,1,1846-08-05,Le Caquet du couvent
+246,306,false,false,1,1821-02-19,Les Caquets
+247,309,false,false,3,1840-02-24,Carline
+248,332,false,false,3,1810-02-22,Cendrillon
+249,335,false,false,1,1840-06-17,Le Cent-Suisse
+250,342,false,false,1,1834-09-25,Le Châlet
+251,343,false,false,1,1813-04-29,La Chambre à coucher ou Une demi-heure de Richelieu
+252,353,false,false,3,1836-04-09,Les Chaperons blancs
+253,356,false,false,3,1845-10-13,La Charbonnière
+254,36,false,false,2,1820-06-08,L'Amant et le mari
+255,360,false,false,1,1811-01-24,Le Charme de la voix
+256,364,false,false,1,1834-01-14,Le Château d'Urtuby
+257,367,false,false,3,1798-10-15,Le Château de Monténéro
+258,37,false,false,3,1778-11-20,L'Amant jaloux
+259,375,false,false,3,1835-03-23,Le Cheval de bronze
+260,378,false,false,3,1836-08-06,Le Chevalier de Canolle
+261,393,false,false,2,1833-06-15,Cinq ans d'entr'acte
+262,408,false,false,3,1817-10-18,La Clochette ou le Diable page
+263,413,false,false,3,1842-06-09,Le Code noir
+264,425,false,false,3,1827-11-22,Le Colporteur ou l'Enfant du bucheron
+265,431,false,false,2,1787-11-13,Le Comte d'Albert
+266,435,false,false,1,1824-06-03,Le Concert à la cour ou la Débutante
+267,436,false,false,1,1802-05-31,Le Concert interrompu
+268,444,false,false,1,1842-08-23,Le Conseil des Dix
+269,449,false,false,1,1822-09-11,Le Coq de village
+270,45,false,false,2,1830-11-15,L'Amazone
+271,453,false,false,3,1820-07-29,Corisandre ou la Rose magique
+272,459,false,false,2,1835-10-13,Cosimo
+273,46,false,false,1,1845-11-25,L'Amazone
+274,469,false,false,3,1826-10-14,Les Créoles
+275,47,false,false,3,1836-12-21,L'Ambassadrice
+276,48,false,false,2,1793-01-12,Ambroise ou Voilà ma journée
+277,480,false,false,3,1825-12-10,La Dame blanche
+278,481,false,false,1,1838-10-04,La Dame d'honneur
+279,490,false,false,3,1830-04-23,Danilowa
+280,51,false,false,3,1771-10-26,L'Ami de la maison
+281,512,false,false,1,1799-12-07,Le Délire ou les Suites d'une erreur
+282,517,false,false,3,1769-03-06,Le Déserteur
+283,525,false,false,2,1787-01-08,Les Dettes
+284,532,false,false,1,1848-12-04,Les Deux Bambins
+285,533,false,false,1,1843-02-03,Les Deux Bergères
+286,537,false,false,2,1824-03-06,Les Deux Contrats de mariage
+287,540,false,false,3,1831-01-11,Les Deux Familles
+288,541,false,false,1,1844-08-17,Les Deux Gentilshommes
+289,543,false,false,1,1813-03-27,Les Deux Jaloux
+290,544,false,false,3,1800-01-16,Les Deux Journées ou le Porteur d'eau
+291,549,false,false,1,1806-06-09,Deux Mots ou Une nuit dans la forêt
+292,550,false,false,1,1824-12-22,Les Deux Mousquetaires ou la Robe de chambre
+293,551,false,false,3,1829-05-20,Les Deux Nuits
+294,554,false,false,1,1789-01-14,Les Deux Petits Savoyards
+295,557,false,false,1,1835-08-06,Les Deux Reines
+296,564,false,false,2,1784-05-08,Les Deux Tuteurs
+297,566,false,false,1,1841-06-26,Les Deux Voleurs
+298,57,false,false,1,1823-04-14,Amour et colère
+299,570,false,false,1,1842-01-17,Le Diable à l'école
+300,573,false,false,3,1809-11-30,Le Diable à quatre ou la Femme acariâtre
+301,574,false,false,1,1831-01-29,Le Diable à Seville
+302,577,false,false,2,1836-09-07,Le Diadesté ou la Gageure arabe
+303,579,false,false,3,1841-03-06,Les Diamants de la couronne
+304,582,false,false,1,1829-11-07,Le Dilettante d'Avignon
+305,601,false,false,3,1837-12-02,Le Domino noir
+306,61,false,false,1,1792-03-07,L'Amour filial ou la Jambe de bois
+307,614,false,false,3,1785-11-08,La Dot
+308,618,false,false,1,1837-08-23,La Double Échelle
+309,622,false,false,1,1823-12-12,Le Duc d'Aquitaine ou le Retour
+310,623,false,false,3,1842-02-04,Le Duc d'Olonne
+311,624,false,false,3,1826-07-04,Le Duel ou Une loi de Frédéric
+312,629,false,false,2,1839-01-30,L'Eau merveilleuse
+313,631,false,false,1,1808-08-22,L'Échelle de soie
+314,632,false,false,3,1835-12-16,L'Éclair
+315,640,false,false,1,1819-08-05,Edmond et Caroline ou la Lettre et la réponse
+316,643,false,false,1,1840-04-24,L'Élève de Presbourg
+317,650,false,false,1,1829-09-28,Emeline
+318,651,false,false,3,1821-07-07,Emma ou la Promesse imprudente
+319,662,false,false,3,1825-08-06,Les Enfants de Maître Pierre
+320,664,false,false,3,1830-10-26,L'Enlèvement ou les Guelfes et les Gibelins
+321,666,false,false,1,1824-12-02,Les Enlèvements imprévus
+322,673,false,false,2,1784-06-24,L'Épreuve villageoise
+323,681,false,false,1,1843-12-01,L'Esclave de Camoëns
+324,687,false,false,3,1827-03-31,Ethelvina ou l'Exilé
+325,694,false,false,5,1790-09-04,Euphrosine ou le Tyran corrigé
+326,695,false,false,2,1839-12-09,Eva
+327,696,false,false,3,1779-11-11,Les Événements imprévus
+328,699,false,false,1,1828-11-29,L'Exil de Rochester
+329,706,false,false,1,1822-10-29,Fanfan et Colas ou les Frères de lait
+330,714,false,false,2,1825-07-12,La Fausse Croisade ou l'Habit de page
+331,717,false,false,2,1775-02-01,La Fausse Magie
+332,727,false,false,3,1849-10-01,La Fée aux roses
+333,729,false,false,3,1815-02-28,Félicie ou la Jeune fille romanesque
+334,730,false,false,3,1777-11-10,Félix ou l'Enfant trouvé
+335,740,false,false,1,1808-10-22,Les Femmes vengées
+336,762,false,false,3,1816-03-05,La Fête du village voisin
+337,767,false,false,3,1829-01-10,La Fiancée
+338,771,false,false,3,1838-01-11,Le Fidèle Berger
+339,774,false,false,5,1838-08-24,La Figurante ou l'Amour et la danse
+340,779,false,false,2,1840-02-11,La Fille du régiment
+341,784,false,false,2,1834-08-28,Le Fils du prince
+342,787,false,false,3,1826-09-28,Fiorella
+343,791,false,true,1,1823-08-24,Les Fleurs du château
+344,8,false,false,1,1836-01-23,Actéon
+345,80,false,false,1,1837-06-23,L'An Mil
+346,811,false,false,3,1830-01-28,Fra Diavolo ou l'Hôtellerie de Terracine
+347,819,false,false,3,1809-01-28,Françoise de Foix
+348,821,false,false,1,1841-07-07,Frère et mari
+349,822,false,false,1,1818-01-20,Le Frère Philippe
+350,834,false,false,1,1836-01-14,Gasparo
+351,843,false,false,3,1846-09-19,Gibby la cornemuse
+352,845,false,false,1,1848-02-21,Gille ravisseur
+353,851,false,false,2,1833-04-19,Les Gondoliers
+354,855,false,false,3,1831-07-09,Le Grand Prix ou le Voyage à frais communs
+355,857,false,false,3,1835-11-16,La Grande Duchesse
+356,86,false,false,1,1843-05-10,Angélique et Médor
+357,861,false,false,1,1820-09-09,La Grille du parc ou le Premier Parti
+358,866,false,false,3,1791-04-09,Guillaume Tell
+359,868,false,false,3,1837-09-08,Guise ou les Etats de Blois
+360,869,false,false,3,1841-01-21,Le Guitarrero
+361,871,false,false,3,1805-09-30,Gulistan ou le Hulla de Samarcande
+362,872,false,false,1,1797-12-30,Gulnare ou l'Esclave persane
+363,876,false,false,1,1801-01-08,L'Habit du chevalier de Grammont
+364,877,false,false,1,1821-09-11,L'Habit retourné
+365,88,false,false,1,1834-07-07,L'Angélus
+366,880,false,false,3,1847-12-28,Haydée ou le Secret
+367,897,false,false,3,1812-01-07,L'Homme sans fançons ou les Contrariétés
+368,906,false,false,3,1820-11-25,L'Idiote
+369,913,false,false,1,1829-07-18,L'Illusion
+370,926,false,false,1,1823-01-02,Les Infidèles
+371,927,false,false,1,1841-06-02,L'Ingénue
+372,929,false,false,1,1834-10-15,Hommage à Boieldieu
+373,931,false,false,3,1823-06-14,L'Intrigue au château
+374,932,false,false,1,1805-02-25,L'Intrigue aux fenêtres
+375,936,false,false,1,1801-02-17,L'Irato ou l'Emporté
+376,952,false,false,1,1808-10-29,Jadis et aujourd'hui
+377,964,false,false,2,1812-04-04,Jean de Paris
+378,965,false,false,1,1792-12-03,Jean et Geneviève
+379,967,false,false,3,1790-05-10,Jeanne d'Arc à Orléans
+380,968,false,false,3,1814-10-17,Jeannot et colin
+381,969,false,false,3,1829-09-26,Jenny
+382,971,false,false,2,1823-03-10,Jenny la bouquetière
+383,976,false,false,1,1805-04-18,La Jeune Femme colère
+384,978,false,false,1,1821-04-10,Le Jeune Oncle
+385,979,false,false,1,1804-01-14,La Jeune Prude ou les Femmes entre elles
+386,981,false,false,1,1820-10-18,La Jeune Tante
+387,983,false,false,2,1841-12-01,La Jeunesse de Charles-Quint
+388,990,false,false,3,1814-02-28,Joconde ou les Coureurs d'aventures
+389,995,false,false,3,1807-02-17,Joseph
+390,997,false,false,1,1830-12-02,Joséphine ou le Retour de Wagram
