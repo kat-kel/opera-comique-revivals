@@ -128,7 +128,7 @@ class Dataset:
         self.author_attribute_names = ["author1", "author2", "author3"]
         self.rewriter_attribute_names = ["rewriter1", "rewriter2", "rewriter3"]
 
-    def person_matcher(self, namestring: str) -> Person | None:
+    def person_matcher(self, namestring: str) -> Person:
         if namestring and namestring != "0":
             return self.person_dict[namestring]
 
@@ -207,19 +207,21 @@ def main():
             performances.update(
                 {perf_date: {"source": row.source, "date": perf_date, "works": []}}
             )
-        performances[perf_date]["works"].append(work.charlton_id)
+        performances[perf_date]["works"].append(int(work.charlton_id))
 
     with open("data/perfomances.json", "w") as f:
         json.dump(performances, fp=f, indent=4)
 
     works_json = {}
-    for id, w in sorted(works.items()):
+    for id_str, w in sorted(works.items()):
+        id = int(id_str)
         d = {k: v for k, v in zip(Work._fields, w)}
         composers = [{k: v for k, v in zip(Person._fields, c)} for c in d["composers"]]
         authors = [{k: v for k, v in zip(Person._fields, c)} for c in d["authors"]]
         d.update({"composers": composers})
         d.update({"authors": authors})
-        d.update({"adapters": [], "arrangers": []})
+        d.update({"adapters": [], "arrangers": [], "notes": None})
+        d.update({"charlton_id": id})
         works_json.update({id: d})
     with open("data/works_from_rep_dataset.json", "w") as f:
         json.dump(works_json, fp=f, indent=4, ensure_ascii=False)
@@ -230,8 +232,8 @@ def main():
             p = Person(*d)
             persons.update(
                 {
-                    p.id: {
-                        "id": p.id,
+                    int(p.id): {
+                        "id": int(p.id),
                         "surname": p.surname,
                         "given_names": p.given_names,
                         "name_string": name_string,
