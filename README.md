@@ -2,6 +2,8 @@
 
 Explorative data visualizations about revivals at the Opéra-Comique in the nineteenth century (with a focus on orchestration).
 
+![age distribution](vis/perfs.png)
+
 ![stats per month](vis/ages.png)
 
 > Note: Preliminary analyses suggest the age / canonization of pieces mounted each month became less stable after 1830, as the skewness and stardard deviation of the works' ages changed.
