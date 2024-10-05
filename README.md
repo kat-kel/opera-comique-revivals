@@ -1,71 +1,64 @@
 # opera-comique-revivals
 
-Explorative data visualizations about revivals at the Opéra-Comique in the nineteenth century (with a focus on orchestration)
+Explorative data visualizations about revivals at the Opéra-Comique in the nineteenth century (with a focus on orchestration).
 
-## Data architecture
+![stats per month](vis/ages.png)
+
+> Note: Preliminary analyses suggest the age / canonization of pieces mounted each month became less stable after 1830, as the skewness and stardard deviation of the works' ages changed.
+
+## Data Architecture
+
+The WEMI (Work, Expression, Manifestation, Item) model is adopted in order to align the data recorded in this project with the international scholarly community's F.A.I.R. principles: Findable, Accesible, Interoperable, and Reusable.
+
+---
+
+### Core Entities
+
+Only a selection of attributes are shown below.
 
 ```mermaid
 erDiagram
-
-    PERSON {
-        varchar surname
-        varchar given_names
-        varchar wikidata_id
-    }
-    ACTIVITY {
-        varchar is_about
-    }
-    ACTIVITY }|--|{ PERSON : carried_out_by
-    ACTIVITY }|--|{ EXPRESSION : use_specific_object
-    EXPRESSION {
-        varchar title
-        integer number_of_acts
-        boolean borrowed_music
-        date first_performance
-        boolean is_revision
-    }
+    
     WORK {
+        uid id PK
         varchar title
-        varchar language
+        varchar viaf_id
         varchar charlton_id
+        date date_of_creation
     }
-    EXPRESSION }|--|| WORK : expression_of
+
+    WORK ||--|{ EXPRESSION : expresses
+    EXPRESSION {
+        uid id PK
+        uid expresses FK
+        integer number_of_acts
+        varchar title
+        date date_of_creation
+    }
+
+    MANIFESTATION }|--|{ EXPRESSION : manifests
     MANIFESTATION {
-        date date
-        varchar primary_source
+        uid id PK
+        uid manifests FK
+        date date_of_performance
     }
-    MANIFESTATION }|--|{ EXPRESSION : manifestation_of
 
 ```
 
-### PERSON
+### Work
 
-An individual actor who created something.
+"An abstract notion of an artistic or intellectual creation." ([Dublin Core](https://ns.dublincore.org/openwemi/Work))
 
-|id| surname | given_names | wikidata_id |
-|--|---|---|---|
-|unique ID |last name|first name(s)|ID of person in WikiData database, if available|
+The conceptuatlization of an original opera, on which are based reorchestrations. Every **Work** has at least one **Expression**, its global premiere. In the ontology of this project's model, an **Expression** that has changed the genre and/or language of the **Work** on which it is based is an expression of a new **Work**. Reorchestrations, however, in which the genre and language are kept the same, do not constitute a new **Work**.
 
-### ACTION
+### Expression
 
-A creative action involving an individual (Person) and which produced an expression of a work.
+"A perceivable form of the creation." ([Dublin Core](https://ns.dublincore.org/openwemi/Expression))
 
-|id|involved|resulted_in|as_librettist|as_composer|as_orchestrator|
-|--|--|--|--|--|--|
-|unique ID|unique ID of the person who created something|unique ID of the expression of a work that the person helped create|whether the person's creative action was to write lyrics and/or dialogue for the expression of a work|whether the person's creative action was to write music for the expression of a work|whether the person's creative action was to orchestrate music |
+The realization of an operatic work in some finalized form. Every **Work** is expressed by an **Expression**, the first of which is considered "authoritative." Multiple **Expressions** can express the same **Work**, thus involving new actors in the creative realization of the core **Work**. In this project's ontology, all **Expressions** of a **Work** must have the same language and genre, as in the case of reorchestration or revision. Musicologists sometimes call such subsequent **Expressions** "works" in their own right, but in the WEMI model, derivative **Expressions**, along with the "authoritative" **Expression** of the original work, are of the ontological type **Expression.**
 
-### EXPRESSION
+### Manifestation
 
-An expression of a work. Typically, there is but one expression of a work, and so this concept is confounded with work. It includes original works, created by authors, as well as revisions of those works.
+"The physical embodiment of a creation." ([Dublin Core](https://ns.dublincore.org/openwemi/Manifestation))
 
-|id| title | number_of_acts | borrowed_music | first_performance | charlton_id |
-|--|---|---|---|---|---|
-|unique ID|title according to Charlton and Wild dictionary (2005)| count of acts | whether the work has borrowed music, i.e. vaudevilles | date of the first performance, regardless of context, i.e. public and private | ID of the entry in Charlton and Wild's dictionary (2005)|
-
-### MANIFESTATION
-
-The performance or manifestation at a certain place and time of a creative work (Production).
-
-|id|date|work_performed|place|primary_source|
-|--|--|--|--|--|
-|unique ID|date of the performance|work performed on this day|place|primary source attesting to the performance|
+In the case of opera, the temporal event in which the **Expression** was manifest before an audience, also known as the performance.
