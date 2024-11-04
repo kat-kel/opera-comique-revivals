@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>Instrumentation Encoding of Une heure de mariage</title>
+                <composer></composer>
+                <librettist></librettist>
+                <respStmt>
+                    <persName role="encoder">Kelly Christensen</persName>
+                </respStmt>
+            </titleStmt>
+            <pubStmt></pubStmt>
+            <sourceDesc>
+                <source>
+                    <bibl>
+                        <identifier type="URI">
+                            https://gallica.bnf.fr/ark:/12148/bpt6k91166891</identifier>
+                        <title>Une heure de mariage</title>
+                        <librettist>
+                            <persName role="librettist">LIBRETTIST</persName>
+                        </librettist>
+                        <composer>
+                            <persName role="composer">COMPOSER</persName>
+                        </composer>
+                    </bibl>
+                </source>
+                <source>
+                    <bibl>
+                        <identifier type="URI">
+                            https://gallica.bnf.fr/ark:/12148/bpt6k91166891</identifier>
+                    </bibl>
+                </source>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application version="v1.0" xml:id="mei40To50.xsl">
+                    <name>mei40To50.xsl</name>
+                    <ptr
+                        target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl" />
+                </application>
+                <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+                    <name>meiLint.xsl</name>
+                    <ptr
+                        target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl" />
+                </application>
+            </appInfo>
+            <classDecls>
+                <taxonomy>
+                    <bibl>Charlton Wild</bibl>
+                    <category xml:id="CHARLTON_1797">
+                        <label>1797</label>
+                    </category>
+                </taxonomy>
+            </classDecls>
+        </encodingDesc>
+        <workList>
+            <work n="1" xml:id="work1">
+                <title>Ouverture</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="hn">Corni in re</perfRes>
+                        <perfRes codedval="fl">Flauti</perfRes>
+                        <perfRes codedval="cl">Clarini</perfRes>
+                        <perfRes codedval="vl">Viol. 1</perfRes>
+                        <perfRes codedval="vl">Viol. 2</perfRes>
+                        <perfRes codedval="va">Alto</perfRes>
+                        <perfRes codedval="bs">Fagotti</perfRes>
+                        <perfRes codedval="vc">Bassi</perfRes>
+                        <perfRes codedval="cb">Bassi</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="2" xml:id="work2">
+                <title>Couplets</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="hn">Corni</perfRes>
+                        <perfRes codedval="fl">Flauti</perfRes>
+                        <perfRes codedval="cl">Clarini</perfRes>
+                        <perfRes codedval="vl">Viol. 1</perfRes>
+                        <perfRes codedval="vl">Viol. 2</perfRes>
+                        <perfRes codedval="va">Alto</perfRes>
+                        <perfRes codedval="bs">Fagotti</perfRes>
+                        <perfRes codedval="vc">Bassi</perfRes>
+                        <perfRes codedval="cb">Bassi</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="3" xml:id="work3">
+                <title>Trio</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="hn">Corni in mi b</perfRes>
+                        <perfRes codedval="cl">Clarini</perfRes>
+                        <perfRes codedval="vl">Viol. 1</perfRes>
+                        <perfRes codedval="vl">Viol. 2</perfRes>
+                        <perfRes codedval="va">Alto</perfRes>
+                        <perfRes codedval="bs">Fagotti</perfRes>
+                        <perfRes codedval="vc">Basso</perfRes>
+                        <perfRes codedval="cb">Basso</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="4" xml:id="work4">
+                <title>Duo</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="hn">Corni in sol</perfRes>
+                        <perfRes codedval="fl">Flauti</perfRes>
+                        <perfRes codedval="ob">Oboi</perfRes>
+                        <perfRes codedval="cl">Clarini</perfRes>
+                        <perfRes codedval="vl">Viol. 1</perfRes>
+                        <perfRes codedval="vl">Viol. 2</perfRes>
+                        <perfRes codedval="va">Alto</perfRes>
+                        <perfRes codedval="bs">Fagotti</perfRes>
+                        <perfRes codedval="vc">Basso</perfRes>
+                        <perfRes codedval="cb">Basso</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="5" xml:id="work5">
+                <title>Allegro</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="hn">Corni in Ut</perfRes>
+                        <perfRes codedval="cl">Clarnetto 1</perfRes>
+                        <perfRes codedval="cl">Clarnetto 2</perfRes>
+                        <perfRes codedval="vl">Viol. 1</perfRes>
+                        <perfRes codedval="vl">Viol. 2</perfRes>
+                        <perfRes codedval="va">Alto</perfRes>
+                        <perfRes codedval="bs">Fagotti</perfRes>
+                        <perfRes codedval="vc">Bassi</perfRes>
+                        <perfRes codedval="cb">Bassi</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="6" xml:id="work6">
+                <title>Scene X</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="hn">Corni in La</perfRes>
+                        <perfRes codedval="fl">Flauti</perfRes>
+                        <perfRes codedval="cl">Clarini</perfRes>
+                        <perfRes codedval="vl">Viol. 1</perfRes>
+                        <perfRes codedval="vl">Viol. 2</perfRes>
+                        <perfRes codedval="va">Alto</perfRes>
+                        <perfRes codedval="bs">Fagotti</perfRes>
+                        <perfRes codedval="vc">Basso</perfRes>
+                        <perfRes codedval="cb">Basso</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="7" xml:id="work7">
+                <title>Duo</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="hn">Corni in mi b</perfRes>
+                        <perfRes codedval="cl">Clari 1</perfRes>
+                        <perfRes codedval="cl">Clari 2</perfRes>
+                        <perfRes codedval="vl">Viol. 1</perfRes>
+                        <perfRes codedval="vl">Viol. 2</perfRes>
+                        <perfRes codedval="va">Alto</perfRes>
+                        <perfRes codedval="vc">Basso</perfRes>
+                        <perfRes codedval="cb">Basso</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="8" xml:id="work8">
+                <title>Andantino Amoroso</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="hn">Corni in mi #</perfRes>
+                        <perfRes codedval="fl">Flauti</perfRes>
+                        <perfRes codedval="vl">Viol. 1</perfRes>
+                        <perfRes codedval="vl">Viol. 2</perfRes>
+                        <perfRes codedval="va">Alto</perfRes>
+                        <perfRes codedval="bs">Fagotti</perfRes>
+                        <perfRes codedval="vc">Basso</perfRes>
+                        <perfRes codedval="cb">Basso</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="9" xml:id="work9">
+                <title>Finale</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="hn">Corni in sol</perfRes>
+                        <perfRes codedval="cl">Clari 1</perfRes>
+                        <perfRes codedval="cl">Clari 2</perfRes>
+                        <perfRes codedval="vl">Viol. 1</perfRes>
+                        <perfRes codedval="vl">Viol. 2</perfRes>
+                        <perfRes codedval="va">Alto</perfRes>
+                        <perfRes codedval="bs">Fagotti</perfRes>
+                        <perfRes codedval="vc">Basso</perfRes>
+                        <perfRes codedval="cb">Basso</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+        </workList>
+    </meiHead>
+    <music />
+</mei>

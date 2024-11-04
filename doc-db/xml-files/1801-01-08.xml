@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>Instrumentation Encoding of L'Habit du chevalier de Grammont</title>
+                <composer></composer>
+                <librettist></librettist>
+                <respStmt>
+                    <persName role="encoder">Kelly Christensen</persName>
+                </respStmt>
+            </titleStmt>
+            <pubStmt></pubStmt>
+            <sourceDesc>
+                <source>
+                    <bibl>
+                        <identifier type="URI">
+                            https://gallica.bnf.fr/ark:/12148/bpt6k11793502</identifier>
+                        <title>L'Habit du chevalier de Grammont</title>
+                        <librettist>
+                            <persName role="librettist">LIBRETTIST</persName>
+                        </librettist>
+                        <composer>
+                            <persName role="composer">COMPOSER</persName>
+                        </composer>
+                    </bibl>
+                </source>
+                <source>
+                    <bibl>
+                        <identifier type="URI">
+                            https://gallica.bnf.fr/ark:/12148/bpt6k11793502</identifier>
+                    </bibl>
+                </source>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application version="v1.0" xml:id="mei40To50.xsl">
+                    <name>mei40To50.xsl</name>
+                    <ptr
+                        target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl" />
+                </application>
+                <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+                    <name>meiLint.xsl</name>
+                    <ptr
+                        target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl" />
+                </application>
+            </appInfo>
+            <classDecls>
+                <taxonomy>
+                    <bibl>Charlton Wild</bibl>
+                    <category xml:id="CHARLTON_876">
+                        <label>876</label>
+                    </category>
+                </taxonomy>
+            </classDecls>
+        </encodingDesc>
+        <workList>
+            <work n="1" xml:id="work1">
+                <title>Ouverture</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="vl">1 Violon</perfRes>
+                        <perfRes codedval="vl">2 Violon</perfRes>
+                        <perfRes codedval="va">Alto</perfRes>
+                        <perfRes codedval="hn">Cors en Re</perfRes>
+                        <perfRes codedval="tr">Trompettes en Re</perfRes>
+                        <perfRes codedval="ob">Hautbois</perfRes>
+                        <perfRes codedval="fl">Flutes</perfRes>
+                        <perfRes codedval="cl">Clarinettes</perfRes>
+                        <perfRes codedval="bs">Bassons</perfRes>
+                        <perfRes codedval="cb">C. Basse</perfRes>
+                        <perfRes codedval="tb">Trombonne</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="2" xml:id="work2">
+                <title>Duo</title>
+                <incip>
+                    <incipText>
+                        <p>Cécile</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="vl">1 violon</perfRes>
+                        <perfRes codedval="vl">2 violon</perfRes>
+                        <perfRes codedval="va">Alto</perfRes>
+                        <perfRes codedval="hn">Cors en Si b</perfRes>
+                        <perfRes codedval="fl">Flutes</perfRes>
+                        <perfRes codedval="cl">Clarinettes</perfRes>
+                        <perfRes codedval="bs">Bassons</perfRes>
+                        <perfRes codedval="vc">Basse</perfRes>
+                        <perfRes codedval="cb">Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="3" xml:id="work3">
+                <title>Scene VI</title>
+                <incip>
+                    <incipText>
+                        <p>Dans un instant je l'espère</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="vl">1 violon</perfRes>
+                        <perfRes codedval="vl">2 violon</perfRes>
+                        <perfRes codedval="va">Alto</perfRes>
+                        <perfRes codedval="hn">Cors en si b</perfRes>
+                        <perfRes codedval="cl">Clarinettes en si b</perfRes>
+                        <perfRes codedval="bs">Bassons</perfRes>
+                        <perfRes codedval="vc">Basse</perfRes>
+                        <perfRes codedval="cb">Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="4" xml:id="work4">
+                <title>Duo</title>
+                <incip>
+                    <incipText>
+                        <p>Mon pauvre Termes</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="vl">1 violon</perfRes>
+                        <perfRes codedval="vl">2 violon</perfRes>
+                        <perfRes codedval="va">Alto</perfRes>
+                        <perfRes codedval="hn">Cors en la</perfRes>
+                        <perfRes codedval="ob">Hautbois</perfRes>
+                        <perfRes codedval="fl">Flutes</perfRes>
+                        <perfRes codedval="bs">Bassons</perfRes>
+                        <perfRes codedval="vc">Basse</perfRes>
+                        <perfRes codedval="cb">Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="5" xml:id="work5">
+                <title>Scene VIII</title>
+                <incip>
+                    <incipText>
+                        <p>En vain tout me présent un brillant avenir</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="vl">1 violin</perfRes>
+                        <perfRes codedval="vl">2 violon</perfRes>
+                        <perfRes codedval="va">Alto</perfRes>
+                        <perfRes codedval="hn">Cors</perfRes>
+                        <perfRes codedval="cl">Clarinettes</perfRes>
+                        <perfRes codedval="fl">Flutes</perfRes>
+                        <perfRes codedval="bs">Bassons</perfRes>
+                        <perfRes codedval="vc">Basse</perfRes>
+                        <perfRes codedval="cb">Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="6" xml:id="work6">
+                <title>Scene XVI</title>
+                <incip>
+                    <incipText>
+                        <p>Je dois vous sembler bien hardie</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="vl">1 violon</perfRes>
+                        <perfRes codedval="vl">2 violon</perfRes>
+                        <perfRes codedval="va">Alto</perfRes>
+                        <perfRes codedval="hn">Cors en si</perfRes>
+                        <perfRes codedval="cl">Clarinettes</perfRes>
+                        <perfRes codedval="fl">Flutes</perfRes>
+                        <perfRes codedval="bs">Bassons</perfRes>
+                        <perfRes codedval="vc">Basse</perfRes>
+                        <perfRes codedval="cb">Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="7" xml:id="work7">
+                <title>Scene XX</title>
+                <incip>
+                    <incipText>
+                        <p>Chantons le couple honnêté</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="vl">1 violon</perfRes>
+                        <perfRes codedval="vl">2 violon</perfRes>
+                        <perfRes codedval="va">Alto</perfRes>
+                        <perfRes codedval="hn">Cors en re</perfRes>
+                        <perfRes codedval="ob">Hautbois</perfRes>
+                        <perfRes codedval="cl">Clarinettes en la</perfRes>
+                        <perfRes codedval="fl">Flutes</perfRes>
+                        <perfRes codedval="pc">Petite flute</perfRes>
+                        <perfRes codedval="bs">Bassons</perfRes>
+                        <perfRes codedval="cy">Cymbales</perfRes>
+                        <perfRes codedval="vc">Basse</perfRes>
+                        <perfRes codedval="cb">Basse</perfRes>
+                        <perfRes codedval="tp">Tymballes en re</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="8" xml:id="work8">
+                <title>Chœur final</title>
+                <incip>
+                    <incipText>
+                        <p>Amis, chantons</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes codedval="vl">1 violon</perfRes>
+                        <perfRes codedval="vl">2 violon</perfRes>
+                        <perfRes codedval="va">Alto</perfRes>
+                        <perfRes codedval="hn">Cors en si</perfRes>
+                        <perfRes codedval="ob">Hautbois</perfRes>
+                        <perfRes codedval="fl">Fltue</perfRes>
+                        <perfRes codedval="cl">Clarinettes en si</perfRes>
+                        <perfRes codedval="bs">Bassons</perfRes>
+                        <perfRes codedval="vc">Basse</perfRes>
+                        <perfRes codedval="cb">Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+        </workList>
+    </meiHead>
+    <music />
+</mei>
