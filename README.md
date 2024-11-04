@@ -2,6 +2,12 @@
 
 Explorative data visualizations about revivals at the Opéra-Comique in the nineteenth century (with a focus on orchestration).
 
+### MEI-XML Pivot format
+
+Experimental MEI-XML pivot format for annotating instrumentation by number: [here](doc-db/xml-files).
+
+### Age analysis
+
 ![age distribution](vis/perfs.png)
 
 ![stats per month](vis/ages.png)
