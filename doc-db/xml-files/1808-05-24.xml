@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>Instrumentation Encoding of Un jour à Paris ou la Leçon singulière</title>
+                <respStmt>
+                    <persName role="encoder">Kelly Christensen</persName>
+                </respStmt>
+            </titleStmt>
+            <pubStmt></pubStmt>
+            <sourceDesc>
+                <source>
+                    <bibl>
+                        <identifier type="URI">
+                            https://gallica.bnf.fr/ark:/12148/bpt6k1179331q</identifier>
+                        <title>Un jour à Paris ou la Leçon singulière</title>
+                        <respStmt>
+                            <resp>
+                                <identifier type="URI">https://data.bnf.fr/ark:/12148/cb11901973s</identifier>
+                                <persName role="librettist" startdate="1777" enddate="1845">
+                                    <foreName>Charles-Guillaume</foreName>
+                                    <famName>Étienne</famName>
+                                </persName>
+                            </resp>
+                            <resp>
+                                <identifier type="URI">https://data.bnf.fr/ark:/12148/cb122208321</identifier>
+                                <persName role="composer" enddate="1818">
+                                    <foreName>Nicolò</foreName>
+                                    <famName>Isouard</famName>
+                                </persName>
+                            </resp>
+                        </respStmt>
+                    </bibl>
+                </source>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application version="v1.0" xml:id="mei40To50.xsl">
+                    <name>mei40To50.xsl</name>
+                    <ptr
+                        target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl" />
+                </application>
+                <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+                    <name>meiLint.xsl</name>
+                    <ptr
+                        target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl" />
+                </application>
+            </appInfo>
+            <classDecls>
+                <taxonomy>
+                    <bibl>Charlton Wild</bibl>
+                    <category xml:id="CHARLTON_1785">
+                        <label>1785</label>
+                    </category>
+                </taxonomy>
+            </classDecls>
+        </encodingDesc>
+        <workList>
+            <work n="1" xml:id="work1">
+                <title>Ouverture</title>
+                <perfMedium>
+                    <perfResList>
+                        <head>orchestra au fond du théâtre</head>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="we">Picolo Flauto</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinetti in Ut</perfRes>
+                        <perfRes count="1" codedval="ba">Corni in Re</perfRes>
+                        <perfRes count="1" codedval="wd">Fagotto</perfRes>
+                    </perfResList>
+                    <perfResList>
+                        <head>orchestre principale</head>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="wa">Flauto</perfRes>
+                        <perfRes count="1" codedval="wb">Oboi</perfRes>
+                        <perfRes count="1" codedval="ba">Corni in Re</perfRes>
+                        <perfRes count="1" codedval="pa">Timbales en Re</perfRes>
+                        <perfRes count="1" codedval="wd">Fagotto</perfRes>
+                        <perfRes count="1" codedval="sc">Vlle</perfRes>
+                        <perfRes count="1" codedval="sd">C. Basso</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="2" xml:id="work2">
+                <title>Morceau d'ensemble No. 1</title>
+                <incip>
+                    <incipText>
+                        <p>Allons une valse</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <head>orchestra au fond du théâtre</head>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="wa">Flauto</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinetti in Ut</perfRes>
+                        <perfRes count="1" codedval="ba">Corni in Re</perfRes>
+                        <perfRes count="1" codedval="wd">Fagotti</perfRes>
+                    </perfResList>
+                    <perfResList>
+                        <head>orchestre principale</head>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Altos</perfRes>
+                        <perfRes count="1" codedval="sc">Vlle</perfRes>
+                        <perfRes count="1" codedval="sd">C. Basso</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="3" xml:id="work3">
+                <title>Duo No. 2</title>
+                <incip>
+                    <incipText>
+                        <p>Allons, allons, je le vois bien</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="2" codedval="sa">Violini</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="wa">Flauti</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinetti in Ut</perfRes>
+                        <perfRes count="1" codedval="ba">Corni in Re</perfRes>
+                        <perfRes count="1" codedval="wd">Fagotti</perfRes>
+                        <perfRes count="1" codedval="sn">Bassi</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="4" xml:id="work4">
+                <title>Duo No. 3</title>
+                <incip>
+                    <incipText>
+                        <p>Eh bien donc c'en est fait</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="2" codedval="sa">Violini</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="we">Petite Flute</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinetti in Ut</perfRes>
+                        <perfRes count="1" codedval="ba">Corni in Fa</perfRes>
+                        <perfRes count="1" codedval="wd">Fagotti</perfRes>
+                        <perfRes count="1" codedval="sc">Vlle</perfRes>
+                        <perfRes count="1" codedval="sd">C-Basso</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="5" xml:id="work5">
+                <title>Aria No. 4</title>
+                <incip>
+                    <incipText>
+                        <p>Dieux, se rais-je un perfide un traître ?</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="2" codedval="sa">Violini</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="wb">Oboi</perfRes>
+                        <perfRes count="1" codedval="ba">Corni in Fa</perfRes>
+                        <perfRes count="1" codedval="sn">Bassi</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="6" xml:id="work6">
+                <title>Finale No. 5</title>
+                <incip>
+                    <incipText>
+                        <p>Elle s'avance</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="2" codedval="sa">Violini</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="wa">Flauti</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinetti in Si</perfRes>
+                        <perfRes count="1" codedval="wb">Oboi</perfRes>
+                        <perfRes count="1" codedval="ba">Corni in Si petit</perfRes>
+                        <perfRes count="1" codedval="wd">Fagotti</perfRes>
+                        <perfRes count="1" codedval="sc">Vlle</perfRes>
+                        <perfRes count="1" codedval="sd">C-Basso</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="7" xml:id="work7">
+                <title>Entr'acte et No. 6</title>
+                <incip>
+                    <incipText>
+                        <p>Allons, Labrie, Allons la fortune commence</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="2" codedval="sa">Violini</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="we">Petite Flute</perfRes>
+                        <perfRes count="1" codedval="wb">Oboi</perfRes>
+                        <perfRes count="1" codedval="ba">Corni in Si petit</perfRes>
+                        <perfRes count="1" codedval="wd">Fagotti</perfRes>
+                        <perfRes count="1" codedval="sn">Basso</perfRes>
+                        <perfRes count="1" codedval="sd">C-Basso</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="8" xml:id="work8">
+                <title>Finale No. 5</title>
+                <incip>
+                    <incipText>
+                        <p>Elle s'avance</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="2" codedval="sa">Violini</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="wa">Flauti</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinetti in Si</perfRes>
+                        <perfRes count="1" codedval="wb">Oboi</perfRes>
+                        <perfRes count="1" codedval="wd">Fagotti</perfRes>
+                        <perfRes count="1" codedval="sc">Vlle</perfRes>
+                        <perfRes count="1" codedval="sd">C-Basso</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="9" xml:id="work9">
+                <title>No. 8 Rondeau</title>
+                <incip>
+                    <incipText>
+                        <p>Oui, je suis assez répendu</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="2" codedval="sa">Violini</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="wa" solo="true">Flauto solo</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinetto en Ut</perfRes>
+                        <perfRes count="1" codedval="ba">Corni in Ut</perfRes>
+                        <perfRes count="1" codedval="wd">Fagotti</perfRes>
+                        <perfRes count="1" codedval="sc">Vlle</perfRes>
+                        <perfRes count="1" codedval="sd">C-Basso</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="10" xml:id="work10">
+                <title>Duo No. 9</title>
+                <incip>
+                    <incipText>
+                        <p>Il a pris soin de ma jeunesse</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="2" codedval="sa">Violini</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="wb">Oboi</perfRes>
+                        <perfRes count="1" codedval="ba">Corni in Ut</perfRes>
+                        <perfRes count="1" codedval="wd">Fagotti</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelli</perfRes>
+                        <perfRes count="1" codedval="sd">C-Basso</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="11" xml:id="work11">
+                <title>No. 10 Finale</title>
+                <incip>
+                    <incipText>
+                        <p>Je ne parviendrai pas à me faire entendre</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="2" codedval="sa">Violini</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="wa">Flauti</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinetti in Si b</perfRes>
+                        <perfRes count="1" codedval="wb">Oboi</perfRes>
+                        <perfRes count="1" codedval="ba">Corni in Mi b</perfRes>
+                        <perfRes count="1" codedval="wd">Fagotti</perfRes>
+                        <perfRes count="1" codedval="sn">Basso</perfRes>
+                        <perfRes count="1" codedval="pa">Timbales</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="12" xml:id="work12">
+                <title>Entr'acte et air bachique</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="2" codedval="sa">Violini</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sn">Basso</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinetti</perfRes>
+                        <perfRes count="1" codedval="wa">Flauto</perfRes>
+                        <perfRes count="1" codedval="ba">Corni</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="13" xml:id="work13">
+                <title>Recit et Air</title>
+                <incip>
+                    <incipText>
+                        <p>Ah ! vraiment, je ne puis y songer sans effroi</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="2" codedval="sa">Violini</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="2" codedval="wa">Flauto</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinetti in Si</perfRes>
+                        <perfRes count="1" codedval="we">Petite Flute</perfRes>
+                        <perfRes count="1" codedval="wd">Fagotti</perfRes>
+                        <perfRes count="1" codedval="ba">Corni</perfRes>
+                        <perfRes count="1" codedval="sn">Bassi</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+        </workList>
+    </meiHead>
+    <music />
+</mei>

@@ -1,5 +1,5 @@
 <work n="1" xml:id="work1">
-    <title>ARIA TITLE</title>
+    <title>ARIA</title>
     <incip>
         <incipText>
             <p>INCIPIT</p>
@@ -7,11 +7,15 @@
     </incip>
     <perfMedium>
         <perfResList>
-            <perfRes codedval="vl">Violino 1</perfRes>
-            <perfRes codedval="vl">Violino 2</perfRes>
-            <perfRes codedval="va">Alto</perfRes>
-            <perfRes codedval="vc">Violoncello</perfRes>
-            <perfRes codedval="cb">Contra-Basso</perfRes>
+            <perfRes count="2" codedval="sa">Violini</perfRes>
+            <perfRes count="1" codedval="sb">Violes</perfRes>
+            <perfRes count="1" codedval="sn">Bassi</perfRes>
+            <perfRes count="1" codedval="sd">Conte B</perfRes>
+            <perfRes count="1" codedval="we">Petite Flute</perfRes>
+            <perfRes count="1" codedval="wa">Grande Flute</perfRes>
+            <perfRes count="1" codedval="wb">Oboi</perfRes>
+            <perfRes count="1" codedval="wc">Clarinetti</perfRes>
+            <perfRes count="1" codedval="wd">Fagotti</perfRes>
         </perfResList>
     </perfMedium>
 </work>

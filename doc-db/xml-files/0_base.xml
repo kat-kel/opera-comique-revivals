@@ -5,9 +5,7 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title>Instrumentation Encoding of OPERA TITLE</title>
-                <composer></composer>
-                <librettist></librettist>
+                <title>Instrumentation Encoding of OPERA_TITLE</title>
                 <respStmt>
                     <persName role="encoder">Kelly Christensen</persName>
                 </respStmt>
@@ -17,20 +15,24 @@
                 <source>
                     <bibl>
                         <identifier type="URI">
-                            GALLICA URL</identifier>
-                        <title>OPERA TITLE</title>
-                        <librettist>
-                            <persName role="librettist">LIBRETTIST</persName>
-                        </librettist>
-                        <composer>
-                            <persName role="composer">COMPOSER</persName>
-                        </composer>
-                    </bibl>
-                </source>
-                <source>
-                    <bibl>
-                        <identifier type="URI">
-                            GALLICA URL</identifier>
+                            GALLICA</identifier>
+                        <title>OPERA_TITLE</title>
+                        <respStmt>
+                            <resp>
+                                <identifier type="URI"></identifier>
+                                <persName role="librettist">
+                                    <foreName></foreName>
+                                    <famName></famName>
+                                </persName>
+                            </resp>
+                            <resp>
+                                <identifier type="URI"></identifier>
+                                <persName role="composer">
+                                    <foreName></foreName>
+                                    <famName></famName>
+                                </persName>
+                            </resp>
+                        </respStmt>
                     </bibl>
                 </source>
             </sourceDesc>
@@ -59,7 +61,7 @@
         </encodingDesc>
         <workList>
             <work n="1" xml:id="work1">
-                <title>ARIA TITLE</title>
+                <title>ARIA</title>
                 <incip>
                     <incipText>
                         <p>INCIPIT</p>
@@ -67,7 +69,10 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violon</perfRes>
+                        <perfRes count="2" codedval="sa">Violon</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncello</perfRes>
+                        <perfRes count="1" codedval="sd">Contra-Basso</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>

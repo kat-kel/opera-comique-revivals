@@ -6,8 +6,6 @@
         <fileDesc>
             <titleStmt>
                 <title>Instrumentation Encoding of Le Médecin turc</title>
-                <composer></composer>
-                <librettist></librettist>
                 <respStmt>
                     <persName role="encoder">Kelly Christensen</persName>
                 </respStmt>
@@ -19,18 +17,29 @@
                         <identifier type="URI">
                             https://gallica.bnf.fr/ark:/12148/bpt6k1179352w</identifier>
                         <title>Le Médecin turc</title>
-                        <librettist>
-                            <persName role="librettist">LIBRETTIST</persName>
-                        </librettist>
-                        <composer>
-                            <persName role="composer">COMPOSER</persName>
-                        </composer>
-                    </bibl>
-                </source>
-                <source>
-                    <bibl>
-                        <identifier type="URI">
-                            https://gallica.bnf.fr/ark:/12148/bpt6k1179352w</identifier>
+                        <respStmt>
+                            <resp>
+                                <identifier type="URI">https://data.bnf.fr/ark:/12148/cb11905501s</identifier>
+                                <persName role="librettist" startdate="1775" enddate="1845">
+                                    <foreName>Armand</foreName>
+                                    <famName>Gouffé</famName>
+                                </persName>
+                            </resp>
+                            <resp>
+                                <identifier type="URI">https://data.bnf.fr/ark:/12148/cb12529600j</identifier>
+                                <persName role="librettist" startdate="1760" enddate="1849">
+                                    <foreName>Pierre</foreName>
+                                    <famName>Villiers</famName>
+                                </persName>
+                            </resp>
+                            <resp>
+                                <identifier type="URI">https://data.bnf.fr/ark:/12148/cb122208321</identifier>
+                                <persName role="composer" enddate="1818">
+                                    <foreName>Nicolò</foreName>
+                                    <famName>Isouard</famName>
+                                </persName>
+                            </resp>
+                        </respStmt>
                     </bibl>
                 </source>
             </sourceDesc>
@@ -62,21 +71,19 @@
                 <title>Ouverture</title>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">1re Violon</perfRes>
-                        <perfRes codedval="vl">2d Violon</perfRes>
-                        <perfRes codedval="fl">Flute</perfRes>
-                        <perfRes codedval="pc">Petite Flute</perfRes>
-                        <perfRes codedval="ob">Hautbois</perfRes>
-                        <perfRes codedval="bcl">Grande Clarinettes en la</perfRes>
-                        <perfRes codedval="cl">Clar.</perfRes>
-                        <perfRes codedval="hn">Cors en re</perfRes>
-                        <perfRes codedval="bs">Bassons</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="vc">Basse</perfRes>
-                        <perfRes codedval="bc">Basse</perfRes>
-                        <perfRes codedval="tp">Timballes</perfRes>
-                        <perfRes codedval="tg">Triangle</perfRes>
-                        <perfRes codedval="cy">Cimballes</perfRes>
+                        <perfRes count="2" codedval="sa">Violon</perfRes>
+                        <perfRes count="1" codedval="wa">Flute</perfRes>
+                        <perfRes count="1" codedval="we">Petite Flute</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wg">Grande Clarinettes en la</perfRes>
+                        <perfRes count="1" codedval="wc">Clar.</perfRes>
+                        <perfRes count="1" codedval="ba">Cors en re</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sn">Basse</perfRes>
+                        <perfRes count="1" codedval="pa">Timballes</perfRes>
+                        <perfRes count="1" codedval="pz">Triangle</perfRes>
+                        <perfRes count="1" codedval="pz">Cimballes</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -89,14 +96,12 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">1re Violon</perfRes>
-                        <perfRes codedval="vl">2d Violon</perfRes>
-                        <perfRes codedval="fl">Flute</perfRes>
-                        <perfRes codedval="cl">Clarinettes en Ut</perfRes>
-                        <perfRes codedval="hn">Cors</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="vc">Basse</perfRes>
-                        <perfRes codedval="bc">Basse</perfRes>
+                        <perfRes count="2" codedval="sa">Violon</perfRes>
+                        <perfRes count="1" codedval="wa">Flute</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes en Ut</perfRes>
+                        <perfRes count="1" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sn">Basse</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -109,14 +114,12 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">1re Violon</perfRes>
-                        <perfRes codedval="vl">2d Violon</perfRes>
-                        <perfRes codedval="cl">Clar</perfRes>
-                        <perfRes codedval="hn">Cors en Fa</perfRes>
-                        <perfRes codedval="bs">Bassons</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="vc">Basse</perfRes>
-                        <perfRes codedval="bc">Basse</perfRes>
+                        <perfRes count="2" codedval="sa">Violon</perfRes>
+                        <perfRes count="1" codedval="wc">Clar</perfRes>
+                        <perfRes count="1" codedval="ba">Cors en Fa</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sn">Basse</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -129,17 +132,13 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">1re Violon</perfRes>
-                        <perfRes codedval="vl">2d Violon</perfRes>
-                        <perfRes codedval="fl">Flute</perfRes>
-                        <perfRes codedval="ob">Hautbois 1</perfRes>
-                        <perfRes codedval="ob">Hautbois 2</perfRes>
-                        <perfRes codedval="hn">Cors en sol 1</perfRes>
-                        <perfRes codedval="hn">Cors en sol 2</perfRes>
-                        <perfRes codedval="bs">Bassons</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="vc">Basse</perfRes>
-                        <perfRes codedval="bc">Basse</perfRes>
+                        <perfRes count="2" codedval="sa">Violon</perfRes>
+                        <perfRes count="1" codedval="wa">Flute</perfRes>
+                        <perfRes count="2" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="2" codedval="ba">Cors en sol</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sn">Basse</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -152,16 +151,14 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">1re Violon</perfRes>
-                        <perfRes codedval="vl">2d Violon</perfRes>
-                        <perfRes codedval="fl">Flute</perfRes>
-                        <perfRes codedval="pc">Petite Flute</perfRes>
-                        <perfRes codedval="ob">Hautbois</perfRes>
-                        <perfRes codedval="hn">Cors in dis</perfRes>
-                        <perfRes codedval="bs">Bassons</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="vc">Basse</perfRes>
-                        <perfRes codedval="bc">Basse</perfRes>
+                        <perfRes count="2" codedval="sa">Violon</perfRes>
+                        <perfRes count="1" codedval="wa">Flute</perfRes>
+                        <perfRes count="1" codedval="we">Petite Flute</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="ba">Cors in dis</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sn">Basse</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -174,16 +171,14 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">1re Violon</perfRes>
-                        <perfRes codedval="vl">2d Violon</perfRes>
-                        <perfRes codedval="fl" solo="true">Flute</perfRes>
-                        <perfRes codedval="pc">P. Flute</perfRes>
-                        <perfRes codedval="cl" solo="true">Clarinette</perfRes>
-                        <perfRes codedval="hn">Cors en fa</perfRes>
-                        <perfRes codedval="bs">Bassons</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="vc">Basse</perfRes>
-                        <perfRes codedval="bc">Basse</perfRes>
+                        <perfRes count="2" codedval="sa">Violon</perfRes>
+                        <perfRes count="1" codedval="wa" solo="true">Flute</perfRes>
+                        <perfRes count="1" codedval="we">P. Flute</perfRes>
+                        <perfRes count="1" codedval="wc" solo="true">Clarinette</perfRes>
+                        <perfRes count="1" codedval="ba">Cors en fa</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sn">Basse</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -196,18 +191,15 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">1re Violon</perfRes>
-                        <perfRes codedval="vl">2d Violon</perfRes>
-                        <perfRes codedval="fl">Flute</perfRes>
-                        <perfRes codedval="pc">Petite Flute</perfRes>
-                        <perfRes codedval="ob">Hautbois</perfRes>
-                        <perfRes codedval="cl">Clarinette</perfRes>
-                        <perfRes codedval="hn">Cors en Mi b</perfRes>
-                        <perfRes codedval="hn">Cors en re</perfRes>
-                        <perfRes codedval="bs">Bassons</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="vc">Basse</perfRes>
-                        <perfRes codedval="bc">Basse</perfRes>
+                        <perfRes count="2" codedval="sa">Violon</perfRes>
+                        <perfRes count="1" codedval="wa">Flute</perfRes>
+                        <perfRes count="1" codedval="we">Petite Flute</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinette</perfRes>
+                        <perfRes count="2" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sn">Basse</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>

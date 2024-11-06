@@ -6,8 +6,6 @@
         <fileDesc>
             <titleStmt>
                 <title>Instrumentation Encoding of Aline, reine de Golconde</title>
-                <composer></composer>
-                <librettist></librettist>
                 <respStmt>
                     <persName role="encoder">Kelly Christensen</persName>
                 </respStmt>
@@ -19,18 +17,29 @@
                         <identifier type="URI">
                             https://gallica.bnf.fr/ark:/12148/bpt6k1177037j</identifier>
                         <title>Aline, reine de Golconde</title>
-                        <librettist>
-                            <persName role="librettist">LIBRETTIST</persName>
-                        </librettist>
-                        <composer>
-                            <persName role="composer">COMPOSER</persName>
-                        </composer>
-                    </bibl>
-                </source>
-                <source>
-                    <bibl>
-                        <identifier type="URI">
-                            https://gallica.bnf.fr/ark:/12148/bpt6k1177037j</identifier>
+                        <respStmt>
+                            <resp>
+                                <identifier type="URI">https://data.bnf.fr/ark:/12148/cb146582875</identifier>
+                                <persName role="librettist" startdate="1771" enddate="1837">
+                                    <foreName>Jean-Baptiste-Charles</foreName>
+                                    <famName>Vial</famName>
+                                </persName>
+                            </resp>
+                            <resp>
+                                <identifier type="URI">https://data.bnf.fr/ark:/12148/cb11902400f</identifier>
+                                <persName role="librettist" startdate="1755" enddate="1837">
+                                    <foreName>Edmond</foreName>
+                                    <famName>de Favières</famName>
+                                </persName>
+                            </resp>
+                            <resp>
+                                <identifier type="URI">https://data.bnf.fr/ark:/12148/cb14781606j</identifier>
+                                <persName role="composer" startdate="1767" enddate="1844">
+                                    <foreName>Henri-Montan</foreName>
+                                    <famName>Berton</famName>
+                                </persName>
+                            </resp>
+                        </respStmt>
                     </bibl>
                 </source>
             </sourceDesc>
@@ -62,17 +71,15 @@
                 <title>Ouverture</title>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="fl">Flauti</perfRes>
-                        <perfRes codedval="cl">Clar.</perfRes>
-                        <perfRes codedval="ob">Oboi</perfRes>
-                        <perfRes codedval="bs">Fagotti</perfRes>
-                        <perfRes codedval="hn">Corni</perfRes>
-                        <perfRes codedval="vc">Basso</perfRes>
-                        <perfRes codedval="cb">Basso</perfRes>
-                        <perfRes codedval="tp">Timpani</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="wa">Flauti</perfRes>
+                        <perfRes count="1" codedval="wc">Clar.</perfRes>
+                        <perfRes count="1" codedval="wb">Oboi</perfRes>
+                        <perfRes count="1" codedval="wd">Fagotti</perfRes>
+                        <perfRes count="1" codedval="ba">Corni</perfRes>
+                        <perfRes count="1" codedval="sn">Basso</perfRes>
+                        <perfRes count="1" codedval="pa">Timpani</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -85,14 +92,11 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="cl">Clarinetto 1</perfRes>
-                        <perfRes codedval="cl">Clarinetto 2</perfRes>
-                        <perfRes codedval="hn">Corni in A</perfRes>
-                        <perfRes codedval="vc">Basso</perfRes>
-                        <perfRes codedval="cb">Basso</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="2" codedval="wc">Clarinetto</perfRes>
+                        <perfRes count="1" codedval="ba">Corni in A</perfRes>
+                        <perfRes count="1" codedval="sn">Basso</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -105,15 +109,13 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="cl">Clarinetti</perfRes>
-                        <perfRes codedval="ob">Oboi</perfRes>
-                        <perfRes codedval="bs">Fagotti</perfRes>
-                        <perfRes codedval="hn">Corni in D</perfRes>
-                        <perfRes codedval="vc">Basso</perfRes>
-                        <perfRes codedval="cb">Basso</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinetti</perfRes>
+                        <perfRes count="1" codedval="wb">Oboi</perfRes>
+                        <perfRes count="1" codedval="wd">Fagotti</perfRes>
+                        <perfRes count="1" codedval="ba">Corni in D</perfRes>
+                        <perfRes count="1" codedval="sn">Basso</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -126,16 +128,14 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="fl">Flauti</perfRes>
-                        <perfRes codedval="cl">Clarinetti</perfRes>
-                        <perfRes codedval="ob">Oboi</perfRes>
-                        <perfRes codedval="hn">Corni</perfRes>
-                        <perfRes codedval="tp">Timpani</perfRes>
-                        <perfRes codedval="vc">Bassi</perfRes>
-                        <perfRes codedval="cb">Bassi</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="wa">Flauti</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinetti</perfRes>
+                        <perfRes count="1" codedval="wb">Oboi</perfRes>
+                        <perfRes count="1" codedval="ba">Corni</perfRes>
+                        <perfRes count="1" codedval="pa">Timpani</perfRes>
+                        <perfRes count="1" codedval="sn">Bassi</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -148,17 +148,12 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="fl">Flauto 1</perfRes>
-                        <perfRes codedval="fl">Flauto 2</perfRes>
-                        <perfRes codedval="ob">Oboe 1</perfRes>
-                        <perfRes codedval="ob">Oboe 2</perfRes>
-                        <perfRes codedval="hn">Corno 1 in G</perfRes>
-                        <perfRes codedval="hn">Corno 2 in G</perfRes>
-                        <perfRes codedval="vc">Basso</perfRes>
-                        <perfRes codedval="cb">Basso</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="2" codedval="wa">Flauto</perfRes>
+                        <perfRes count="2" codedval="wb">Oboe</perfRes>
+                        <perfRes count="2" codedval="ba">Corno in G</perfRes>
+                        <perfRes count="1" codedval="sn">Basso</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -171,16 +166,14 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="ob"></perfRes>
-                        <perfRes codedval="fl"></perfRes>
-                        <perfRes codedval="cl"></perfRes>
-                        <perfRes codedval="hn">Corni in Ut</perfRes>
-                        <perfRes codedval="bs">Fagotti</perfRes>
-                        <perfRes codedval="vc">Basso</perfRes>
-                        <perfRes codedval="cb">Basso</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="wb"></perfRes>
+                        <perfRes count="1" codedval="wa"></perfRes>
+                        <perfRes count="1" codedval="wc"></perfRes>
+                        <perfRes count="1" codedval="ba">Corni in Ut</perfRes>
+                        <perfRes count="1" codedval="wd">Fagotti</perfRes>
+                        <perfRes count="1" codedval="sn">Basso</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -188,22 +181,15 @@
                 <title>Marche Française</title>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Viola</perfRes>
-                        <perfRes codedval="ob">Oboi 1</perfRes>
-                        <perfRes codedval="cl">Clari. 1</perfRes>
-                        <perfRes codedval="bs">Fagotti 1</perfRes>
-                        <perfRes codedval="hn">Corni 1</perfRes>
-                        <perfRes codedval="tb">Trombe 1.</perfRes>
-                        <perfRes codedval="ob">Oboi 2</perfRes>
-                        <perfRes codedval="cl">Clari. 2</perfRes>
-                        <perfRes codedval="bs">Fagotti 2</perfRes>
-                        <perfRes codedval="hn">Corni 2</perfRes>
-                        <perfRes codedval="tb">Trombe 2.</perfRes>
-                        <perfRes codedval="tp">Timpani</perfRes>
-                        <perfRes codedval="vc">Basso</perfRes>
-                        <perfRes codedval="cb">Basso</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Viola</perfRes>
+                        <perfRes count="2" codedval="wb">Oboi</perfRes>
+                        <perfRes count="2" codedval="wc">Clari.</perfRes>
+                        <perfRes count="2" codedval="wd">Fagotti</perfRes>
+                        <perfRes count="2" codedval="ba">Corni</perfRes>
+                        <perfRes count="2" codedval="bd">Trombe</perfRes>
+                        <perfRes count="1" codedval="pa">Timpani</perfRes>
+                        <perfRes count="1" codedval="sn">Basso</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -216,15 +202,13 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Viola</perfRes>
-                        <perfRes codedval="fl">Flauti</perfRes>
-                        <perfRes codedval="cl">Clarinetti</perfRes>
-                        <perfRes codedval="hn">Corni in E</perfRes>
-                        <perfRes codedval="bs">Fagotti</perfRes>
-                        <perfRes codedval="vc">Basso</perfRes>
-                        <perfRes codedval="cb">Basso</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Viola</perfRes>
+                        <perfRes count="1" codedval="wa">Flauti</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinetti</perfRes>
+                        <perfRes count="1" codedval="ba">Corni in E</perfRes>
+                        <perfRes count="1" codedval="wd">Fagotti</perfRes>
+                        <perfRes count="1" codedval="sn">Basso</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -232,13 +216,11 @@
                 <title>Entr'acte du Ir au IIme</title>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="ob">Hautbois</perfRes>
-                        <perfRes codedval="hn">Cors</perfRes>
-                        <perfRes codedval="vc">Basso</perfRes>
-                        <perfRes codedval="cb">Basso</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="sn">Basso</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -251,13 +233,11 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="cl">Clarinettes</perfRes>
-                        <perfRes codedval="hn">Cors in E</perfRes>
-                        <perfRes codedval="vc">Basso</perfRes>
-                        <perfRes codedval="cb">Basso</perfRes>
+                        <perfRes count="1" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors in E</perfRes>
+                        <perfRes count="1" codedval="sn">Basso</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -270,15 +250,13 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="fl">Flautes</perfRes>
-                        <perfRes codedval="cl">Clarinettes</perfRes>
-                        <perfRes codedval="bs">Bassons</perfRes>
-                        <perfRes codedval="hn">Cors in G</perfRes>
-                        <perfRes codedval="vc">Basse</perfRes>
-                        <perfRes codedval="cb">Basse</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="wa">Flautes</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="1" codedval="ba">Cors in G</perfRes>
+                        <perfRes count="1" codedval="sn">Basse</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -286,9 +264,8 @@
                 <title>Scene VI</title>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="tm">Tambourin</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes codedval="pz">Tambourin</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -301,11 +278,9 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="vc">Basse</perfRes>
-                        <perfRes codedval="cb">Basse</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sn">Basse</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -318,16 +293,14 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="fl">Flutes</perfRes>
-                        <perfRes codedval="cl">Clarinettes</perfRes>
-                        <perfRes codedval="bs">Bassons</perfRes>
-                        <perfRes codedval="hn">Cors in A</perfRes>
-                        <perfRes codedval="ob">Hautbois</perfRes>
-                        <perfRes codedval="vc">Basse</perfRes>
-                        <perfRes codedval="cb">Basse</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="1" codedval="ba">Cors in A</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="sn">Basse</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -340,16 +313,14 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Alto</perfRes>
-                        <perfRes codedval="pc">Petite Flute</perfRes>
-                        <perfRes codedval="fl">Flutes</perfRes>
-                        <perfRes codedval="cl">Clarinettes</perfRes>
-                        <perfRes codedval="ob">Hautbois</perfRes>
-                        <perfRes codedval="hn">Cors</perfRes>
-                        <perfRes codedval="vc">Basse</perfRes>
-                        <perfRes codedval="cb">Basse</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="we">Petite Flute</perfRes>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="sn">Basse</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -357,11 +328,9 @@
                 <title>Entre-acte</title>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Viola</perfRes>
-                        <perfRes codedval="vc">Basse</perfRes>
-                        <perfRes codedval="cb">Basse</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Viola</perfRes>
+                        <perfRes count="1" codedval="sn">Basse</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -374,11 +343,9 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Viola</perfRes>
-                        <perfRes codedval="vc">Basso</perfRes>
-                        <perfRes codedval="cb">Basso</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Viola</perfRes>
+                        <perfRes count="1" codedval="sn">Basso</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -391,17 +358,15 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Viola</perfRes>
-                        <perfRes codedval="fl">Flautti</perfRes>
-                        <perfRes codedval="ob">Oboi</perfRes>
-                        <perfRes codedval="cl">Clarinetti</perfRes>
-                        <perfRes codedval="bs">Fagotti</perfRes>
-                        <perfRes codedval="hn">Corni</perfRes>
-                        <perfRes codedval="tp">Timpani</perfRes>
-                        <perfRes codedval="vc">Basso</perfRes>
-                        <perfRes codedval="cb">Basso</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Viola</perfRes>
+                        <perfRes count="1" codedval="wa">Flautti</perfRes>
+                        <perfRes count="1" codedval="wb">Oboi</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinetti</perfRes>
+                        <perfRes count="1" codedval="wd">Fagotti</perfRes>
+                        <perfRes count="1" codedval="ba">Corni</perfRes>
+                        <perfRes count="1" codedval="pa">Timpani</perfRes>
+                        <perfRes count="1" codedval="sn">Basso</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -414,16 +379,14 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="vl">Violino 1</perfRes>
-                        <perfRes codedval="vl">Violino 2</perfRes>
-                        <perfRes codedval="va">Viola</perfRes>
-                        <perfRes codedval="fl">Flauti</perfRes>
-                        <perfRes codedval="ob">Oboi</perfRes>
-                        <perfRes codedval="cl">Clarinetti</perfRes>
-                        <perfRes codedval="hn">Corni</perfRes>
-                        <perfRes codedval="tp">Timpani</perfRes>
-                        <perfRes codedval="vc">Basso</perfRes>
-                        <perfRes codedval="cb">Basso</perfRes>
+                        <perfRes count="2" codedval="sa">Violino</perfRes>
+                        <perfRes count="1" codedval="sb">Viola</perfRes>
+                        <perfRes count="1" codedval="wa">Flauti</perfRes>
+                        <perfRes count="1" codedval="wb">Oboi</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinetti</perfRes>
+                        <perfRes count="1" codedval="ba">Corni</perfRes>
+                        <perfRes count="1" codedval="pa">Timpani</perfRes>
+                        <perfRes count="1" codedval="sn">Basso</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
