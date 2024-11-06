@@ -19,17 +19,18 @@
                         <title>Les Voitures versées</title>
                         <respStmt>
                             <resp>
-                                <identifier type="URI"></identifier>
-                                <persName role="librettist">
-                                    <foreName></foreName>
-                                    <famName></famName>
+                                <identifier type="URI">https://data.bnf.fr/ark:/12148/cb11901164m</identifier>
+                                <persName role="librettist" startdate="1775" enddate="1851">
+                                    <foreName>Emmanuel</foreName>
+                                    <famName>Dupaty</famName>
                                 </persName>
                             </resp>
                             <resp>
-                                <identifier type="URI"></identifier>
-                                <persName role="composer">
-                                    <foreName></foreName>
-                                    <famName></famName>
+                                <persName role="composer" startdate="1775" enddate="1834">
+                                    <identifier type="URI">
+                                        https://data.bnf.fr/ark:/12148/cb125297700</identifier>
+                                    <foreName>François-Adrien</foreName>
+                                    <famName>Boieldieu</famName>
                                 </persName>
                             </resp>
                         </respStmt>
