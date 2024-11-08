@@ -16,6 +16,8 @@
                     <bibl>
                         <identifier type="URI">
                             https://gallica.bnf.fr/ark:/12148/bpt6k11791311</identifier>
+                        <identifier type="CharltonWild">
+                            153</identifier>
                         <title>Avis au public ou le Physionomiste en défaut</title>
                         <respStmt>
                             <resp>
@@ -50,14 +52,6 @@
                         target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl" />
                 </application>
             </appInfo>
-            <classDecls>
-                <taxonomy>
-                    <bibl>Charlton Wild</bibl>
-                    <category xml:id="CHARLTON_153">
-                        <label>153</label>
-                    </category>
-                </taxonomy>
-            </classDecls>
         </encodingDesc>
         <workList>
             <work n="1" xml:id="work1">

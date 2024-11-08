@@ -16,6 +16,8 @@
                     <bibl>
                         <identifier type="URI">
                             https://gallica.bnf.fr/ark:/12148/bpt6k1177037j</identifier>
+                        <identifier type="CharltonWild">
+                            29</identifier>
                         <title>Aline, reine de Golconde</title>
                         <respStmt>
                             <resp>
@@ -57,14 +59,6 @@
                         target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl" />
                 </application>
             </appInfo>
-            <classDecls>
-                <taxonomy>
-                    <bibl>Charlton Wild</bibl>
-                    <category xml:id="CHARLTON_29">
-                        <label>29</label>
-                    </category>
-                </taxonomy>
-            </classDecls>
         </encodingDesc>
         <workList>
             <work n="1" xml:id="work1">

@@ -16,6 +16,8 @@
                     <bibl>
                         <identifier type="URI">
                             https://gallica.bnf.fr/ark:/12148/btv1b100712629</identifier>
+                        <identifier type="CharltonWild">
+                            1856</identifier>
                         <title>Les Voitures versées</title>
                         <respStmt>
                             <resp>
@@ -51,14 +53,6 @@
                         target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl" />
                 </application>
             </appInfo>
-            <classDecls>
-                <taxonomy>
-                    <bibl>Charlton Wild</bibl>
-                    <category xml:id="CHARLTON_1856">
-                        <label>1856</label>
-                    </category>
-                </taxonomy>
-            </classDecls>
         </encodingDesc>
         <workList>
             <work n="1" xml:id="work1">

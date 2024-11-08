@@ -16,6 +16,8 @@
                     <bibl>
                         <identifier type="URI">
                             https://gallica.bnf.fr/ark:/12148/bpt6k1158036w</identifier>
+                        <identifier type="CharltonWild">
+                            544</identifier>
                         <title>Les Deux Journées ou le Porteur d'eau</title>
                         <respStmt>
                             <resp>
@@ -50,14 +52,6 @@
                         target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl" />
                 </application>
             </appInfo>
-            <classDecls>
-                <taxonomy>
-                    <bibl>Charlton Wild</bibl>
-                    <category xml:id="CHARLTON_544">
-                        <label>544</label>
-                    </category>
-                </taxonomy>
-            </classDecls>
         </encodingDesc>
         <workList>
             <work n="1" xml:id="work1">

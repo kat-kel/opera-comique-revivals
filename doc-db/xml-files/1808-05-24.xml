@@ -16,6 +16,8 @@
                     <bibl>
                         <identifier type="URI">
                             https://gallica.bnf.fr/ark:/12148/bpt6k1179331q</identifier>
+                        <identifier type="CharltonWild">
+                            1785</identifier>
                         <title>Un jour à Paris ou la Leçon singulière</title>
                         <respStmt>
                             <resp>
@@ -50,38 +52,32 @@
                         target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl" />
                 </application>
             </appInfo>
-            <classDecls>
-                <taxonomy>
-                    <bibl>Charlton Wild</bibl>
-                    <category xml:id="CHARLTON_1785">
-                        <label>1785</label>
-                    </category>
-                </taxonomy>
-            </classDecls>
         </encodingDesc>
         <workList>
             <work n="1" xml:id="work1">
                 <title>Ouverture</title>
                 <perfMedium>
                     <perfResList>
-                        <head>orchestra au fond du théâtre</head>
-                        <perfRes count="2" codedval="sa">Violino</perfRes>
-                        <perfRes count="1" codedval="we">Picolo Flauto</perfRes>
-                        <perfRes count="1" codedval="wc">Clarinetti in Ut</perfRes>
-                        <perfRes count="1" codedval="ba">Corni in Re</perfRes>
-                        <perfRes count="1" codedval="wd">Fagotto</perfRes>
-                    </perfResList>
-                    <perfResList>
-                        <head>orchestre principale</head>
-                        <perfRes count="2" codedval="sa">Violino</perfRes>
-                        <perfRes count="1" codedval="sb">Alto</perfRes>
-                        <perfRes count="1" codedval="wa">Flauto</perfRes>
-                        <perfRes count="1" codedval="wb">Oboi</perfRes>
-                        <perfRes count="1" codedval="ba">Corni in Re</perfRes>
-                        <perfRes count="1" codedval="pa">Timbales en Re</perfRes>
-                        <perfRes count="1" codedval="wd">Fagotto</perfRes>
-                        <perfRes count="1" codedval="sc">Vlle</perfRes>
-                        <perfRes count="1" codedval="sd">C. Basso</perfRes>
+                        <perfResList>
+                            <head>orchestra au fond du théâtre</head>
+                            <perfRes count="2" codedval="sa">Violino</perfRes>
+                            <perfRes count="1" codedval="we">Picolo Flauto</perfRes>
+                            <perfRes count="1" codedval="wc">Clarinetti in Ut</perfRes>
+                            <perfRes count="1" codedval="ba">Corni in Re</perfRes>
+                            <perfRes count="1" codedval="wd">Fagotto</perfRes>
+                        </perfResList>
+                        <perfResList>
+                            <head>orchestre principale</head>
+                            <perfRes count="2" codedval="sa">Violino</perfRes>
+                            <perfRes count="1" codedval="sb">Alto</perfRes>
+                            <perfRes count="1" codedval="wa">Flauto</perfRes>
+                            <perfRes count="1" codedval="wb">Oboi</perfRes>
+                            <perfRes count="1" codedval="ba">Corni in Re</perfRes>
+                            <perfRes count="1" codedval="pa">Timbales en Re</perfRes>
+                            <perfRes count="1" codedval="wd">Fagotto</perfRes>
+                            <perfRes count="1" codedval="sc">Vlle</perfRes>
+                            <perfRes count="1" codedval="sd">C. Basso</perfRes>
+                        </perfResList>
                     </perfResList>
                 </perfMedium>
             </work>
@@ -94,19 +90,21 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <head>orchestra au fond du théâtre</head>
-                        <perfRes count="2" codedval="sa">Violino</perfRes>
-                        <perfRes count="1" codedval="wa">Flauto</perfRes>
-                        <perfRes count="1" codedval="wc">Clarinetti in Ut</perfRes>
-                        <perfRes count="1" codedval="ba">Corni in Re</perfRes>
-                        <perfRes count="1" codedval="wd">Fagotti</perfRes>
-                    </perfResList>
-                    <perfResList>
-                        <head>orchestre principale</head>
-                        <perfRes count="2" codedval="sa">Violino</perfRes>
-                        <perfRes count="1" codedval="sb">Altos</perfRes>
-                        <perfRes count="1" codedval="sc">Vlle</perfRes>
-                        <perfRes count="1" codedval="sd">C. Basso</perfRes>
+                        <perfResList>
+                            <head>orchestra au fond du théâtre</head>
+                            <perfRes count="2" codedval="sa">Violino</perfRes>
+                            <perfRes count="1" codedval="wa">Flauto</perfRes>
+                            <perfRes count="1" codedval="wc">Clarinetti in Ut</perfRes>
+                            <perfRes count="1" codedval="ba">Corni in Re</perfRes>
+                            <perfRes count="1" codedval="wd">Fagotti</perfRes>
+                        </perfResList>
+                        <perfResList>
+                            <head>orchestre principale</head>
+                            <perfRes count="2" codedval="sa">Violino</perfRes>
+                            <perfRes count="1" codedval="sb">Altos</perfRes>
+                            <perfRes count="1" codedval="sc">Vlle</perfRes>
+                            <perfRes count="1" codedval="sd">C. Basso</perfRes>
+                        </perfResList>
                     </perfResList>
                 </perfMedium>
             </work>
