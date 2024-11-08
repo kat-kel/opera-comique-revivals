@@ -141,7 +141,7 @@
                         <perfRes count="2" codedval="sa">Violino</perfRes>
                         <perfRes count="1" codedval="sb">Alto</perfRes>
                         <perfRes count="1" codedval="wa">Flauto</perfRes>
-                        <perfRes count="1" codedval="ob">Oboi</perfRes>
+                        <perfRes count="1" codedval="wb">Oboi</perfRes>
                         <perfRes count="1" codedval="ba">Corni</perfRes>
                         <perfRes count="1" codedval="wd">Fagotto</perfRes>
                         <perfRes count="1" codedval="sn">Basso</perfRes>

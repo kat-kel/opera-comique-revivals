@@ -156,7 +156,7 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes count="1" codedval="pc">Petites flutes</perfRes>
+                        <perfRes count="1" codedval="we">Petites flutes</perfRes>
                         <perfRes count="1" codedval="wa">Flutes</perfRes>
                         <perfRes count="1" codedval="wb">Oboe</perfRes>
                         <perfRes count="1" codedval="wc">Clarin.</perfRes>

@@ -185,7 +185,7 @@
                         <perfRes count="1" codedval="wd">Bassons</perfRes>
                         <perfRes count="1" codedval="pz">Cymbales</perfRes>
                         <perfRes count="1" codedval="sn">Basse</perfRes>
-                        <perfRes count="1" codedval="tp">Tymballes en re</perfRes>
+                        <perfRes count="1" codedval="pa">Tymballes en re</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
