@@ -31,7 +31,7 @@
                                 <identifier type="URI">https://data.bnf.fr/ark:/12148/cb13892445c</identifier>
                                 <persName role="composer" startdate="1760" enddate="1842">
                                     <foreName>Luigi</foreName>
-                                    <foreName>Cherubini</foreName>
+                                    <famName>Cherubini</famName>
                                 </persName>
                             </resp>
                         </respStmt>

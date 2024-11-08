@@ -259,7 +259,7 @@
                 <perfMedium>
                     <perfResList>
                         <perfRes count="2" codedval="sa">Violino</perfRes>
-                        <perfRes codedval="pz">Tambourin</perfRes>
+                        <perfRes count="1" codedval="pz">Tambourin</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>

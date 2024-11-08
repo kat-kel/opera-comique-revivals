@@ -178,7 +178,7 @@
                 <title>No. 5</title>
                 <perfMedium>
                     <perfResList>
-                        <perfRes codedval="ta">Harpe</perfRes>
+                        <perfRes count="1" codedval="ta">Harpe</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
