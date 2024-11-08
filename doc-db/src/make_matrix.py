@@ -74,12 +74,14 @@ def parse_tree(fp: Path) -> dict:
     opera_id = tree.xpath("//mei:identifier[@type='CharltonWild']", namespaces=NS)[
         0
     ].text.strip()
+    year = fp.stem
     title = tree.xpath("//mei:source/mei:bibl/mei:title", namespaces=NS)[0].text.strip()
     composer = get_composers(tree=tree)
     librettist = get_librettists(tree=tree)
     works = get_works(tree=tree)
     data = {
         opera_id: {
+            "year": year,
             "title": title,
             "librettist": librettist,
             "composer": composer,
@@ -114,11 +116,11 @@ def main(decade, directory):
         all_instrumentation.extend(i)
     hmp_df = pd.DataFrame(all_instrumentation)
     corr = hmp_df.corr(numeric_only=True)
-    title_string = f"""{decade} opéras-comiques: Correlation of instruments playing together
+    title_string = f"""{decade} Decade: Correlation of instruments playing together
 (excluding bowed instruments)
 """
     sn.set_theme(style="white", palette="pastel")
-    fig, (ax1, ax2) = plt.subplots(ncols=2, nrows=1, figsize=(16, 12))
+    fig, (ax1, ax2) = plt.subplots(ncols=1, nrows=2, figsize=(12, 12))
     hm = sn.heatmap(
         ax=ax1,
         data=corr,
@@ -131,41 +133,50 @@ def main(decade, directory):
     ).set(title=title_string)
 
     # Plotting the bar plot
-    opera_df_rows = []
-    for opera_id, metadata in data.items():
+    instrument_parts = []
+    for metadata in data.values():
         title = metadata["title"]
-        opera_counter = Counter(
-            {v: 0 for v in MARCMUSPERF.values() if not v.startswith("Strings, bowed")}
-        )
+        year = metadata["year"]
         for w in metadata["works"]:
-            for inst, value in w.items():
-                if inst.startswith("Strings, bowed"):
-                    continue
-                for i in range(value):
-                    opera_counter.update([inst])
-        for k, v in opera_counter.items():
-            opera_data = {
-                "label": f"{title} ({opera_id})",
-                "number of times used": v,
-                "instrument": k,
-            }
-            opera_df_rows.append(opera_data)
-    bar_df = pd.DataFrame(opera_df_rows)
-    title_string = f"""{decade} opéras-comiques: Total number of instrument parts per number, per opera
+            instruments = [
+                (inst, value)
+                for inst, value in w.items()
+                if not inst.startswith("Strings, bowed")
+            ]
+            for inst, count in instruments:
+                if count > 0:
+                    for i in range(count):
+                        opera_data = {
+                            "title": title,
+                            "year": year,
+                            "instrument": inst,
+                        }
+                        instrument_parts.append(opera_data)
+
+    df_rows = sorted(instrument_parts, key=lambda d: d["year"])
+    df_rows = sorted(df_rows, key=lambda d: d["instrument"])
+    bar_df = pd.DataFrame(df_rows)
+    title_string = f"""{decade} Decade: Total number of instruments per opera number
 (excluding bowed instruments)
 """
-    sn.barplot(
+    sn.histplot(
         bar_df,
         ax=ax2,
-        x="label",
-        y="number of times used",
+        y="title",
         hue="instrument",
-        dodge=False,
-        orient="x",
+        multiple="fill",
+        stat="proportion",
+        discrete=True,
+        shrink=0.8,
         palette="Spectral",
-    ).set(title=title_string)
+    )
     sn.move_legend(ax2, "upper left", bbox_to_anchor=(1, 1))
     plt.xticks(rotation=90)
+    ax2.set(
+        ylabel="Opera",
+        xlabel="Proportion of parts written for an instrument",
+        title=title_string,
+    )
 
     of = DIR.joinpath(f"{decade}.png")
     fig.tight_layout()
