@@ -162,6 +162,7 @@ def main(decade, directory):
         hue="instrument",
         dodge=False,
         orient="x",
+        palette="Spectral",
     ).set(title=title_string)
     sn.move_legend(ax2, "upper left", bbox_to_anchor=(1, 1))
     plt.xticks(rotation=90)
