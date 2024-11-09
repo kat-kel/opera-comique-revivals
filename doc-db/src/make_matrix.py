@@ -69,21 +69,25 @@ def parse_perfRes(instrument: etree.Element) -> dict:
 
 
 def parse_tree(fp: Path) -> dict:
-    tree = etree.parse(fp, parser=XMLParser())
+    try:
+        tree = etree.parse(fp, parser=XMLParser())
+    except Exception as e:
+        print(f"\n\n{fp}\n")
+        raise e
     opera_id = tree.xpath("//mei:identifier[@type='CharltonWild']", namespaces=NS)[
         0
     ].text.strip()
     year = fp.stem
     title = tree.xpath("//mei:source/mei:bibl/mei:title", namespaces=NS)[0].text.strip()
-    composer = get_composers(tree=tree)
-    librettist = get_librettists(tree=tree)
+    # composer = get_composers(tree=tree)
+    # librettist = get_librettists(tree=tree)
     works = get_works(tree=tree)
     data = {
         opera_id: {
             "year": year,
             "title": title,
-            "librettist": librettist,
-            "composer": composer,
+            # "librettist": librettist,
+            # "composer": composer,
             "works": works,
         }
     }
@@ -148,13 +152,14 @@ def make_palette_by_instrument_group():
         return {k: v for k, v in zip(labels, hex_list)}
 
     # Select labels from Color Brewer library
-    brass_kw = build_label_hex_pairs(prefix="b", color="Reds")
-    keys_kw = build_label_hex_pairs(prefix="k", color="Greys")
-    percussion_kw = build_label_hex_pairs(prefix="p", color="PuRd")
-    bowed_kw = build_label_hex_pairs(prefix="s", color="Blues")
-    plucked_kw = build_label_hex_pairs(prefix="t", color="Oranges")
     woodwinds_kw = build_label_hex_pairs(prefix="w", color="Greens")
-    voices_kw = build_label_hex_pairs(prefix="v", color="YlOrBr")
+    plucked_kw = build_label_hex_pairs(prefix="t", color="rocket")
+    bowed_kw = build_label_hex_pairs(prefix="s", color="Greys")
+    percussion_kw = build_label_hex_pairs(prefix="p", color="Blues")
+    keys_kw = build_label_hex_pairs(prefix="k", color="Purples")
+    brass_kw = build_label_hex_pairs(prefix="b", color="Reds")
+
+    # voices_kw = build_label_hex_pairs(prefix="v", color="YlOrBr")
 
     kw = brass_kw | keys_kw | percussion_kw | bowed_kw | plucked_kw | woodwinds_kw
     return kw
@@ -176,21 +181,56 @@ def plot_barchart(df: pd.DataFrame, ax, title_string: str):
     sn.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
     ax.set(
         ylabel="Premiere",
-        xlabel="Proportion of parts written for an instrument",
+        xlabel="Proportion",
         title=title_string,
     )
     return plot
 
 
-@click.command()
+@click.group()
+def cli():
+    pass
+
+
+@cli.command("barchart")
+@click.option(
+    "--directory",
+    "-d",
+    default="xml-files",
+    help="Path to the directory containing MEI-XML files",
+)
+def barchart_command(directory):
+    data = {}
+    for f in Path(directory).iterdir():
+        opera = parse_tree(f)
+        data.update(opera)
+
+    # Setting up the plot
+    sn.set_theme(style="white", palette="pastel")
+    fig, ax = plt.subplots(figsize=(12, 12))
+
+    # Plotting bar chart
+    parts = list_part_with_metadata(data=data)
+    bar_df = pd.DataFrame(parts)
+    title_string = "Proportion of parts in an opera per instrument"
+    plot_barchart(df=bar_df, ax=ax, title_string=title_string)
+    plt.xticks(rotation=90)
+
+    # Save figure
+    of = DIR.joinpath(f"allYears.png")
+    fig.tight_layout()
+    fig.savefig(of)
+
+
+@cli.command("decade")
 @click.option("--decade", "-y", required=True, help="First 3 digits of the decade")
 @click.option(
     "--directory",
     "-d",
-    required=True,
+    default="xml-files",
     help="Path to the directory containing MEI-XML files",
 )
-def main(decade, directory):
+def decade_command(decade, directory):
     decade_prefix = decade[:3]
     decade = f"{decade_prefix}0s"
     data = {}
@@ -213,7 +253,7 @@ def main(decade, directory):
     # Plotting bar chart
     parts = list_part_with_metadata(data=data)
     bar_df = pd.DataFrame(parts)
-    title_string = f"{decade} Decade: Total number of instruments per opera number\n(excluding bowed instruments)"
+    title_string = f"{decade} Decade: Proportion of parts in an opera per instrument"
     plot_barchart(df=bar_df, ax=ax2, title_string=title_string)
     plt.xticks(rotation=90)
 
@@ -224,4 +264,4 @@ def main(decade, directory):
 
 
 if __name__ == "__main__":
-    main()
+    cli()
