@@ -6,7 +6,6 @@ import seaborn as sn
 import pandas as pd
 import click
 import matplotlib.pyplot as plt
-from collections import Counter
 
 
 NS = {"mei": "http://www.music-encoding.org/ns/mei"}
@@ -91,9 +90,104 @@ def parse_tree(fp: Path) -> dict:
     return data
 
 
+def list_instrumentation_by_work(data: dict) -> list:
+    all_instrumentation = []
+    for opera in data.values():
+        i = []
+        for work in opera["works"]:
+            work_instrumentation = {
+                k: v for k, v in work.items() if not k.startswith("Strings, bowed")
+            }
+            i.append(work_instrumentation)
+        all_instrumentation.extend(i)
+    return all_instrumentation
+
+
+def list_part_with_metadata(data) -> list:
+    instrument_parts = []
+    for metadata in data.values():
+        title = metadata["title"]
+        year = metadata["year"]
+        for w in metadata["works"]:
+            for inst, count in w.items():
+                if count > 0:
+                    for i in range(count):
+                        opera_data = {
+                            "title": title,
+                            "year": year,
+                            "instrument": inst,
+                        }
+                        instrument_parts.append(opera_data)
+    instrument_parts = sorted(instrument_parts, key=lambda d: d["year"])
+    instrument_parts = sorted(instrument_parts, key=lambda d: d["instrument"])
+    return instrument_parts
+
+
+def plot_heatmap(df: pd.DataFrame, ax, title_string: str):
+    color_palette = sn.color_palette("BuPu", as_cmap=True)
+    corr = df.corr(numeric_only=True)
+    hm = sn.heatmap(
+        ax=ax,
+        data=corr,
+        cmap=color_palette,
+        vmax=0.3,
+        center=0,
+        square=True,
+        linewidths=0.5,
+        cbar_kws={"shrink": 0.5, "label": "correlation coefficient"},
+    ).set(title=title_string)
+    return hm
+
+
+def make_palette_by_instrument_group():
+    def build_label_hex_pairs(prefix: str, color: str) -> dict:
+        labels = [v for k, v in MARCMUSPERF.items() if k.startswith(prefix)]
+        hex_list = sn.color_palette(color, len(labels)).as_hex()
+        return {k: v for k, v in zip(labels, hex_list)}
+
+    # Select labels from Color Brewer library
+    brass_kw = build_label_hex_pairs(prefix="b", color="Reds")
+    keys_kw = build_label_hex_pairs(prefix="k", color="Greys")
+    percussion_kw = build_label_hex_pairs(prefix="p", color="PuRd")
+    bowed_kw = build_label_hex_pairs(prefix="s", color="Blues")
+    plucked_kw = build_label_hex_pairs(prefix="t", color="Oranges")
+    woodwinds_kw = build_label_hex_pairs(prefix="w", color="Greens")
+    voices_kw = build_label_hex_pairs(prefix="v", color="YlOrBr")
+
+    kw = brass_kw | keys_kw | percussion_kw | bowed_kw | plucked_kw | woodwinds_kw
+    return kw
+
+
+def plot_barchart(df: pd.DataFrame, ax, title_string: str):
+    color_palette = make_palette_by_instrument_group()
+    plot = sn.histplot(
+        df,
+        ax=ax,
+        y="year",
+        hue="instrument",
+        multiple="fill",
+        stat="proportion",
+        discrete=True,
+        shrink=0.8,
+        palette=color_palette,
+    )
+    sn.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
+    ax.set(
+        ylabel="Premiere",
+        xlabel="Proportion of parts written for an instrument",
+        title=title_string,
+    )
+    return plot
+
+
 @click.command()
-@click.option("--decade", "-y", required=True)
-@click.option("--directory", "-d", required=True)
+@click.option("--decade", "-y", required=True, help="First 3 digits of the decade")
+@click.option(
+    "--directory",
+    "-d",
+    required=True,
+    help="Path to the directory containing MEI-XML files",
+)
 def main(decade, directory):
     decade_prefix = decade[:3]
     decade = f"{decade_prefix}0s"
@@ -104,80 +198,24 @@ def main(decade, directory):
         opera = parse_tree(f)
         data.update(opera)
 
-    # plotting the heatmap
-    all_instrumentation = []
-    for opera in data.values():
-        i = []
-        for work in opera["works"]:
-            work_instrumentation = {
-                k: v for k, v in work.items() if not k.startswith("Strings, bowed")
-            }
-            i.append(work_instrumentation)
-        all_instrumentation.extend(i)
-    hmp_df = pd.DataFrame(all_instrumentation)
-    corr = hmp_df.corr(numeric_only=True)
-    title_string = f"""{decade} Decade: Correlation of instruments playing together
-(excluding bowed instruments)
-"""
+    # Setting up the plot
     sn.set_theme(style="white", palette="pastel")
     fig, (ax1, ax2) = plt.subplots(ncols=1, nrows=2, figsize=(12, 12))
-    hm = sn.heatmap(
-        ax=ax1,
-        data=corr,
-        cmap="crest",
-        vmax=0.3,
-        center=0,
-        square=True,
-        linewidths=0.5,
-        cbar_kws={"shrink": 0.5, "label": "correlation coefficient"},
-    ).set(title=title_string)
 
-    # Plotting the bar plot
-    instrument_parts = []
-    for metadata in data.values():
-        title = metadata["title"]
-        year = metadata["year"]
-        for w in metadata["works"]:
-            instruments = [
-                (inst, value)
-                for inst, value in w.items()
-                if not inst.startswith("Strings, bowed")
-            ]
-            for inst, count in instruments:
-                if count > 0:
-                    for i in range(count):
-                        opera_data = {
-                            "title": title,
-                            "year": year,
-                            "instrument": inst,
-                        }
-                        instrument_parts.append(opera_data)
+    # Plotting the heatmap
+    work_instrumentation = list_instrumentation_by_work(data)
+    hmp_df = pd.DataFrame(work_instrumentation)
+    title_string = f"{decade} Decade: Correlation of instruments playing together\n(excluding bowed instruments)"
+    plot_heatmap(df=hmp_df, ax=ax1, title_string=title_string)
 
-    df_rows = sorted(instrument_parts, key=lambda d: d["year"])
-    df_rows = sorted(df_rows, key=lambda d: d["instrument"])
-    bar_df = pd.DataFrame(df_rows)
-    title_string = f"""{decade} Decade: Total number of instruments per opera number
-(excluding bowed instruments)
-"""
-    sn.histplot(
-        bar_df,
-        ax=ax2,
-        y="title",
-        hue="instrument",
-        multiple="fill",
-        stat="proportion",
-        discrete=True,
-        shrink=0.8,
-        palette="Spectral",
-    )
-    sn.move_legend(ax2, "upper left", bbox_to_anchor=(1, 1))
+    # Plotting bar chart
+    parts = list_part_with_metadata(data=data)
+    bar_df = pd.DataFrame(parts)
+    title_string = f"{decade} Decade: Total number of instruments per opera number\n(excluding bowed instruments)"
+    plot_barchart(df=bar_df, ax=ax2, title_string=title_string)
     plt.xticks(rotation=90)
-    ax2.set(
-        ylabel="Opera",
-        xlabel="Proportion of parts written for an instrument",
-        title=title_string,
-    )
 
+    # Save figure
     of = DIR.joinpath(f"{decade}.png")
     fig.tight_layout()
     fig.savefig(of)
