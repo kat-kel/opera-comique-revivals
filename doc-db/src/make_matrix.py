@@ -104,6 +104,7 @@ def list_instrumentation_by_work(data: dict) -> list:
 
 
 def list_part_with_metadata(data) -> list:
+    reverse_index = {v: k for k, v in MARCMUSPERF.items()}
     instrument_parts = []
     for metadata in data.values():
         title = metadata["title"]
@@ -116,10 +117,11 @@ def list_part_with_metadata(data) -> list:
                             "title": title,
                             "year": year,
                             "instrument": inst,
+                            "instrument_codedval": reverse_index[inst],
                         }
                         instrument_parts.append(opera_data)
     instrument_parts = sorted(instrument_parts, key=lambda d: d["year"])
-    instrument_parts = sorted(instrument_parts, key=lambda d: d["instrument"])
+    instrument_parts = sorted(instrument_parts, key=lambda d: d["instrument_codedval"])
     return instrument_parts
 
 
