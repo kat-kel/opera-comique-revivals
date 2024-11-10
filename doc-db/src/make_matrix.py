@@ -1,11 +1,13 @@
 from lxml import etree
 from lxml.etree import XMLParser
+from datetime import date
 from pathlib import Path
 from perfRes import MARCMUSPERF
 import seaborn as sn
 import pandas as pd
 import click
 import matplotlib.pyplot as plt
+import matplotlib.gridspec as gridspec
 
 
 NS = {"mei": "http://www.music-encoding.org/ns/mei"}
@@ -129,6 +131,36 @@ def list_part_with_metadata(data) -> list:
     return instrument_parts
 
 
+def list_instruments_proportions(data) -> list:
+    operas = []
+    instrument_list = MARCMUSPERF.values()
+    for opera in data.values():
+        year = opera["year"]
+        n_works = len(opera["works"])
+        counter = {k: 0 for k in instrument_list}
+        for work in opera["works"]:
+            for inst, count in work.items():
+                current_count = counter[inst]
+                if count > 0:
+                    counter.update({inst: current_count + 1})
+        for inst, count in counter.items():
+            counter.update({inst: count / n_works})
+        counter.update({"year": year})
+        operas.append(counter)
+    operas = sorted(operas, key=lambda d: d["year"])
+
+    instruments = []
+    for opera in operas:
+        year = int(opera["year"][:4])
+        for k in instrument_list:
+            inst_proportion = opera[k]
+            instruments.append(
+                {"year": year, "instrument": k, "proportion": inst_proportion}
+            )
+
+    return instruments
+
+
 def plot_heatmap(df: pd.DataFrame, ax, title_string: str):
     color_palette = sn.color_palette("BuPu", as_cmap=True)
     corr = df.corr(numeric_only=True)
@@ -187,6 +219,35 @@ def plot_barchart(df: pd.DataFrame, ax, title_string: str):
     return plot
 
 
+def exclude_rows_by_values(df, col, values):
+    return df[~df[col].isin(values)]
+
+
+def include_rows_by_values(df, col, values):
+    return df[df[col].isin(values)]
+
+
+STRINGS = [v for v in MARCMUSPERF.values() if v.startswith("Strings, plucked")]
+WOOWDIND = [v for v in MARCMUSPERF.values() if v.startswith("Woodwind")]
+BRASS = [v for v in MARCMUSPERF.values() if v.startswith("Brass")]
+PERCUSSION = [v for v in MARCMUSPERF.values() if v.startswith("Percussion")]
+
+
+def plot_line_chart(df: pd.DataFrame, ax):
+    color_palette = make_palette_by_instrument_group()
+    plot = sn.lineplot(
+        data=df,
+        ax=ax,
+        x="year",
+        y="proportion",
+        hue="instrument",
+        palette=color_palette,
+    )
+    ax.set(ylim=(0, 1))
+    sn.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
+    return plot
+
+
 @click.group()
 def cli():
     pass
@@ -207,14 +268,37 @@ def barchart_command(directory):
 
     # Setting up the plot
     sn.set_theme(style="white", palette="pastel")
-    fig, ax = plt.subplots(figsize=(12, 12))
+    fig = plt.figure(figsize=(32, 18))
+    gs = gridspec.GridSpec(4, 2)
+    ax0 = plt.subplot(gs[0, 0])
+    ax1 = plt.subplot(gs[1, 0])
+    ax2 = plt.subplot(gs[2, 0])
+    ax3 = plt.subplot(gs[3, 0])
+    ax4 = plt.subplot(gs[:4, 1])
 
     # Plotting bar chart
     parts = list_part_with_metadata(data=data)
     bar_df = pd.DataFrame(parts)
     title_string = "Proportion of parts in an opera per instrument"
-    plot_barchart(df=bar_df, ax=ax, title_string=title_string)
+    plot_barchart(df=bar_df, ax=ax4, title_string=title_string)
     plt.xticks(rotation=90)
+
+    # Plotting line charts
+    data = list_instruments_proportions(data=data)
+    line_df = pd.DataFrame.from_dict(data)
+    b_df = include_rows_by_values(df=line_df, col="instrument", values=BRASS)
+    plot_line_chart(df=b_df, ax=ax0)
+    w_df = include_rows_by_values(df=line_df, col="instrument", values=WOOWDIND)
+    w_df = exclude_rows_by_values(
+        df=w_df,
+        col="instrument",
+        values=["Woodwinds - Bass clarinet"],
+    )
+    plot_line_chart(df=w_df, ax=ax1)
+    p_df = include_rows_by_values(df=line_df, col="instrument", values=PERCUSSION)
+    plot_line_chart(df=p_df, ax=ax2)
+    s_df = include_rows_by_values(df=line_df, col="instrument", values=STRINGS)
+    plot_line_chart(df=s_df, ax=ax3)
 
     # Save figure
     of = DIR.joinpath(f"allYears.png")
