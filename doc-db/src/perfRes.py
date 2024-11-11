@@ -7,7 +7,7 @@ MARCMUSPERF = {
     # "bc": "Brass - Cornet",
     "bd": "Brass - Trombone",
     # "be": "Brass - Tuba",
-    # "bf": "Brass - Baritone",
+    "bf": "Brass - Baritone (Ophicleide)",
     # "bn": "Brass - Unspecified",
     # "bu": "Brass - Unknown",
     # "by": "Brass - Ethnic",
