@@ -55,7 +55,30 @@
         </encodingDesc>
         <workList>
             <work n="1" xml:id="work1">
-                <title>ARIA</title>
+                <title>Ouverture</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="we">Petite flute</perfRes>
+                        <perfRes count="1" codedval="wa">Grande Flute</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="bb">Trompettes</perfRes>
+                        <perfRes count="2" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="bd">Trombones</perfRes>
+                        <perfRes count="1" codedval="pa">Timbales</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Altos</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelles</perfRes>
+                        <perfRes count="1" codedval="sd">Contre Basses</perfRes>
+                        <perfRes count="1" codedval="pz">Triangle</perfRes>
+                        <perfRes count="1" codedval="pd">Grosse Caisse</perfRes>
+                        <perfRes count="1" codedval="pz">Cimballes</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="2" xml:id="work2">
+                <title>No. 1 Duo</title>
                 <incip>
                     <incipText>
                         <p>INCIPIT</p>
@@ -63,14 +86,309 @@
                 </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes count="2" codedval="sa"></perfRes>
-                        <perfRes count="1" codedval="sb"></perfRes>
-                        <perfRes count="1" codedval="sc"></perfRes>
-                        <perfRes count="1" codedval="sd"></perfRes>
+                        <perfRes count="1" codedval="we">Petite flute</perfRes>
+                        <perfRes count="1" codedval="wa">Grande Flute</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Altos</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelles</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="3" xml:id="work3">
+                <title>No. 1 Bis sur le Théâtre</title>
+                <incip>
+                    <incipText>
+                        <p>INCIPIT</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="2" codedval="bb">Trompettes</perfRes>
+                        <perfRes count="2" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="bd">Trombonnes</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="4" xml:id="work4">
+                <title>No. 2 Air</title>
+                <incip>
+                    <incipText>
+                        <p>INCIPIT</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="we">Petite flute</perfRes>
+                        <perfRes count="1" codedval="wa">Grande Flute</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Altos</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelles</perfRes>
+                        <perfRes count="1" codedval="sd">Contre Basses</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="5" xml:id="work5">
+                <title>No. 3 Air</title>
+                <incip>
+                    <incipText>
+                        <p>INCIPIT</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="we">Petite flute</perfRes>
+                        <perfRes count="1" codedval="wa">Grande Flute</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="bb">Trompettes</perfRes>
+                        <perfRes count="2" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Altos</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelles</perfRes>
+                        <perfRes count="1" codedval="sd">Contre Basses</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="6" xml:id="work6">
+                <title>No. 4</title>
+                <incip>
+                    <incipText>
+                        <p>INCIPIT</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="ka">Piano</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="7" xml:id="work7">
+                <title>No. 5 Air</title>
+                <incip>
+                    <incipText>
+                        <p>INCIPIT</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="we">Petite flute</perfRes>
+                        <perfRes count="1" codedval="wa">Grande Flute</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="bb">Trompettes</perfRes>
+                        <perfRes count="2" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="1" codedval="pa">Timballes</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Altos</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelles</perfRes>
+                        <perfRes count="1" codedval="sd">Contre Basses</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="8" xml:id="work8">
+                <title>No. 6</title>
+                <incip>
+                    <incipText>
+                        <p>INCIPIT</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="2" codedval="ka">Piano</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="9" xml:id="work9">
+                <title>No. 7 Chœur</title>
+                <incip>
+                    <incipText>
+                        <p>INCIPIT</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="we">Petite flute</perfRes>
+                        <perfRes count="1" codedval="wa">Grande Flute</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="bb">Trompettes</perfRes>
+                        <perfRes count="2" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="bd">Trombonnes</perfRes>
+                        <perfRes count="1" codedval="pa">Timballes</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Altos</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelles</perfRes>
+                        <perfRes count="1" codedval="sd">Contre Basses</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="10" xml:id="work10">
+                <title>No. 8 Morceau d'ensemble</title>
+                <incip>
+                    <incipText>
+                        <p>INCIPIT</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="we">Petite flute</perfRes>
+                        <perfRes count="1" codedval="wa">Grande Flute</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="bb">Trompettes</perfRes>
+                        <perfRes count="4" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="1" codedval="bd">Trombonnes</perfRes>
+                        <perfRes count="1" codedval="pa">Timballes</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Altos</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelles</perfRes>
+                        <perfRes count="1" codedval="sd">Contre Basses</perfRes>
+                        <perfRes count="1" codedval="pz">Cymb.</perfRes>
+                        <perfRes count="1" codedval="pz">Tri.</perfRes>
+                        <perfRes count="1" codedval="pd">G. C.</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="11" xml:id="work11">
+                <identifier>
+                    <locus>page 156</locus>
+                </identifier>
+                <title>No. 9 Chœur</title>
+                <incip>
+                    <incipText>
+                        <p>INCIPIT</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="we">Petite flute</perfRes>
+                        <perfRes count="1" codedval="wa">Grande Flute</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Altos</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelles</perfRes>
+                        <perfRes count="1" codedval="sd">Contre Basses</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="12" xml:id="work12">
+                <title>No. 10 Morceau d'ensemble</title>
+                <incip>
+                    <incipText>
+                        <p>INCIPIT</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="we">Petite flute</perfRes>
+                        <perfRes count="1" codedval="wa">Grande Flute</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="bb">Trompettes</perfRes>
+                        <perfRes count="2" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Altos</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelles</perfRes>
+                        <perfRes count="1" codedval="sd">Contre Basses</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="13" xml:id="work13">
+                <title>No. 11 Chœur Final</title>
+                <incip>
+                    <incipText>
+                        <p>INCIPIT</p>
+                    </incipText>
+                </incip>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="we">Octave</perfRes>
+                        <perfRes count="1" codedval="wa">Flute</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="2" codedval="bb">Trompettes</perfRes>
+                        <perfRes count="2" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="1" codedval="bd">Trombonnes</perfRes>
+                        <perfRes count="1" codedval="pa">Timballes</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Altos</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelles</perfRes>
+                        <perfRes count="1" codedval="sd">Contre Basses</perfRes>
                     </perfResList>
                 </perfMedium>
             </work>
         </workList>
     </meiHead>
-    <music />
+    <music>
+        <facsimile>
+            <surface decls="#work1">
+                <graphic xml:id="f9"
+                    facs="https://gallica.bnf.fr/ark:/12148/bpt6k1168466p/f9.item#"></graphic>
+            </surface>
+            <surface decls="#work2">
+                <graphic xml:id="f40"
+                    facs="https://gallica.bnf.fr/ark:/12148/bpt6k1168466p/f40.item"></graphic>
+            </surface>
+            <surface decls="#work3">
+                <graphic xml:id="f65"
+                    facs="https://gallica.bnf.fr/ark:/12148/bpt6k1168466p/f65.item"></graphic>
+            </surface>
+            <surface decls="#work4">
+                <graphic xml:base="f67"
+                    facs="https://gallica.bnf.fr/ark:/12148/bpt6k1168466p/f67.item"></graphic>
+            </surface>
+            <surface decls="#work5">
+                <graphic xml:id="f77"
+                    facs="https://gallica.bnf.fr/ark:/12148/bpt6k1168466p/f77.item"></graphic>
+            </surface>
+            <surface decls="#work6">
+                <graphic xml:id="f90"
+                    facs="https://gallica.bnf.fr/ark:/12148/bpt6k1168466p/f90.item"></graphic>
+            </surface>
+            <surface decls="#work7">
+                <graphic xml:id="f91"
+                    facs="https://gallica.bnf.fr/ark:/12148/bpt6k1168466p/f91.item"></graphic>
+            </surface>
+            <surface decls="#work8">
+                <graphic xml:id="f111"
+                    facs="https://gallica.bnf.fr/ark:/12148/bpt6k1168466p/f111.item"></graphic>
+            </surface>
+            <surface decls="#work9">
+                <graphic xml:id="f112"
+                    facs="https://gallica.bnf.fr/ark:/12148/bpt6k1168466p/f112.item"></graphic>
+            </surface>
+            <surface decls="#work10">
+                <graphic xml:id="f128"
+                    facs="https://gallica.bnf.fr/ark:/12148/bpt6k1168466p/f128.item"></graphic>
+            </surface>
+            <surface decls="#work11">
+                <graphic xml:id="f164"
+                    facs="https://gallica.bnf.fr/ark:/12148/bpt6k1168466p/f164.item"></graphic>
+            </surface>
+            <surface decls="#work12">
+                <graphic xml:id="f168"
+                    facs="https://gallica.bnf.fr/ark:/12148/bpt6k1168466p/f168.item"></graphic>
+            </surface>
+            <surface decls="#work13">
+                <graphic xml:id="f184"
+                    facs="https://gallica.bnf.fr/ark:/12148/bpt6k1168466p/f184.item"></graphic>
+            </surface>
+        </facsimile>
+    </music>
 </mei>
