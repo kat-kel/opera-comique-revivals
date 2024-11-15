@@ -56,17 +56,19 @@
         <workList>
             <work n="1" xml:id="work1">
                 <title>ARIA</title>
-                <incip>
-                    <incipText>
-                        <p>INCIPIT</p>
-                    </incipText>
-                </incip>
                 <perfMedium>
                     <perfResList>
-                        <perfRes count="2" codedval="sa">Violon</perfRes>
-                        <perfRes count="1" codedval="sb">Alto</perfRes>
-                        <perfRes count="1" codedval="sc">Violoncello</perfRes>
-                        <perfRes count="1" codedval="sd">Contra-Basso</perfRes>
+                        <perfRes count="2" codedval="sa"></perfRes>
+                        <perfRes count="1" codedval="sb"></perfRes>
+                        <perfRes count="1" codedval="sc"></perfRes>
+                        <perfRes count="1" codedval="sd"></perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="1" xml:id="work1">
+                <title>ARIA</title>
+                <perfMedium>
+                    <perfResList>
                     </perfResList>
                 </perfMedium>
             </work>

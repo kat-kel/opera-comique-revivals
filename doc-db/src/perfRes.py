@@ -27,7 +27,7 @@ MARCMUSPERF = {
     # "eu": "Electronic - Unknown",
     # "ez": "Electronic - Other",
     "ka": "Keyboard - Piano",
-    # "kb": "Keyboard - Organ",
+    "kb": "Keyboard - Organ",
     # "kc": "Keyboard - Harpsichord",
     # "kd": "Keyboard - Clavichord",
     # "ke": "Keyboard - Continuo",
