@@ -99,7 +99,7 @@ def make_scatter_plot(d: DataFrame):
             weight="bold",
         )
     chart.set_title(
-        "PCA Analysis of opéra-comiques' instrumentation, 1800-1840",
+        "Plotting of Principal Component Analysis (PCA) of opéra-comiques' instrumentation, 1800-1840",
         size=24,
     )
 
