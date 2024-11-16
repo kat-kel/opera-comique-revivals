@@ -6,7 +6,7 @@ A Principal Component Analysis (PCA) on the deployment of different instruments 
 
 Using PCA, we observe each opera in the corpus and assess the proportion of numbers (arias, overtures, interludes, etc.) in which each instrument was deployed. Violons and violas, for example, were used in every number of every opera in the corpus. Therefore, as seen in the heatmap at the bottom of the figure below, they are both highly correlated with one of the principal components and hardly correlated at all (0.02 and 0.07) with the other, meaning the presence of violons and violas is not a significant factor in the analysis. Trombones, trumpets, and timpani, on the other hand, are significant in both principal components of the analysis, both negatively (magenta) and positively (purple) influencing the PCA. Therefore, we can conclude that these dimensions, low brass and percussion, have significant deviations in the corpus.
 
-![PCA plot](results/pca_plot.png)
+![PCA plot](results/pca_plot.png?)
 
 When we plot the operas according to their PCA values (PCA1, PCA2), we see clusters form according to the opera's year of composition, which is indicated by color. This is interesting because the year of composition is not part of the PCA; it is a completely independent variable. As such, we can conclude that patterns in opera orchestration, which the PCA explores, are correlated with time. In other words, orchestration changes over time. (This is what we predicted in our hypothesis and, in on its own, isn't surprising at all.)
 
