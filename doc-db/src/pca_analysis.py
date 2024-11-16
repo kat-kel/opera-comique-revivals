@@ -47,7 +47,7 @@ def make_heatmap(d: DataFrame):
             "orientation": "vertical",
         },
     )
-    chart.set_aspect("equal")
+    chart.set_aspect(2)
     title = "Instrument's influence on principal component\n"
     chart.set_title(title)
     plt.tight_layout()
