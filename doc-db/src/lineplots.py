@@ -5,7 +5,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
 from perfRes import MARCMUSPERF
-from matplotlib.ticker import PercentFormatter
 import matplotlib.ticker as mtick
 
 
@@ -46,7 +45,7 @@ def make_color_palette(color: str, dataframe: list[dict]) -> dict:
 
 
 def main():
-    dataset = Datasets().build_opera_averages_df(ignore=["Woodwinds - Bass"])
+    dataset = Datasets().build_dense_opera_averages_df(ignore=["Woodwinds - Bass"])
     [d.update({"proportion": d["proportion"] * 5}) for d in dataset]
 
     sns.set_theme(style="whitegrid")

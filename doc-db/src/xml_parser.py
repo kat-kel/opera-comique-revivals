@@ -180,7 +180,7 @@ class Datasets:
         work_list = sorted(work_list, key=lambda d: d["instrument_codedval"])
         return work_list
 
-    def build_opera_averages_df(self, ignore: list = []) -> list[dict]:
+    def build_dense_opera_averages_df(self, ignore: list = []) -> list[dict]:
         opera_list = []
         reverse_index = {v: k for k, v in MARCMUSPERF.items()}
         sections = {
@@ -216,4 +216,24 @@ class Datasets:
                     }
                 )
         opera_list = sorted(opera_list, key=lambda d: d["year"])
+        return opera_list
+
+    def build_sparse_opera_averages_df(self, ignore: list = []) -> list[dict]:
+        opera_list = []
+        instrumts_to_ignore = self._get_list_of_instruments_to_ignore(l=ignore)
+        for metadata in self.opera_dicts:
+            n_works = len(metadata["works"])
+            averages = {
+                k: (v / n_works)
+                for k, v in metadata["deployments"].items()
+                if k not in instrumts_to_ignore
+            }
+            opera = {
+                "date": metadata["year"],
+                "year": metadata["year"][:4],
+                "charlton_id": metadata["charlton_id"],
+                "title": metadata["title"],
+            } | averages
+            opera_list.append(opera)
+        opera_list = sorted(opera_list, key=lambda d: d["date"])
         return opera_list
