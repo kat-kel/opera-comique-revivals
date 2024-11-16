@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title>Instrumentation Encoding of Guillaume Tell (revised)</title>
+                <respStmt>
+                    <persName role="encoder">Kelly Christensen</persName>
+                </respStmt>
+            </titleStmt>
+            <pubStmt></pubStmt>
+            <sourceDesc>
+                <source>
+                    <bibl>
+                        <identifier type="URI">
+                            https://gallica.bnf.fr/ark:/12148/bpt6k11660280</identifier>
+                        <identifier type="CharltonWild">
+                            866b</identifier>
+                        <title>Guillaume Tell (revised)</title>
+                        <respStmt>
+                            <resp>
+                                <identifier type="URI"></identifier>
+                                <persName role="librettist">
+                                    <foreName></foreName>
+                                    <famName></famName>
+                                </persName>
+                            </resp>
+                            <resp>
+                                <identifier type="URI"></identifier>
+                                <persName role="composer">
+                                    <foreName></foreName>
+                                    <famName></famName>
+                                </persName>
+                            </resp>
+                        </respStmt>
+                    </bibl>
+                </source>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application version="v1.0" xml:id="mei40To50.xsl">
+                    <name>mei40To50.xsl</name>
+                    <ptr
+                        target="https://github.com/music-encoding/encoding-tools/blob/main/mei40To50/mei40To50.xsl" />
+                </application>
+                <application version="v0.0.1-alpha" xml:id="meiLint_v0.0.1-alpha">
+                    <name>meiLint.xsl</name>
+                    <ptr
+                        target="https://github.com/music-encoding/encoding-tools/blob/main/meiLint/meiLint.xsl" />
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <workList>
+            <work n="1" xml:id="act1_work1">
+                <title>Introduction</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="bb">Trompettes</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="1" codedval="pa">Timballes</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelle</perfRes>
+                        <perfRes count="1" codedval="sd">Contre-Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="2" xml:id="act1_work2">
+                <title>No. 1 Couplets</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sn">Basses</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="3" xml:id="act1_work3">
+                <title>No. 2 Duo</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="wa">Flute</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors en Fa</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sn">Basses</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="4" xml:id="act1_work4">
+                <title>No. 3 Duo</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelle</perfRes>
+                        <perfRes count="1" codedval="sd">Contre-Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="5" xml:id="act1_work5">
+                <title>No. 4 Chœur</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="ba">Cors en Mi</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelle</perfRes>
+                        <perfRes count="1" codedval="sd">Contre-Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="6" xml:id="act1_work6">
+                <title>No. 5 Morceau d'ensemble</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors en Mi</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelle</perfRes>
+                        <perfRes count="1" codedval="sd">Contre-Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="7" xml:id="act1_work7">
+                <title>No. 7 Finale</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="bb">Trompettes</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sn">Basses</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="8" xml:id="act2_work8">
+                <title>No. 7 Duo</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors en Ré</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sn">Basses</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="9" xml:id="act2_work9">
+                <title>No. 8 Air</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors en Fa</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelle</perfRes>
+                        <perfRes count="1" codedval="sd">Contre-Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="10" xml:id="act2_work10">
+                <title>No. 9 Air</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinette</perfRes>
+                        <perfRes count="1" codedval="ba">Cors en Ut</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="3" codedval="bd">Trombonnes</perfRes>
+                        <perfRes count="1" codedval="pa">Timballes</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sn">Basses</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="11" xml:id="act2_work11">
+                <title>No. 10 Morceau d'ensemble</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="1" codedval="pa">Timballes</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelle</perfRes>
+                        <perfRes count="1" codedval="sd">Contre-Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="12" xml:id="act2_work12">
+                <title>No. 11 Finale</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors en Fa</perfRes>
+                        <perfRes count="1" codedval="bb">Trompettes</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="1" codedval="bd">Trombonnes</perfRes>
+                        <perfRes count="1" codedval="pa">Timballes</perfRes>
+                        <perfRes count="1" codedval="pd">Grosse Caisse</perfRes>
+                        <perfRes count="1" codedval="pz">Cimballes</perfRes>
+                        <perfRes count="1" codedval="pd">Caisse roulante</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sn">Basses</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="13" xml:id="act3_work13">
+                <title>No. 12 Air</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors en Fa</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelles</perfRes>
+                        <perfRes count="1" codedval="sd">C. Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="14" xml:id="act3_work14">
+                <title>No. 13 Couplets</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="ba">Cors en Sol</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="3" codedval="bd">Trombones</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelles</perfRes>
+                        <perfRes count="1" codedval="sd">C. Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="15" xml:id="act5_work13">
+                <title>No. 14 Sextuor et chœur</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors en Ré</perfRes>
+                        <perfRes count="1" codedval="bb">Trompettes</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="1" codedval="pa">Timballes</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelles</perfRes>
+                        <perfRes count="1" codedval="sd">C. Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="16" xml:id="act3_work16">
+                <title>No. 15 Orage</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors en Fa</perfRes>
+                        <perfRes count="1" codedval="bb">Trompettes</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="3" codedval="bd">Trombones</perfRes>
+                        <perfRes count="1" codedval="pa">Timballes</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelles</perfRes>
+                        <perfRes count="1" codedval="sd">C. Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="17" xml:id="act7_work13">
+                <title>No. 16 Pas redoublé</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors en Sol</perfRes>
+                        <perfRes count="1" codedval="bb">Trompettes</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="1" codedval="pz">Cimballes</perfRes>
+                        <perfRes count="1" codedval="pd">Gr-Caisse</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelles</perfRes>
+                        <perfRes count="1" codedval="sd">C. Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+            <work n="18" xml:id="act3_work18">
+                <title>No. No 17 Chœur final</title>
+                <perfMedium>
+                    <perfResList>
+                        <perfRes count="1" codedval="wa">Flutes</perfRes>
+                        <perfRes count="1" codedval="wb">Hautbois</perfRes>
+                        <perfRes count="1" codedval="wc">Clarinettes</perfRes>
+                        <perfRes count="1" codedval="ba">Cors en Ut</perfRes>
+                        <perfRes count="1" codedval="bb">Trompettes</perfRes>
+                        <perfRes count="3" codedval="bd">Trombones</perfRes>
+                        <perfRes count="1" codedval="wd">Bassons</perfRes>
+                        <perfRes count="1" codedval="pa">Timballes</perfRes>
+                        <perfRes count="1" codedval="pd">Caisse roulante</perfRes>
+                        <perfRes count="2" codedval="sa">Violons</perfRes>
+                        <perfRes count="1" codedval="sb">Alto</perfRes>
+                        <perfRes count="1" codedval="sc">Violoncelles</perfRes>
+                        <perfRes count="1" codedval="sd">C. Basse</perfRes>
+                    </perfResList>
+                </perfMedium>
+            </work>
+        </workList>
+    </meiHead>
+    <music />
+</mei>

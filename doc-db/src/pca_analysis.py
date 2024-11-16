@@ -1,4 +1,4 @@
-from xml_parser import Datasets
+from datasets import Datasets
 import seaborn as sns
 import pandas as pd
 from sklearn.decomposition import PCA
@@ -15,7 +15,8 @@ class DataFrame:
         self.df = pd.DataFrame(dataset)
         self.features = self.df.drop(columns=["year", "date", "title", "charlton_id"])
         self.labels = pd.to_numeric(self.df["year"])
-        self.ids = self.df["title"]
+        self.titles = self.df["title"]
+        self.ids = self.df["charlton_id"]
 
         # Fit and transform data using PCA
         standard_df = StandardScaler().fit_transform(self.features)
@@ -24,7 +25,7 @@ class DataFrame:
 
         # Convert PCA transformation into data frame
         pca_df = pd.DataFrame(X_r, columns=["PCA1", "PCA2"], index=self.df.index)
-        self.final_df = pd.concat([pca_df, self.labels, self.ids], axis=1)
+        self.final_df = pd.concat([pca_df, self.labels, self.ids, self.titles], axis=1)
 
 
 def make_heatmap(d: DataFrame):
@@ -81,7 +82,7 @@ def make_scatter_plot(d: DataFrame):
         chart.text(
             x[line] + 0.01,
             y[line],
-            d.df["title"][line],
+            d.titles[line],
             horizontalalignment="center",
             verticalalignment=below_node,
             size=6,
@@ -113,3 +114,4 @@ if __name__ == "__main__":
     df = DataFrame()
     make_heatmap(df)
     make_scatter_plot(df)
+    df.final_df.to_csv("results/pca.csv", index=False)
