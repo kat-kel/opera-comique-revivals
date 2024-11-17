@@ -53,6 +53,8 @@ year|Brass: Horn|Brass: Trumpet|Brass: Cornet|Brass: Trombone|Brass: Baritone (O
 1823|1.0|0.53|0.0|0.0|0.0|0.0|0.0|0.4|0.0|0.0|1.0|1.0|1.0|1.0|0.0|0.27|1.0|1.0|1.0|0.0|0.2|0.0
 1840|1.0|0.47|0.07|0.8|0.0|0.0|0.0|0.53|0.13|0.13|1.0|1.0|1.0|1.0|0.0|0.0|1.0|1.0|1.0|1.0|0.4|0.0
 
+From the MEI-XML dataset, only the violin and viola bowed strings were retained because differences in how the cello, contra bass, and the "unspecified" bass were encoded in MEI-XML are explained by music publishing practices of the time. Therefore, they risk biasing the results.
+
 ## Methodology
 
 The challenge with analyzing instrumentation is that each opera has a high number of dimensions, as many as there are instruments in the orchestra. Using PCA, we can reduce the data to what is most important and plot the operas along 2 dimensions, rendering it comprehensible to a human.

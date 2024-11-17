@@ -11,8 +11,18 @@ sns.set_theme(style="whitegrid")
 class DataFrame:
     def __init__(self):
         # Get dataset of operas' instrument deployment / work averages
-        dataset = Datasets().build_sparse_opera_averages_df()
-        self.df = pd.DataFrame(dataset)
+        raw_dataset = Datasets().build_sparse_opera_averages_df()
+        reduced_dataset = []
+        for d in raw_dataset:
+            reduced_dataset.append(
+                {
+                    k: v
+                    for k, v in d.items()
+                    if not k.startswith("Strings, bowed - Double bass")
+                    and not k.startswith("Strings, bowed - Violoncello")
+                }
+            )
+        self.df = pd.DataFrame(reduced_dataset)
         self.features = self.df.drop(columns=["year", "date", "title", "charlton_id"])
         self.labels = pd.to_numeric(self.df["year"])
         self.titles = self.df["title"]
@@ -56,7 +66,7 @@ def make_heatmap(d: DataFrame):
 
 
 def make_scatter_plot(d: DataFrame):
-    fig, (ax) = plt.subplots(figsize=(16, 24))
+    fig, (ax) = plt.subplots(figsize=(24, 16))
     # Make scatter plot showing PCA results
     colormap = "Spectral"
     hue, x, y = d.df["year"], d.final_df["PCA1"], d.final_df["PCA2"]
@@ -69,6 +79,8 @@ def make_scatter_plot(d: DataFrame):
         s=100,
         alpha=0.5,
         palette=colormap,
+        edgecolor="black",
+        linewidth=1,
     )
     ax.collections[0].set_sizes([2_000])
     norm = plt.Normalize(hue.min(), hue.max())
@@ -88,17 +100,17 @@ def make_scatter_plot(d: DataFrame):
             size=6,
             color="black",
         )
-    for line in range(0, d.final_df.shape[0]):
-        chart.text(
-            x[line] + 0.01,
-            y[line],
-            hue[line],
-            horizontalalignment="center",
-            verticalalignment=above_node,
-            size=8,
-            color="black",
-            weight="bold",
-        )
+    # for line in range(0, d.final_df.shape[0]):
+    #     chart.text(
+    #         x[line] + 0.01,
+    #         y[line],
+    #         hue[line],
+    #         horizontalalignment="center",
+    #         verticalalignment=above_node,
+    #         size=8,
+    #         color="black",
+    #         weight="bold",
+    #     )
     chart.set_title(
         "Plotting of Principal Component Analysis (PCA) of opéra-comiques' instrumentation, 1800-1840",
         size=24,
